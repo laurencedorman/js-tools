@@ -3,6 +3,12 @@
   "private": true,
   "version": "0.0.1",
   "description": "default manomano frontend tools configuration",
-  "main": "index.js"
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "link-packages": "lerna link"
+  },
+  "devDependencies": {
+    "lerna": "^3.11.1"
+  }
 }
-
