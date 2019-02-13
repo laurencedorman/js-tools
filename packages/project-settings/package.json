@@ -1,0 +1,10 @@
+{
+  "name": "@manomano/project-settings",
+  "version": "0.0.1",
+  "description": "manomano default project settings",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@manomano/utils": "file:../utils"
+  }
+}
