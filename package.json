@@ -1,0 +1,8 @@
+{
+  "name": "js-tools",
+  "private": true,
+  "version": "0.0.1",
+  "description": "default manomano frontend tools configuration",
+  "main": "index.js"
+}
+
