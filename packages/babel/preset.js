@@ -10,13 +10,13 @@ const pluginDynamicSyntax = require('@babel/plugin-syntax-dynamic-import');
 const pluginReactRemoveProps = require('babel-plugin-transform-react-remove-prop-types');
 const pluginDynamicImport = require('babel-plugin-dynamic-import-node');
 
-const browserlist = require('@manomano/browserlist');
+const browserslist = require('@manomano/browserslist');
 const { alias } = require('@manomano/project-settings');
 
 module.exports = function preset(api) {
   api.assertVersion(7);
 
-  const targets = api.env('test') ? { node: 'current' } : { browsers: browserlist };
+  const targets = api.env('test') ? { node: 'current' } : { browsers: browserslist };
 
   const presets = [
     [
