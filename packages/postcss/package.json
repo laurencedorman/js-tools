@@ -6,7 +6,7 @@
   "license": "MIT",
   "files": [
     "postcss.config.js",
-    "webpack-postcss.loader.js"
+    "webpack-loader.js"
   ],
   "dependencies": {
     "@manomano/browserslist": "file:../browserslist",
