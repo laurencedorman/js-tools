@@ -7,7 +7,7 @@
   "files": [
     "preset.js",
     "preset-externals.js",
-    "webpack-babel-loader.js"
+    "webpack-loader.js"
   ],
   "dependencies": {
     "@babel/core": "7.2.2",
