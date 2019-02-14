@@ -3,14 +3,16 @@
 const env = require('@babel/preset-env');
 const pluginTransformRuntime = require('@babel/plugin-transform-runtime');
 const pluginClassProperties = require('@babel/plugin-proposal-class-properties');
-const pluginDynamicImport = require('babel-plugin-dynamic-import-node');
+const pluginDynamicSyntax = require('@babel/plugin-syntax-dynamic-import');
 
 const browserslist = require('@manomano/browserslist');
 
 module.exports = function preset(api) {
   api.assertVersion(7);
 
-  const targets = api.env('test') ? { node: 'current' } : { browsers: browserslist };
+  const targets = api.env('test')
+    ? { node: 'current' }
+    : { browsers: browserslist };
 
   const presets = [
     [
@@ -46,4 +48,3 @@ module.exports = function preset(api) {
     plugins,
   };
 };
-
