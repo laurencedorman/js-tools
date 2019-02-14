@@ -16,7 +16,9 @@ const { alias } = require('@manomano/project-settings');
 module.exports = function preset(api) {
   api.assertVersion(7);
 
-  const targets = api.env('test') ? { node: 'current' } : { browsers: browserslist };
+  const targets = api.env('test')
+    ? { node: 'current' }
+    : { browsers: browserslist };
 
   const presets = [
     [
@@ -62,7 +64,7 @@ module.exports = function preset(api) {
     [
       pluginObjectRest,
       {
-        useBuiltIns: true
+        useBuiltIns: true,
       },
     ],
     pluginDynamicSyntax,
@@ -72,9 +74,7 @@ module.exports = function preset(api) {
         removeImport: true,
       },
     ],
-    api.env('test') && [
-      pluginDynamicImport
-    ],
+    api.env('test') && [pluginDynamicImport],
   ].filter(Boolean);
 
   return {

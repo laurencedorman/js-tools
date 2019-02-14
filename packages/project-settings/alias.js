@@ -3,7 +3,6 @@
 const path = require('path');
 const { pkg, composeObjectValues } = require('@manomano/utils');
 
-
 const defaultAlias = {
   components: 'src/components',
   modules: 'src/modules',
@@ -21,4 +20,3 @@ module.exports = {
   ...composeObjectValues(defaultAlias, updater),
   ...composeObjectValues(projectAlias, updater),
 };
-

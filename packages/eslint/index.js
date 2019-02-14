@@ -1,20 +1,20 @@
-const { alias, paths } = require("@manomano/project-settings");
+const { alias, paths } = require('@manomano/project-settings');
 
 module.exports = {
-  extends: ["react-app", "prettier"],
+  extends: ['react-app', 'prettier'],
   env: {
     browser: true,
-    jest: true
+    jest: true,
   },
   settings: {
-    "import/resolver": {
-      "babel-module": {
+    'import/resolver': {
+      'babel-module': {
         root: [paths.appSrc],
-        alias
-      }
+        alias,
+      },
     },
     react: {
-      version: "detect" // React version. "detect" automatically picks the version you have installed.
-    }
-  }
+      version: 'detect', // React version. "detect" automatically picks the version you have installed.
+    },
+  },
 };
