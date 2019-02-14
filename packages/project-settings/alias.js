@@ -1,5 +1,3 @@
-'use strict';
-
 const path = require('path');
 const { pkg, composeObjectValues } = require('@manomano/utils');
 
@@ -12,7 +10,8 @@ const defaultAlias = {
   utils: 'src/utils',
 };
 
-const projectAlias = pkg.alias || {};
+const manoConfig = pkg.manoConfig || {};
+const projectAlias = manoConfig.alias || {};
 
 const updater = entry => path.resolve(process.cwd(), entry);
 

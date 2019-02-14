@@ -34,7 +34,7 @@ const runScript = (nodeArgs, scriptPath, args) => {
 };
 
 const scriptIndex = args.findIndex(
-  x => x === 'build' || x === 'start' || x === 'test'
+  x => x === 'build' || x === 'start' || x === 'test' || x === 'rollup'
 );
 
 if (scriptIndex === -1) {
@@ -50,6 +50,14 @@ if (script === 'test') {
   runScript(
     nodeArgs,
     require.resolve('@manomano/jest-config/scripts/index.js'),
+    args.slice(scriptIndex + 1)
+  );
+}
+
+if (script === 'rollup') {
+  runScript(
+    nodeArgs,
+    require.resolve('@manomano/rollup-config/scripts/index.js'),
     args.slice(scriptIndex + 1)
   );
 }
