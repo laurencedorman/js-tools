@@ -12,7 +12,10 @@
     "link-packages": "lerna link"
   },
   "eslintConfig": {
-    "extends": "@manomano/eslint-config"
+    "extends": "@manomano/eslint-config",
+    "rules": {
+      "strict": "off"
+    }
   },
   "devDependencies": {
     "@manomano/eslint-config": "file:./packages/eslint",
