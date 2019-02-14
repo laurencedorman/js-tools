@@ -8,7 +8,11 @@
     "bootstrap": "lerna bootstrap",
     "link-packages": "lerna link"
   },
+  "eslintConfig": {
+    "extends": "@manomano/eslint-config"
+  },
   "devDependencies": {
+    "@manomano/eslint-config": "file:./packages/eslint",
     "lerna": "^3.11.1"
   }
 }
