@@ -1,17 +1,16 @@
 {
   "name": "@manomano/jest-config",
   "version": "0.0.1",
-  "description": "",
+  "description": "default manomano jest configuration",
   "main": "index.js",
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@manomano/babel": "file:../babel",
-    "babel-jest": "^24.1.0",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^24.1.0",
-    "jest-pnp-resolver": "^1.1.0",
-    "jest-resolve": "^24.1.0",
-    "jest-environment-jsdom": "^24.0.0"
+    "babel-jest": "24.1.0",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "24.1.0",
+    "jest-pnp-resolver": "1.1.0",
+    "jest-resolve": "24.1.0",
+    "jest-environment-jsdom": "24.0.0"
   }
 }
