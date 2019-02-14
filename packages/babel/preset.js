@@ -1,5 +1,3 @@
-'use strict';
-
 const env = require('@babel/preset-env');
 const react = require('@babel/preset-react');
 const pluginTransformRuntime = require('@babel/plugin-transform-runtime');
@@ -9,7 +7,7 @@ const pluginObjectRest = require('@babel/plugin-proposal-object-rest-spread');
 const pluginDynamicSyntax = require('@babel/plugin-syntax-dynamic-import');
 const pluginReactRemoveProps = require('babel-plugin-transform-react-remove-prop-types');
 const pluginDynamicImport = require('babel-plugin-dynamic-import-node');
-
+const flow = require('@babel/preset-flow');
 const browserslist = require('@manomano/browserslist');
 const { alias } = require('@manomano/project-settings');
 
@@ -37,6 +35,7 @@ module.exports = function preset(api) {
         useBuiltins: true,
       },
     ],
+    flow,
   ];
 
   const plugins = [
