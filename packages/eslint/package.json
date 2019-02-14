@@ -1,0 +1,27 @@
+{
+  "name": "@manomano/eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js --ext .jsx ."
+  },
+  "dependencies": {
+    "@manomano/babel": "file:../babel",
+    "@manomano/project-settings": "file:../project-settings",
+    "babel-eslint": "10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-config-react-app": "^3.0.7",
+    "eslint-import-resolver-babel-module": "^5.0.1",
+    "eslint-plugin-flowtype": "^3.4.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
