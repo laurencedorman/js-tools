@@ -5,7 +5,7 @@ const pluginTransformRuntime = require('@babel/plugin-transform-runtime');
 const pluginClassProperties = require('@babel/plugin-proposal-class-properties');
 const pluginDynamicSyntax = require('@babel/plugin-syntax-dynamic-import');
 
-const browserslist = require('@manomano/browserslist');
+const browserslist = require('@manomano/browserslist-config');
 
 module.exports = function preset(api) {
   api.assertVersion(7);

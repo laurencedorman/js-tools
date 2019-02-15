@@ -7,7 +7,8 @@
   "files": [
     "preset.js",
     "preset-externals.js",
-    "webpack-loader.js"
+    "webpack-loader.js",
+    "webpack-external-loader.js"
   ],
   "dependencies": {
     "@babel/core": "7.2.2",
@@ -19,7 +20,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "7.0.0",
     "@babel/runtime": "7.3.1",
-    "@manomano/browserslist": "file:../browserslist",
+    "@manomano/browserslist-config": "file:../browserslist",
     "@manomano/project-settings": "file:../project-settings",
     "babel-loader": "8.0.5",
     "babel-plugin-dynamic-import-node": "2.2.0",

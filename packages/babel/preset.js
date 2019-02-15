@@ -8,7 +8,7 @@ const pluginDynamicSyntax = require('@babel/plugin-syntax-dynamic-import');
 const pluginReactRemoveProps = require('babel-plugin-transform-react-remove-prop-types');
 const pluginDynamicImport = require('babel-plugin-dynamic-import-node');
 const flow = require('@babel/preset-flow');
-const browserslist = require('@manomano/browserslist');
+const browserslist = require('@manomano/browserslist-config');
 const { alias } = require('@manomano/project-settings');
 
 module.exports = function preset(api) {
