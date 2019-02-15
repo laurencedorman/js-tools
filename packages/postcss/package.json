@@ -6,13 +6,14 @@
   "license": "MIT",
   "files": [
     "postcss.config.js",
-    "webpack-loader.js"
+    "webpack-loader.js",
+    "parser.js"
   ],
   "dependencies": {
-    "@manomano/browserslist": "file:../browserslist",
+    "@manomano/browserslist-config": "file:../browserslist",
     "postcss-flexbugs-fixes": "4.1.0",
     "postcss-loader": "3.0.0",
-    "postcss-preset-env": "6.5.0"
+    "postcss-preset-env": "6.5.0",
+    "postcss-safe-parser": "^4.0.1"
   }
 }
-

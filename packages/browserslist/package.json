@@ -1,5 +1,5 @@
 {
-  "name": "@mano/browserslist-config",
+  "name": "@manomano/browserslist-config",
   "version": "0.0.1",
   "description": "default manomano browserslist",
   "main": "index.js",

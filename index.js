@@ -61,3 +61,19 @@ if (script === 'rollup') {
     args.slice(scriptIndex + 1)
   );
 }
+
+if (script === 'start') {
+  runScript(
+    nodeArgs,
+    require.resolve('@manomano/webpack/scripts/start.js'),
+    args.slice(scriptIndex + 1)
+  );
+}
+
+if (script === 'build') {
+  runScript(
+    nodeArgs,
+    require.resolve('@manomano/webpack/scripts/build.js'),
+    args.slice(scriptIndex + 1)
+  );
+}
