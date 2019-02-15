@@ -45,35 +45,30 @@ if (scriptIndex === -1) {
 const script = args[scriptIndex];
 
 const nodeArgs = scriptIndex > 0 ? args.slice(0, scriptIndex) : [];
+const extraArgs = args.slice(scriptIndex + 1);
 
 if (script === 'test') {
   runScript(
     nodeArgs,
     require.resolve('@manomano/jest-config/scripts/index.js'),
-    args.slice(scriptIndex + 1)
+    extraArgs
   );
-}
-
-if (script === 'rollup') {
+} else if (script === 'rollup') {
   runScript(
     nodeArgs,
     require.resolve('@manomano/rollup-config/scripts/index.js'),
-    args.slice(scriptIndex + 1)
+    extraArgs
   );
-}
-
-if (script === 'start') {
+} else if (script === 'start') {
   runScript(
     nodeArgs,
     require.resolve('@manomano/webpack/scripts/start.js'),
-    args.slice(scriptIndex + 1)
+    extraArgs
   );
-}
-
-if (script === 'build') {
+} else if (script === 'build') {
   runScript(
     nodeArgs,
     require.resolve('@manomano/webpack/scripts/build.js'),
-    args.slice(scriptIndex + 1)
+    extraArgs
   );
 }
