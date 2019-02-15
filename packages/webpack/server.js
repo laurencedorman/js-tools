@@ -7,10 +7,10 @@ module.exports = {
   contentBase: settings.appPublic,
   watchContentBase: true,
   hot: true,
-  publicPath: './',
+  publicPath: '/',
   quiet: true,
   https: true,
-  port: settings.port,
+  port: settings.devServer.port,
   overlay: false,
   proxy: settings.proxy,
 };
