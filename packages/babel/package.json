@@ -4,6 +4,9 @@
   "description": "default manomano babel configuration",
   "main": "preset.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "preset.js",
     "preset-externals.js",

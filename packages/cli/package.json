@@ -4,6 +4,9 @@
   "description": "Manomano cli interface",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "macgyver": "./index.js"
   },

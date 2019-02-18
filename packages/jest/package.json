@@ -4,6 +4,9 @@
   "description": "default manomano jest configuration",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@manomano/babel": "file:../babel",
     "babel-jest": "24.1.0",

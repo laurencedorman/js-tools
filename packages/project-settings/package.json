@@ -4,6 +4,9 @@
   "description": "manomano default project settings",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@manomano/utils": "file:../utils"
   }
