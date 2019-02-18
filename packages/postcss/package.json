@@ -4,6 +4,9 @@
   "description": "default manomano postCSS configuration",
   "main": "postcss.config.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "postcss.config.js",
     "webpack-loader.js",

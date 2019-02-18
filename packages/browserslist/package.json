@@ -3,5 +3,8 @@
   "version": "0.0.1",
   "description": "default manomano browserslist",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -4,6 +4,9 @@
   "description": "default manomano eslint configuration",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "eslintConfig": {
     "extends": "./index.js"
   },

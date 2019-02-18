@@ -4,6 +4,9 @@
   "description": "manomano webpack configuration",
   "main": "config.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@manomano/babel": "file:../babel",
     "@manomano/postcss": "file:../postcss",

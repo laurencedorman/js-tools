@@ -4,6 +4,9 @@
   "description": "manomano rollup configuration",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "autoprefixer": "9.4.7",
     "node-sass": "4.11.0",
