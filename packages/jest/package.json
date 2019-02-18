@@ -8,7 +8,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@manomano/babel": "file:../babel",
+    "@manomano/babel": "^0.0.1",
     "babel-jest": "24.1.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.1.0",

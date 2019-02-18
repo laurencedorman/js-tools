@@ -11,9 +11,9 @@
     "macgyver": "./index.js"
   },
   "dependencies": {
-    "@manomano/jest-config": "file:../jest",
-    "@manomano/rollup-config": "file:../rollup",
-    "@manomano/webpack": "file:../webpack",
-    "cross-spawn": "^6.0.5"
+    "@manomano/jest-config": "^0.0.1",
+    "@manomano/rollup-config": "^0.0.1",
+    "@manomano/webpack": "^0.0.1",
+    "cross-spawn": "6.0.5"
   }
 }

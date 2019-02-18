@@ -13,7 +13,7 @@
     "parser.js"
   ],
   "dependencies": {
-    "@manomano/browserslist-config": "file:../browserslist",
+    "@manomano/browserslist-config": "^0.0.1",
     "postcss-flexbugs-fixes": "4.1.0",
     "postcss-loader": "3.0.0",
     "postcss-preset-env": "6.5.0",
