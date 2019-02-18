@@ -4,6 +4,7 @@
   "description": "set of utilities",
   "main": "index.js",
   "license": "MIT",
+  "repository": "manomanotech/js-tools",
   "publishConfig": {
     "access": "public"
   }

@@ -4,6 +4,7 @@
   "description": "default manomano postCSS configuration",
   "main": "postcss.config.js",
   "license": "MIT",
+  "repository": "manomanotech/js-tools",
   "publishConfig": {
     "access": "public"
   },

@@ -4,6 +4,7 @@
   "description": "default manomano eslint configuration",
   "main": "index.js",
   "license": "MIT",
+  "repository": "manomanotech/js-tools",
   "publishConfig": {
     "access": "public"
   },
