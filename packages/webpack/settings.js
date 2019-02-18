@@ -28,7 +28,7 @@ const defaultSettings = {
   globals: pkg.globals || {},
   devServer: {
     host: process.env.HOST || '0.0.0.0',
-    port: parseInt(process.env.PORT, 10) || 80,
+    port: parseInt(process.env.PORT, 10) || 3000,
   },
 };
 
