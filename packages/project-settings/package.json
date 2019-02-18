@@ -8,6 +8,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@manomano/utils": "file:../utils"
+    "@manomano/utils": "^0.0.1"
   }
 }

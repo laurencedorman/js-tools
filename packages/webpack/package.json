@@ -8,10 +8,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@manomano/babel": "file:../babel",
-    "@manomano/postcss": "file:../postcss",
-    "@manomano/project-settings": "file:../project-settings",
-    "@manomano/utils": "file:../utils",
+    "@manomano/babel": "^0.0.1",
+    "@manomano/postcss": "^0.0.1",
+    "@manomano/project-settings": "^0.0.1",
+    "@manomano/utils": "^0.0.1",
     "chalk": "2.4.2",
     "css-loader": "2.1.0",
     "file-loader": "3.0.1",
