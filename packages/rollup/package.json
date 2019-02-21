@@ -1,6 +1,6 @@
 {
   "name": "@manomano/rollup-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "manomano rollup configuration",
   "main": "index.js",
   "license": "MIT",
