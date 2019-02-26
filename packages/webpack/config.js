@@ -40,10 +40,12 @@ const baseConfig = {
   output: {
     path: isProdEnv ? settings.output.path : undefined,
     pathinfo: isDevEnv,
-    filename: isProdEnv ? 'js/[name].[hash:8].js' : settings.output.filename,
+    filename: isProdEnv
+      ? `js/${settings.output.filename}.[contenthash:8].js`
+      : `${settings.output.filename}.js`,
     chunkFilename: isProdEnv
-      ? 'js/[name].[chunkhash:8].chunk.js'
-      : settings.output.chunkFilename,
+      ? `js/${settings.output.chunkFilename}.[chunkhash:8].js`
+      : `${settings.output.chunkFilename}.js`,
     publicPath: settings.output.publicPath,
   },
   optimization: {
