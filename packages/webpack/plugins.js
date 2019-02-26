@@ -115,6 +115,8 @@ const defineLang = lang =>
     __LANG__: JSON.stringify(lang),
   });
 
+const hashedModuleIdsPlugin = () => new webpack.HashedModuleIdsPlugin();
+
 module.exports = {
   manifestPlugin,
   htmlPlugin,
@@ -127,4 +129,5 @@ module.exports = {
   bundleAnalyzer,
   optimizeCss,
   defineLang,
+  hashedModuleIdsPlugin,
 };

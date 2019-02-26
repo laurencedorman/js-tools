@@ -21,6 +21,7 @@ const {
   ignorePlugin,
   imageMin,
   defineLang,
+  hashedModuleIdsPlugin,
 } = require('./plugins');
 
 const settings = require('./settings');
@@ -55,9 +56,22 @@ module.exports = lang => {
       minimizer: [terserPlugin(), optimizeCss()],
       splitChunks: {
         chunks: 'all',
-        name: true,
+        maxInitialRequests: Infinity,
+        minSize: 0,
+        cacheGroups: {
+          vendor: {
+            test: /[\\/]node_modules[\\/]/,
+            name(module) {
+              const packageName = module.context.match(
+                /[\\/]node_modules[\\/](.*?)([\\/]|$)/
+              )[1];
+              return `vendor.${packageName.replace('@', '')}`;
+            },
+            chunks: 'all',
+          },
+        },
       },
-      runtimeChunk: true,
+      runtimeChunk: 'single',
     },
     module: {
       strictExportPresence: true,
