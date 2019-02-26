@@ -1,12 +1,9 @@
 const path = require('path');
-const { pkg, composeObjectValues } = require('@manomano/utils');
+const deepmerge = require('deepmerge');
+const { pkg } = require('@manomano/utils');
 const { paths, alias } = require('@manomano/project-settings');
 
 const projectSettings = pkg && pkg.webpack ? pkg.webpack : {};
-
-const settings = composeObjectValues(projectSettings, x =>
-  path.resolve(process.cwd(), x)
-);
 
 const defaultSettings = {
   appSrc: paths.appSrc,
@@ -16,8 +13,8 @@ const defaultSettings = {
   basePath: paths.appDirectory,
   entry: path.resolve(paths.appSrc, 'index'),
   output: {
-    filename: 'main.js',
-    chunkFilename: '[name].chunk.js',
+    filename: 'main',
+    chunkFilename: '[name].chunk',
     publicPath: '/',
     path: paths.appBuild,
   },
@@ -32,7 +29,4 @@ const defaultSettings = {
   },
 };
 
-module.exports = {
-  ...defaultSettings,
-  ...settings,
-};
+module.exports = deepmerge(defaultSettings, projectSettings);
