@@ -64,16 +64,14 @@ module.exports = ({ types }) => {
                   // Transform language to {[lang]: JSON}
                   // JSON type is {key: value}
                   types.objectProperty(
-                    types.Identifier(language),
+                    types.stringLiteral(language),
                     types.objectExpression(
-                      Object.entries(translations)
-                        .filter(([key, value]) => value != null) // Discard missing translations on dev envrionment
-                        .map(([key, value]) =>
-                          types.objectProperty(
-                            types.Identifier(key),
-                            types.stringLiteral(value)
-                          )
+                      Object.entries(translations).map(([key, value]) =>
+                        types.objectProperty(
+                          types.stringLiteral(key),
+                          types.stringLiteral(value)
                         )
+                      )
                     )
                   )
                 )
