@@ -27,58 +27,17 @@ const argv = process.argv.slice(2);
 const parsedArgs = require('minimist')(argv);
 const writeStatsJson = parsedArgs.stats;
 
-measureFileSizesBeforeBuild(settings.appBuild)
-  .then(previousFileSizes => {
-    fs.emptyDirSync(settings.appBuild);
-    copyPublicFolder();
-    return build(previousFileSizes);
-  })
-  .then(
-    ({ stats, previousFileSizes, warnings }) => {
-      if (warnings.length) {
-        console.log(chalk.yellow('Compiled with warnings.\n'));
-        console.log(warnings.join('\n\n'));
-        console.log(
-          '\nSearch for the ' +
-            chalk.underline(chalk.yellow('keywords')) +
-            ' to learn more about each warning.'
-        );
-        console.log(
-          'To ignore, add ' +
-            chalk.cyan('// eslint-disable-next-line') +
-            ' to the line before.\n'
-        );
-      } else {
-        console.log(chalk.green('Compiled successfully.\n'));
-      }
-
-      console.log('File sizes after gzip:\n');
-      printFileSizesAfterBuild(
-        stats,
-        previousFileSizes,
-        settings.appBuild,
-        WARN_AFTER_BUNDLE_GZIP_SIZE,
-        WARN_AFTER_CHUNK_GZIP_SIZE
-      );
-      console.log();
-    },
-    err => {
-      console.log(chalk.red('Failed to compile.\n'));
-      printBuildError(err);
-      process.exit(1);
-    }
-  )
-  .catch(err => {
-    if (err && err.message) {
-      console.log(err.message);
-    }
-    process.exit(1);
+function copyPublicFolder() {
+  fs.copySync(settings.appPublic, settings.appBuild, {
+    dereference: true,
+    filter: file => file !== settings.appHtml,
   });
+}
 
-function build(previousFileSizes) {
-  console.log('Creating an optimized production build...');
+function build(previousFileSizes, lang) {
+  console.log(`Creating an optimized ${chalk.green(lang)} production build...`);
 
-  let compiler = webpack(config);
+  let compiler = webpack(config(lang));
   return new Promise((resolve, reject) => {
     compiler.run((err, stats) => {
       let messages;
@@ -135,9 +94,51 @@ function build(previousFileSizes) {
   });
 }
 
-function copyPublicFolder() {
-  fs.copySync(settings.appPublic, settings.appBuild, {
-    dereference: true,
-    filter: file => file !== settings.appHtml,
-  });
-}
+const doBuild = async () => {
+  try {
+    const previousFileSizes = await measureFileSizesBeforeBuild(
+      settings.appBuild
+    );
+
+    fs.emptyDirSync(settings.appBuild);
+    copyPublicFolder();
+
+    for (const lang of settings.languages) {
+      try {
+        const { stats, warnings } = await build(previousFileSizes, lang);
+        if (warnings.length) {
+          console.log(chalk.yellow('Compiled with warnings.\n'));
+          console.log(warnings.join('\n\n'));
+          console.log(
+            '\nSearch for the ' +
+              chalk.underline(chalk.yellow('keywords')) +
+              ' to learn more about each warning.'
+          );
+        } else {
+          console.log(chalk.green('Compiled successfully.\n'));
+        }
+
+        console.log('File sizes after gzip:\n');
+        printFileSizesAfterBuild(
+          stats,
+          previousFileSizes,
+          settings.appBuild,
+          WARN_AFTER_BUNDLE_GZIP_SIZE,
+          WARN_AFTER_CHUNK_GZIP_SIZE
+        );
+        console.log();
+      } catch (err) {
+        console.log(chalk.red('Failed to compile.\n'));
+        printBuildError(err);
+        process.exit(1);
+      }
+    }
+  } catch (err) {
+    if (err && err.message) {
+      console.log(err.message);
+    }
+    process.exit(1);
+  }
+};
+
+doBuild();

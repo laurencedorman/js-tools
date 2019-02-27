@@ -14,7 +14,7 @@ const settings = require('./settings');
 const manifestPlugin = (filename = 'manifest.json') => {
   const options = {
     filename,
-    basePath: settings.basePath,
+    basePath: settings.basePath + '/',
     map: file => {
       file.name = file.name.replace(/(\.[a-f0-9]{32})(\..*)$/, '$2');
       return file;
@@ -89,10 +89,10 @@ const imageMin = () =>
 
 const definePlugin = definitions => new webpack.DefinePlugin(definitions);
 
-const extractCss = () =>
+const extractCss = lang =>
   new MiniCssExtractPlugin({
-    filename: 'static/css/[name].[contenthash:8].css',
-    chunkFilename: 'static/css/[name].[contenthash:8].chunk.css',
+    filename: `css/[name].[contenthash:8].${lang}.css`,
+    chunkFilename: `css/[name].[contenthash:8].chunk.${lang}.css`,
   });
 
 const ignorePlugin = () => new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/);
@@ -110,6 +110,11 @@ const optimizeCss = () =>
     },
   });
 
+const defineLang = lang =>
+  new webpack.DefinePlugin({
+    __LANG__: JSON.stringify(lang),
+  });
+
 module.exports = {
   manifestPlugin,
   htmlPlugin,
@@ -121,4 +126,5 @@ module.exports = {
   ignorePlugin,
   bundleAnalyzer,
   optimizeCss,
+  defineLang,
 };
