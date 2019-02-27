@@ -9,6 +9,8 @@
     "access": "public"
   },
   "files": [
+    "plugins",
+    "helpers",
     "preset.js",
     "preset-externals.js",
     "webpack-loader.js",
