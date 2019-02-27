@@ -56,8 +56,7 @@ module.exports = lang => {
       minimizer: [terserPlugin(), optimizeCss()],
       splitChunks: {
         chunks: 'all',
-        maxInitialRequests: Infinity,
-        minSize: 10000,
+        minSize: 20000,
         cacheGroups: {
           vendor: {
             test: /[\\/]node_modules[\\/]/,
@@ -92,6 +91,7 @@ module.exports = lang => {
       ],
     },
     plugins: [
+      hashedModuleIdsPlugin(),
       defineLang(lang),
       imageMin(),
       htmlPlugin(env, settings.appHtml),
