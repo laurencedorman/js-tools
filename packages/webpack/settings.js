@@ -1,7 +1,7 @@
 const path = require('path');
 const deepmerge = require('deepmerge');
 const { pkg } = require('@manomano/utils');
-const { paths, alias } = require('@manomano/project-settings');
+const { paths, alias, languages } = require('@manomano/project-settings');
 
 const projectSettings = pkg && pkg.webpack ? pkg.webpack : {};
 
@@ -22,6 +22,7 @@ const defaultSettings = {
     alias: alias,
     extensions: ['.js', '.json', '.jsx', '.css', '.scss'],
   },
+  languages: languages || ['fr'],
   globals: pkg.globals || {},
   devServer: {
     host: process.env.HOST || '0.0.0.0',

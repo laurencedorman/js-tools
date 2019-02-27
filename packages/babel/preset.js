@@ -10,6 +10,7 @@ const pluginDynamicImport = require('babel-plugin-dynamic-import-node');
 const flow = require('@babel/preset-flow');
 const browserslist = require('@manomano/browserslist-config');
 const { alias } = require('@manomano/project-settings');
+const { reactIntl } = require('./plugins/index');
 
 module.exports = function preset(api) {
   api.assertVersion(7);
@@ -66,6 +67,7 @@ module.exports = function preset(api) {
         useBuiltIns: true,
       },
     ],
+    reactIntl,
     pluginDynamicSyntax,
     api.env('production') && [
       pluginReactRemoveProps,

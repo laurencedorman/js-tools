@@ -1,5 +1,5 @@
 const path = require('path');
-const { pkg, composeObjectValues } = require('@manomano/utils');
+const { manoConfig, composeObjectValues } = require('@manomano/utils');
 
 const defaultAlias = {
   components: 'src/components',
@@ -10,7 +10,6 @@ const defaultAlias = {
   utils: 'src/utils',
 };
 
-const manoConfig = pkg.manoConfig || {};
 const projectAlias = manoConfig.alias || {};
 
 const updater = entry => path.resolve(process.cwd(), entry);

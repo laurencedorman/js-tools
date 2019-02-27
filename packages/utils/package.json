@@ -7,5 +7,9 @@
   "repository": "manomanotech/js-tools",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "lodash.groupby": "4.6.0",
+    "node-fetch": "2.3.0"
   }
 }
