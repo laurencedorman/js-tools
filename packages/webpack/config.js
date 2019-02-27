@@ -57,7 +57,7 @@ module.exports = lang => {
       splitChunks: {
         chunks: 'all',
         maxInitialRequests: Infinity,
-        minSize: 0,
+        minSize: 10000,
         cacheGroups: {
           vendor: {
             test: /[\\/]node_modules[\\/]/,
@@ -68,6 +68,7 @@ module.exports = lang => {
               return `vendor.${packageName.replace('@', '')}`;
             },
             chunks: 'all',
+            reuseExistingChunk: true,
           },
         },
       },
