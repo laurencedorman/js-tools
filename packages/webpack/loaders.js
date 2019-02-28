@@ -90,6 +90,14 @@ const sassModule = env => ({
   ),
 });
 
+const fontLoader = {
+  test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
+  loader: require.resolve('file-loader'),
+  options: {
+    name: 'fonts/[name].[hash:8].[ext]',
+  },
+};
+
 const fileLoader = {
   loader: require.resolve('file-loader'),
   exclude: [/\.(js|mjs|jsx|ts|tsx)$/, /\.html$/, /\.json$/],
@@ -105,5 +113,6 @@ module.exports = {
   cssModule,
   sass,
   sassModule,
+  fontLoader,
   fileLoader,
 };
