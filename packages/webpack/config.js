@@ -55,23 +55,25 @@ module.exports = lang => {
     optimization: {
       minimize: isProdEnv,
       minimizer: [terserPlugin(), optimizeCss()],
-      splitChunks: {
-        chunks: 'all',
-        minSize: 20000,
-        cacheGroups: {
-          vendor: {
-            test: /[\\/]node_modules[\\/]/,
-            name(module) {
-              const packageName = module.context.match(
-                /[\\/]node_modules[\\/](.*?)([\\/]|$)/
-              )[1];
-              return `vendor.${packageName.replace('@', '')}`;
-            },
+      splitChunks: isProdEnv
+        ? {
             chunks: 'all',
-            reuseExistingChunk: true,
-          },
-        },
-      },
+            minSize: 20000,
+            cacheGroups: {
+              vendor: {
+                test: /[\\/]node_modules[\\/]/,
+                name(module) {
+                  const packageName = module.context.match(
+                    /[\\/]node_modules[\\/](.*?)([\\/]|$)/
+                  )[1];
+                  return `vendor.${packageName.replace('@', '')}`;
+                },
+                chunks: 'all',
+                reuseExistingChunk: true,
+              },
+            },
+          }
+        : false,
       runtimeChunk: 'single',
     },
     module: {
