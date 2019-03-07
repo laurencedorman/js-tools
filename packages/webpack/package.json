@@ -1,6 +1,6 @@
 {
   "name": "@manomano/webpack",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "manomano webpack configuration",
   "main": "config.js",
   "license": "MIT",
@@ -9,10 +9,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@manomano/babel": "^0.0.9",
-    "@manomano/postcss": "^0.0.9",
-    "@manomano/project-settings": "^0.0.9",
-    "@manomano/utils": "^0.0.9",
+    "@manomano/babel": "^0.0.10",
+    "@manomano/postcss": "^0.0.10",
+    "@manomano/project-settings": "^0.0.10",
+    "@manomano/utils": "^0.0.10",
     "chalk": "2.4.2",
     "css-loader": "2.1.0",
     "deepmerge": "3.2.0",
