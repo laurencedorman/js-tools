@@ -30,6 +30,7 @@ module.exports = {
     visualizer(),
     postcssPlugin({
       modules: true,
+      minimize: true,
       loaders: [sassLoader],
       extensions: ['.css', '.scss', '.module.scss'],
       plugins: [autoprefixer],
