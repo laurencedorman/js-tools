@@ -8,6 +8,7 @@ const {
   sass,
   sassModule,
   fontLoader,
+  svgLoader,
   fileLoader,
 } = require('./loaders');
 
@@ -89,6 +90,7 @@ module.exports = lang => {
             sass(env),
             sassModule(env),
             fontLoader,
+            svgLoader,
             fileLoader,
           ],
         },

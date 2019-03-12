@@ -4,6 +4,7 @@ const webpackBabelExternalLoader = require('@manomano/babel/webpack-external-loa
 const postCSSLoader = require('@manomano/postcss/webpack-loader');
 
 const settings = require('./settings');
+const { manoConfig } = require('@manomano/utils');
 
 const babelLoader = {
   test: /\.jsx?$/,
@@ -98,6 +99,15 @@ const fontLoader = {
   },
 };
 
+const projectSvgPath = manoConfig.svgPath || 'assets';
+const svgLoader = {
+  test: /\.svg$/,
+  loader: require.resolve('file-loader'),
+  options: {
+    name: `${projectSvgPath}/[name].[hash:8].[ext]`,
+  },
+};
+
 const fileLoader = {
   loader: require.resolve('file-loader'),
   exclude: [/\.(js|mjs|jsx|ts|tsx)$/, /\.html$/, /\.json$/],
@@ -114,5 +124,6 @@ module.exports = {
   sass,
   sassModule,
   fontLoader,
+  svgLoader,
   fileLoader,
 };
