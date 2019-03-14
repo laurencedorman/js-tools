@@ -29,6 +29,7 @@ const defaultSettings = {
     port: parseInt(process.env.PORT, 10) || 3000,
     disableHostCheck: true,
   },
+  transpileExternalLibraries: [/^@manomano\/toolkit/],
 };
 
 module.exports = deepmerge(defaultSettings, projectSettings);
