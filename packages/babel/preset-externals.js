@@ -1,9 +1,12 @@
 'use strict';
 
 const env = require('@babel/preset-env');
+const react = require('@babel/preset-react');
 const pluginTransformRuntime = require('@babel/plugin-transform-runtime');
 const pluginClassProperties = require('@babel/plugin-proposal-class-properties');
 const pluginDynamicSyntax = require('@babel/plugin-syntax-dynamic-import');
+const pluginObjectRest = require('@babel/plugin-proposal-object-rest-spread');
+const pluginReactRemoveProps = require('babel-plugin-transform-react-remove-prop-types');
 
 const browserslist = require('@manomano/browserslist-config');
 
@@ -25,6 +28,13 @@ module.exports = function preset(api) {
         useBuiltIns: false,
       },
     ],
+    [
+      react,
+      {
+        development: api.env('development') || api.env('test'),
+        useBuiltins: true,
+      },
+    ],
   ];
 
   const plugins = [
@@ -38,8 +48,25 @@ module.exports = function preset(api) {
         absoluteRuntime: require.resolve('@babel/runtime'),
       },
     ],
-    pluginClassProperties,
+    [
+      pluginClassProperties,
+      {
+        loose: true,
+      },
+    ],
+    [
+      pluginObjectRest,
+      {
+        useBuiltIns: true,
+      },
+    ],
     pluginDynamicSyntax,
+    api.env('production') && [
+      pluginReactRemoveProps,
+      {
+        removeImport: true,
+      },
+    ],
   ].filter(Boolean);
 
   return {

@@ -1,6 +1,6 @@
 {
   "name": "js-tools",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "default manomano frontend tools configuration",
   "scripts": {
     "bootstrap": "lerna bootstrap",
