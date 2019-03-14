@@ -8,7 +8,13 @@ const { manoConfig } = require('@manomano/utils');
 
 const babelLoader = {
   test: /\.jsx?$/,
-  include: [settings.appSrc].concat(settings.transpileExternalLibraries),
+  include: filePath => {
+    if (!filePath.includes('node_modules')) return true;
+
+    return settings.transpileExternalLibraries.every(regx =>
+      regx.test(filePath)
+    );
+  },
   use: webpackBabelLoader,
 };
 
