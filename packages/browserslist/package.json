@@ -1,6 +1,6 @@
 {
   "name": "@manomano/browserslist-config",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "default manomano browserslist",
   "main": "index.js",
   "license": "MIT",
