@@ -9,7 +9,7 @@ module.exports = {
   hot: true,
   publicPath: '/',
   quiet: true,
-  https: true,
+  https: false,
   port: settings.devServer.port,
   overlay: false,
   proxy: settings.proxy,
