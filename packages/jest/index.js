@@ -25,7 +25,7 @@ module.exports = {
     ),
   },
   transformIgnorePatterns: [
-    '[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$',
+    'node_modules/(?!(@manomano/toolkit)/)',
     '^.+\\.module\\.(css|sass|scss)$',
   ],
   moduleNameMapper: {
