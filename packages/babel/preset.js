@@ -27,6 +27,7 @@ module.exports = function preset(api) {
         exclude: ['transform-typeof-symbol'],
         targets,
         useBuiltIns: 'usage',
+        corejs: 3,
       },
     ],
     [
