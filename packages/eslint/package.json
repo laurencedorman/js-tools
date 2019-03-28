@@ -15,16 +15,20 @@
     "lint": "eslint --ext .js --ext .jsx ."
   },
   "dependencies": {
+    "@babel/core": "^7.0.0-0",
     "@manomano/babel": "^0.0.20",
     "@manomano/project-settings": "^0.0.20",
-    "babel-eslint": "10.0.1",
-    "eslint": "5.13.0",
-    "eslint-config-prettier": "4.0.0",
-    "eslint-config-react-app": "3.0.7",
-    "eslint-import-resolver-babel-module": "5.0.1",
-    "eslint-plugin-flowtype": "3.4.1",
-    "eslint-plugin-import": "2.16.0",
-    "eslint-plugin-jsx-a11y": "6.2.1",
-    "eslint-plugin-react": "7.12.4"
+    "babel-eslint": "^9.0.0",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "eslint": "^5.13.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-config-react-app": "^3.0.7",
+    "eslint-import-resolver-babel-module": "^5.0.1",
+    "eslint-plugin-flowtype": "^2.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "webpack": "^4.29.6",
+    "yarn": "^1.15.2"
   }
 }

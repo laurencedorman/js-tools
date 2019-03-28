@@ -12,9 +12,11 @@
     "macgyver": "./index.js"
   },
   "dependencies": {
+    "@babel/core": "^7.0.0",
     "@manomano/jest-config": "^0.0.20",
     "@manomano/rollup-config": "^0.0.20",
     "@manomano/webpack": "^0.0.20",
-    "cross-spawn": "6.0.5"
+    "cross-spawn": "^6.0.5",
+    "jest-haste-map": "^24.0.0"
   }
 }

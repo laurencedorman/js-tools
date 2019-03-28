@@ -1,7 +1,8 @@
 {
   "name": "js-tools",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "default manomano frontend tools configuration",
+  "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "link-packages": "lerna link",
