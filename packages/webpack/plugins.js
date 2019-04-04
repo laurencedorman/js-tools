@@ -8,7 +8,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const safePostCssParser = require('@manomano/postcss/parser');
+const WebpackBar = require('webpackbar');
 
+const StartServerPlugin = require('start-server-webpack-plugin');
+const AssetsPlugin = require('assets-webpack-plugin');
 const settings = require('./settings');
 
 const manifestPlugin = (filename = 'manifest.json') => {
@@ -117,7 +120,30 @@ const defineLang = lang =>
 
 const hashedModuleIdsPlugin = () => new webpack.HashedModuleIdsPlugin();
 
+const webpackBar = ({ name, color }) =>
+  new WebpackBar({
+    color,
+    name,
+  });
+
+const ignoreAssets = () =>
+  new webpack.WatchIgnorePlugin([settings.appManifest]);
+
+const assetsPlugin = path =>
+  new AssetsPlugin({
+    path,
+    filename: 'assets.json',
+  });
+
+const startServer = name =>
+  new StartServerPlugin({
+    name,
+    // suppress errors to console
+    nodeArgs: ['-r', 'source-map-support/register'],
+  });
+
 module.exports = {
+  assetsPlugin,
   manifestPlugin,
   htmlPlugin,
   hotModule,
@@ -130,4 +156,7 @@ module.exports = {
   optimizeCss,
   defineLang,
   hashedModuleIdsPlugin,
+  webpackBar,
+  ignoreAssets,
+  startServer,
 };

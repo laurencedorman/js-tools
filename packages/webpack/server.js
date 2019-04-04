@@ -7,6 +7,9 @@ module.exports = {
   contentBase: settings.appPublic,
   watchContentBase: true,
   hot: true,
+  headers: {
+    'Access-Control-Allow-Origin': '*',
+  },
   publicPath: '/',
   quiet: true,
   https: false,

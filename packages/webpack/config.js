@@ -13,6 +13,7 @@ const {
 } = require('./loaders');
 
 const {
+  assetsPlugin,
   manifestPlugin,
   htmlPlugin,
   hotModule,
@@ -24,6 +25,7 @@ const {
   imageMin,
   defineLang,
   hashedModuleIdsPlugin,
+  webpackBar,
 } = require('./plugins');
 
 const settings = require('./settings');
@@ -38,7 +40,10 @@ module.exports = lang => {
     bail: isProdEnv,
     devtool: isProdEnv ? 'source-map' : isDevEnv && 'eval-source-map',
     entry: [
-      isDevEnv && `${require.resolve('webpack-dev-server/client')}?/`,
+      isDevEnv &&
+        `${require.resolve('webpack-dev-server/client')}?http://localhost:${
+          settings.devServer.port
+        }/`,
       isDevEnv && require.resolve('webpack/hot/dev-server'),
       settings.entry,
     ].filter(Boolean),
@@ -51,7 +56,9 @@ module.exports = lang => {
       chunkFilename: isProdEnv
         ? `js/${settings.output.chunkFilename}.[chunkhash:8].${lang}.js`
         : `${settings.output.chunkFilename}.js`,
-      publicPath: settings.output.publicPath,
+      publicPath: isProdEnv
+        ? settings.output.publicPath
+        : `http://localhost:${settings.devServer.port}/`,
     },
     optimization: {
       minimize: isProdEnv,
@@ -85,10 +92,10 @@ module.exports = lang => {
           oneOf: [
             babelLoader,
             babelModuleLoader,
-            css(env),
-            cssModule(env),
-            sass(env),
-            sassModule(env),
+            css(env, false),
+            cssModule(env, false),
+            sass(env, false),
+            sassModule(env, false),
             fontLoader,
             svgLoader,
             fileLoader,
@@ -106,6 +113,12 @@ module.exports = lang => {
       isProdEnv && manifestPlugin(),
       isProdEnv && extractCss(lang),
       ignorePlugin(),
+      isDevEnv &&
+        webpackBar({
+          color: '#f56be2',
+          name: 'client',
+        }),
+      assetsPlugin(settings.appBuild),
     ].filter(Boolean),
     resolve: settings.resolve,
     node: {
