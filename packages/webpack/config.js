@@ -81,8 +81,12 @@ module.exports = lang => {
               },
             },
           }
-        : false,
-      runtimeChunk: 'single',
+        : {
+            cacheGroups: {
+              default: false,
+            },
+          },
+      runtimeChunk: isProdEnv ? 'single' : false,
     },
     module: {
       strictExportPresence: true,
