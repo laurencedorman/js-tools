@@ -142,6 +142,17 @@ const startServer = name =>
     nodeArgs: ['-r', 'source-map-support/register'],
   });
 
+const envPlugin = envVariables => {
+  const stringifiedEnvs = Object.keys(envVariables).reduce((acc, key) => {
+    if (key.startsWith('PRIVATE_')) return acc;
+    return {
+      ...acc,
+      [`process.env.${key}`]: JSON.stringify(envVariables[key]),
+    };
+  }, {});
+  return new webpack.DefinePlugin(stringifiedEnvs);
+};
+
 module.exports = {
   assetsPlugin,
   manifestPlugin,
@@ -159,4 +170,5 @@ module.exports = {
   webpackBar,
   ignoreAssets,
   startServer,
+  envPlugin,
 };

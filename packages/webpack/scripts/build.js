@@ -1,3 +1,5 @@
+const envVariables = require('dotenv-extended').load();
+
 process.env.BABEL_ENV = 'production';
 process.env.NODE_ENV = 'production';
 
@@ -37,7 +39,7 @@ function copyPublicFolder() {
 function build(previousFileSizes, lang) {
   console.log(`Creating an optimized ${chalk.green(lang)} production build...`);
 
-  let compiler = webpack(config(lang));
+  const compiler = webpack(config(lang, envVariables));
   return new Promise((resolve, reject) => {
     compiler.run((err, stats) => {
       let messages;
