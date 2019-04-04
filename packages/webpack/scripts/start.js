@@ -25,6 +25,7 @@ devServer.listen(settings.devServer.port, settings.devServer.host, err => {
     return console.log(err);
   }
   console.log('Starting the development server...\n');
+  console.log('http://localhost:' + settings.devServer.port);
 });
 
 ['SIGINT', 'SIGTERM'].forEach(function(sig) {

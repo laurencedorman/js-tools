@@ -4,6 +4,7 @@ module.exports = {
   extends: ['react-app', 'prettier'],
   env: {
     browser: true,
+    node: true,
     jest: true,
   },
   settings: {

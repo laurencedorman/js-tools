@@ -33,8 +33,8 @@ const runScript = (nodeArgs, scriptPath, args) => {
   process.exit(result.status);
 };
 
-const scriptIndex = args.findIndex(
-  x => x === 'build' || x === 'start' || x === 'test' || x === 'rollup'
+const scriptIndex = args.findIndex(x =>
+  ['build', 'start', 'start-server', 'test', 'rollup'].includes(x)
 );
 
 if (scriptIndex === -1) {
@@ -51,6 +51,13 @@ if (script === 'test') {
   runScript(
     nodeArgs,
     require.resolve('@manomano/jest-config/scripts/index.js'),
+    extraArgs
+  );
+}
+if (script === 'start-server') {
+  runScript(
+    nodeArgs,
+    require.resolve('@manomano/webpack/scripts/server.js'),
     extraArgs
   );
 } else if (script === 'rollup') {

@@ -15,9 +15,12 @@ const { reactIntl } = require('./plugins/index');
 module.exports = function preset(api) {
   api.assertVersion(7);
 
-  const targets = api.env('test')
-    ? { node: 'current' }
-    : { browsers: browserslist };
+  const isServer = process.env.IS_SERVER;
+
+  const targets =
+    isServer || api.env('test')
+      ? { node: 'current' }
+      : { browsers: browserslist };
 
   const presets = [
     [
@@ -41,7 +44,7 @@ module.exports = function preset(api) {
   ];
 
   const plugins = [
-    [
+    !isServer && [
       pluginTransformRuntime,
       {
         corejs: false,

@@ -29,10 +29,10 @@ const styleModuleRegex = /\.module\.css$/;
 const sassRegex = /\.(scss|sass)$/;
 const sassModuleRegex = /\.module\.(scss|sass)$/;
 
-const getStyleLoaders = (env, options, preprocessor) => {
+const getStyleLoaders = (env, isServer, options, preprocessor) => {
   const loaders = [
-    env === 'development' && require.resolve('style-loader'),
-    env === 'production' && {
+    env === 'development' && !isServer && require.resolve('style-loader'),
+    (env === 'production' || isServer) && {
       loader: MiniCssExtractPlugin.loader,
     },
     {
@@ -49,19 +49,19 @@ const getStyleLoaders = (env, options, preprocessor) => {
   return loaders;
 };
 
-const css = env => ({
+const css = (env, isServer) => ({
   test: styleRegex,
   exclude: styleModuleRegex,
-  use: getStyleLoaders(env, {
+  use: getStyleLoaders(env, isServer, {
     importLoaders: 1,
     modules: false,
   }),
   sideEffects: true,
 });
 
-const cssModule = env => ({
+const cssModule = (env, isServer) => ({
   test: styleModuleRegex,
-  use: getStyleLoaders(env, {
+  use: getStyleLoaders(env, isServer, {
     importLoaders: 1,
     modules: true,
     sourceMap: false,
@@ -69,11 +69,12 @@ const cssModule = env => ({
   }),
 });
 
-const sass = env => ({
+const sass = (env, isServer) => ({
   test: sassRegex,
   exclude: sassModuleRegex,
   use: getStyleLoaders(
     env,
+    isServer,
     {
       importLoaders: 2,
       modules: false,
@@ -83,10 +84,11 @@ const sass = env => ({
   sideEffects: true,
 });
 
-const sassModule = env => ({
+const sassModule = (env, isServer) => ({
   test: sassModuleRegex,
   use: getStyleLoaders(
     env,
+    isServer,
     {
       importLoaders: 2,
       modules: true,

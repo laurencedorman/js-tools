@@ -10,8 +10,12 @@ const defaultSettings = {
   appHtml: paths.appHtml,
   appPublic: paths.appPublic,
   appBuild: paths.appBuild,
+  appManifest: paths.appManifest,
+  appServer: paths.appServer,
+  appServerOutput: paths.appServerOutput,
   basePath: paths.appDirectory,
   entry: path.resolve(paths.appSrc, 'index'),
+  entryServer: path.resolve(paths.appServer, 'index.js'),
   output: {
     filename: 'main',
     chunkFilename: '[name].chunk',
