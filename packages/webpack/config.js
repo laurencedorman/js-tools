@@ -26,6 +26,7 @@ const {
   defineLang,
   hashedModuleIdsPlugin,
   webpackBar,
+  envPlugin,
 } = require('./plugins');
 
 const settings = require('./settings');
@@ -34,7 +35,7 @@ const env = process.env.NODE_ENV || 'none';
 const isDevEnv = env === 'development';
 const isProdEnv = env === 'production';
 
-module.exports = lang => {
+module.exports = (lang, envVariables) => {
   return {
     mode: env,
     bail: isProdEnv,
@@ -123,6 +124,7 @@ module.exports = lang => {
           name: 'client',
         }),
       assetsPlugin(settings.appBuild),
+      envPlugin(envVariables),
     ].filter(Boolean),
     resolve: settings.resolve,
     node: {

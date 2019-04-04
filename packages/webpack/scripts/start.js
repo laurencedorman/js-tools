@@ -1,3 +1,5 @@
+const envVariables = require('dotenv-extended').load();
+
 process.env.BABEL_ENV = 'development';
 process.env.NODE_ENV = 'development';
 
@@ -17,7 +19,7 @@ const argv = process.argv.slice(2);
 const parsedArgs = require('minimist')(argv);
 const { lang } = parsedArgs;
 
-const compiler = webpack(config(lang));
+const compiler = webpack(config(lang, envVariables));
 const devServer = new WebpackDevServer(compiler, devServerConfig);
 
 devServer.listen(settings.devServer.port, settings.devServer.host, err => {
