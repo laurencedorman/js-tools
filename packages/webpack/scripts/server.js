@@ -1,3 +1,5 @@
+const envVariables = require('dotenv-extended').load();
+
 process.env.BABEL_ENV = 'development';
 process.env.NODE_ENV = 'development';
 process.env.IS_SERVER = true;
@@ -31,7 +33,7 @@ try {
   process.env.ASSETS_MANIFEST = paths.appManifest;
 
   const serverCompiler = webpack(serverConfig(lang));
-  const clientCompiler = webpack(clientConfig(lang));
+  const clientCompiler = webpack(clientConfig(lang, envVariables));
 
   let watching;
 
