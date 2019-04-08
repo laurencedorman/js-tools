@@ -1,0 +1,10 @@
+{
+  "branch": "140-semantic-release",
+  "verifyConditions": ["@semantic-release/changelog", "@semantic-release/gitlab"],
+  "prepare": [
+    "@semantic-release/changelog",
+  ],
+  "publish": ["@semantic-release/gitlab"],
+  "success": false,
+  "fail": false
+}

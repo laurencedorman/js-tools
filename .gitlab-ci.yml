@@ -4,6 +4,8 @@ image: node:10.15.2
 stages:
   - install
   - test
+  - changelog
+  - publish
 
 # JOBS
 
@@ -23,3 +25,21 @@ Test:
   script:
     - yarn lint
     - yarn test
+
+Generate Changelog:
+  stage: changelog
+  only:
+    - tags
+  script:
+    - yarn semantic-release
+
+Publish-On-NPM:
+  stage: publish
+  script:
+    - git config --global user.email "matthieu@manomano.com"
+    - git config --global user.name "matthieu"
+    - git checkout 140-semantic-release
+    - git pull
+    - git remote -v
+    - npm run version
+    - npm run publish
