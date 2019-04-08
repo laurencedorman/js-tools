@@ -719,25 +719,25 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@manomano/browserslist-config@^0.0.20":
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-0.0.20.tgz#c92675eb01dd4837fbb75f1a5a1604fffacbbb52"
-  integrity sha512-/ilIb9JmLy3NIl8C+rVQ0sOauWjCxa2xdUAySkPkLepMGrnMm5/tKx/SbfOMN/qDmqLPl7rB669q9uZAcuuQMQ==
+"@manomano/browserslist-config@^0.0.25":
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-0.0.25.tgz#799fdd677ecff6812f7e10279c838386a67c87d2"
+  integrity sha512-8gvppYMRUUirNGtXj3F+eCsL0O7lKYuzNf8OUvXJRk9Bvcw0zSL7oLF9yWse+4g6puY7zLcHnucNF0g6lUS19g==
 
-"@manomano/project-settings@^0.0.20":
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-0.0.20.tgz#bc02332cf8322a6c20fd21f9ed70c3fa8a3841be"
-  integrity sha512-SqcX5DsF/Fz+TZu9qJZozDHAlbiyP5Yp9OWMDL6MnVSAtAkeOgguvaJ6Iy7CwVqctUeaKBww9z+ZDeogQLMA0Q==
+"@manomano/project-settings@^0.0.25":
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-0.0.25.tgz#97c82c26f1ee41afe581e97136752230bab97d95"
+  integrity sha512-Yt471m/xGoe+Y23VKZyldfliYfzbuAN/OVEED98kwrjrFS1HnH5EhLbFoPpThdKo+ItSmWc4YYq5s5GEFIDX5g==
   dependencies:
-    "@manomano/utils" "^0.0.20"
+    "@manomano/utils" "^0.0.25"
 
-"@manomano/utils@^0.0.20":
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-0.0.20.tgz#902d6b7c487c765fe62042bb65625d8dd2ef18bf"
-  integrity sha512-4T35jUx2fgVK3OKC7QyH2KyKX+R/upwL8Lwf/q/o4wNUq3SWp0iCSmqYoIBDYqUtEPPqXyOR/4+mzYJxdoiGtA==
+"@manomano/utils@^0.0.25":
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-0.0.25.tgz#446c565581171d91eb0335ea782a61699d033ec2"
+  integrity sha512-WP+jmtMAggKuUz+2GvOoryA9y5Nthm1tnsJ8088I2kReu08MstTvYmu4iI9wWoH4jMoLf86hVzn1Iqw4S2cydA==
   dependencies:
-    lodash.groupby "4.6.0"
-    node-fetch "2.3.0"
+    lodash.groupby "^4.6.0"
+    node-fetch "^2.3.0"
 
 "@typescript-eslint/typescript-estree@1.4.2":
   version "1.4.2"
@@ -2562,7 +2562,7 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash.groupby@4.6.0:
+lodash.groupby@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.groupby/-/lodash.groupby-4.6.0.tgz#0b08a1dcf68397c397855c3239783832df7403d1"
   integrity sha1-Cwih3PaDl8OXhVwyOXg4Mt90A9E=
@@ -2816,7 +2816,7 @@ neo-async@^2.5.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
-node-fetch@2.3.0:
+node-fetch@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
   integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
