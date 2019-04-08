@@ -1,6 +1,6 @@
 {
   "name": "@manomano/project-settings",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "description": "manomano default project settings",
   "main": "index.js",
   "license": "MIT",
@@ -9,6 +9,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@manomano/utils": "^0.0.24"
+    "@manomano/utils": "^0.0.25"
   }
 }
