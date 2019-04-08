@@ -39,13 +39,13 @@ module.exports = (lang, envVariables) => {
   return {
     mode: env,
     bail: isProdEnv,
-    devtool: isProdEnv ? 'source-map' : isDevEnv && 'eval-source-map',
+    devtool: isProdEnv ? 'source-map' : isDevEnv && 'cheap-module-source-map',
     entry: [
       isDevEnv &&
         `${require.resolve('webpack-dev-server/client')}?http://localhost:${
           settings.devServer.port
         }/`,
-      isDevEnv && require.resolve('webpack/hot/dev-server'),
+      isDevEnv && require.resolve('react-dev-utils/webpackHotDevClient'),
       settings.entry,
     ].filter(Boolean),
     output: {
