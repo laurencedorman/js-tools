@@ -1,10 +1,14 @@
 'use strict';
 
 const settings = require('./settings');
+const errorOverlayMiddleware = require('react-dev-utils/errorOverlayMiddleware');
+const evalSourceMapMiddleware = require('react-dev-utils/evalSourceMapMiddleware');
+const noopServiceWorkerMiddleware = require('react-dev-utils/noopServiceWorkerMiddleware');
 
 module.exports = {
   compress: true,
   contentBase: settings.appPublic,
+  clientLogLevel: 'none',
   watchContentBase: true,
   hot: true,
   headers: {
@@ -16,4 +20,9 @@ module.exports = {
   port: settings.devServer.port,
   overlay: false,
   proxy: settings.proxy,
+  before(app, server) {
+    app.use(evalSourceMapMiddleware(server));
+    app.use(errorOverlayMiddleware());
+    app.use(noopServiceWorkerMiddleware());
+  },
 };
