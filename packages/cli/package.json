@@ -11,6 +11,9 @@
   "bin": {
     "macgyver": "./index.js"
   },
+  "scripts": {
+    "install:lerna": "yarn install --network-concurrency 1"
+  },
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@manomano/jest-config": "^0.0.25",
