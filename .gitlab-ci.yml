@@ -15,6 +15,16 @@ Install:
   artifacts:
     paths:
       - node_modules/
+      - packages/babel/node_modules
+      - packages/cli/node_modules
+      - packages/eslint/node_modules
+      - packages/jest/node_modules
+      - packages/postcss/node_modules
+      - packages/prettier/node_modules
+      - packages/project/node_modules
+      - packages/rollup/node_modules
+      - packages/utils/node_modules
+      - packages/webpack/node_modules
     expire_in: 10 minutes
 
 Test:
