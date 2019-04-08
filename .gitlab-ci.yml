@@ -1,0 +1,42 @@
+# Using the node alpine image
+image: node:10.15.2
+
+stages:
+  - install
+  - test
+  - semantic-release
+  - publish
+
+# JOBS
+Install:
+  stage: install
+  script:
+    - yarn
+  artifacts:
+    paths:
+      - node_modules/
+    expire_in: 10 minutes
+
+Test:
+  stage: test
+  except:
+    - tags
+  script:
+    - yarn lint
+    - yarn test
+
+Semantic-Release:
+  stage: semantic-release
+  only:
+    - master
+  script:
+    - yarn semantic-release
+
+Publish-On-NPM:
+  stage: publish
+  only:
+    - tags
+  script:
+    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
+    - npm config set unsafe-perm true
+    - npm publish --access public
