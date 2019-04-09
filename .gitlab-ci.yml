@@ -29,16 +29,12 @@ Test:
 
 Semantic-Release:
   stage: semantic-release
-  only:
-    - master
   script:
     - yarn semantic-release
 
 Publish-On-NPM:
   stage: publish
-  only:
-    - tags
   script:
     - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
     - npm config set unsafe-perm true
-    - npm publish --access public
+    - npm publish --access public --dry-run
