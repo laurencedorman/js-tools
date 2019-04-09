@@ -4,7 +4,7 @@ image: node:10.15.2
 stages:
   - install
   - test
-  - semantic-release
+  - changelog
   - publish
 
 # JOBS
@@ -28,8 +28,8 @@ Test:
     - yarn lint
     - yarn test
 
-Semantic-Release:
-  stage: semantic-release
+Generate Changelog:
+  stage: changelog
   script:
     - yarn semantic-release
 
