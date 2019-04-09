@@ -8,6 +8,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "install:lerna": "yarn"
+  },
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@manomano/babel": "^0.0.25",

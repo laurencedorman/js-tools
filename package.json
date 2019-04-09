@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "install": "lerna run yarn",
+    "install": "lerna run install:lerna",
     "link-packages": "lerna link",
     "lint": "lerna run lint",
     "publish": "lerna publish",

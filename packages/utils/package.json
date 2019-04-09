@@ -9,6 +9,7 @@
     "access": "public"
   },
   "scripts": {
+    "install:lerna": "yarn",
     "test": "jest"
   },
   "dependencies": {
