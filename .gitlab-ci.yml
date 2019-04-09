@@ -37,4 +37,4 @@ Publish-On-NPM:
   stage: publish
   script:
     - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
-    - lerna publish
+    - lerna publish from-git

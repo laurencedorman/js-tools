@@ -8,7 +8,6 @@
     "install": "lerna run install:lerna",
     "link-packages": "lerna link",
     "lint": "lerna run lint",
-    "publish": "lerna publish",
     "semantic-release": "npx semantic-release",
     "test": "lerna run test"
   },
