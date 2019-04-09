@@ -9,7 +9,7 @@
     "access": "public"
   },
   "scripts": {
-    "install:lerna": "yarn"
+    "install:lerna": "yarn install --network-concurrency 1"
   },
   "dependencies": {
     "@babel/core": "^7",
