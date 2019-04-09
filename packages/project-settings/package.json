@@ -9,7 +9,8 @@
     "access": "public"
   },
   "scripts": {
-    "install:lerna": "yarn"
+    "install:lerna": "yarn",
+    "clean": "rm yarn.lock"
   },
   "dependencies": {
     "@manomano/utils": "^0.0.25"

@@ -12,7 +12,8 @@
     "macgyver": "./index.js"
   },
   "scripts": {
-    "install:lerna": "yarn"
+    "install:lerna": "yarn",
+    "clean": "rm yarn.lock"
   },
   "dependencies": {
     "@babel/core": "^7.0.0",

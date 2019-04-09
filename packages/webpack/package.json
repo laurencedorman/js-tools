@@ -9,7 +9,8 @@
     "access": "public"
   },
   "scripts": {
-    "install:lerna": "yarn"
+    "install:lerna": "yarn",
+    "clean": "rm yarn.lock"
   },
   "dependencies": {
     "@babel/code-frame": "^7.0.0",

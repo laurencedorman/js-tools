@@ -10,6 +10,7 @@
   },
   "scripts": {
     "install:lerna": "yarn",
+    "clean": "rm yarn.lock",
     "test": "jest"
   },
   "dependencies": {
