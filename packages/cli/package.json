@@ -12,7 +12,7 @@
     "macgyver": "./index.js"
   },
   "scripts": {
-    "install:lerna": "yarn",
+    "install:lerna": "yarn install --network-concurrency 1",
     "clean": "rm yarn.lock"
   },
   "dependencies": {
