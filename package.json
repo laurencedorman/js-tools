@@ -1,6 +1,6 @@
 {
   "name": "js-tools",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "default manomano frontend tools configuration",
   "license": "MIT",
   "scripts": {
@@ -8,6 +8,7 @@
     "install": "lerna run install:lerna",
     "link-packages": "lerna link",
     "lint": "lerna run lint",
+    "prepublish": "lerna version patch",
     "publish": "lerna publish from-git",
     "semantic-release": "npx semantic-release",
     "test": "lerna run test"
