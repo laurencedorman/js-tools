@@ -35,7 +35,7 @@ const env = process.env.NODE_ENV || 'none';
 const isDevEnv = env === 'development';
 const isProdEnv = env === 'production';
 
-module.exports = (lang, envVariables) => {
+module.exports = (lang, envVariables = {}) => {
   return {
     mode: env,
     bail: isProdEnv,
