@@ -22,7 +22,7 @@ Install:
 
 Test:
   stage: test
-  except:
+  only:
     - tags
   script:
     - yarn lint
@@ -30,6 +30,8 @@ Test:
 
 Generate Changelog:
   stage: changelog
+  only:
+      - tags
   script:
     - yarn semantic-release
 
@@ -37,4 +39,4 @@ Publish-On-NPM:
   stage: publish
   script:
     - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
-    - lerna publish from-git
+    - yarn publish
