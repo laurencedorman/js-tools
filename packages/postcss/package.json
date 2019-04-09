@@ -9,7 +9,7 @@
     "access": "public"
   },
   "scripts": {
-    "install:lerna": "yarn"
+    "install:lerna": "yarn install --network-concurrency 8"
   },
   "files": [
     "postcss.config.js",
