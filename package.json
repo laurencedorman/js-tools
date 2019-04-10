@@ -9,7 +9,7 @@
     "link-packages": "lerna link",
     "lint": "lerna run lint",
     "prepublish": "lerna version patch",
-    "publish": "lerna publish from-git",
+    "publish": "lerna publish from-git --yes --force-publish=*",
     "semantic-release": "npx semantic-release",
     "test": "lerna run test"
   },
