@@ -40,6 +40,7 @@ Publish-On-NPM:
   variables:
     CI_DEBUG_TRACE: "true"
   script:
+    - git remote set-url origin https://matthieu:${GITLAB_CI_TOKEN}@git.manomano.tech/core-utils/js-tools.git
     - git config --global user.email "matthieu@manomano.com"
     - git config --global user.name "matthieu"
     - git checkout 140-semantic-release
