@@ -8,9 +8,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "install:lerna": "yarn install --network-concurrency 1"
+  },
   "dependencies": {
     "@babel/core": "^7",
-    "autoprefixer": "^9.4.7",
+    "autoprefixer": "^9.5.1",
     "node-sass": "^4.11.0",
     "p-queue": "^3.0.0",
     "pify": "^4.0.1",

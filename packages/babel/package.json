@@ -8,6 +8,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "install:lerna": "yarn install --network-concurrency 1"
+  },
   "files": [
     "plugins",
     "helpers",
