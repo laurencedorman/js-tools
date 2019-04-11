@@ -13,6 +13,8 @@ Install:
   stage: install
   script:
     - yarn
+  only:
+    - tags
   artifacts:
     paths:
       - node_modules/
@@ -22,6 +24,8 @@ Install:
 
 Test:
   stage: test
+  only:
+    - tags
   script:
     - yarn lint
     - yarn test
@@ -38,6 +42,7 @@ Publish-On-NPM:
   variables:
     CI_DEBUG_TRACE: "true"
   script:
+    - git clone $CI_REPOSITORY_URL
     - git config --global user.email "matthieu@manomano.com"
     - git config --global user.name "matthieu"
     - git checkout 140-semantic-release
