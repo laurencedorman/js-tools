@@ -13,8 +13,6 @@ Install:
   stage: install
   script:
     - yarn
-  only:
-    - tags
   artifacts:
     paths:
       - node_modules/
