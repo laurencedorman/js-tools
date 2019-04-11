@@ -45,7 +45,7 @@ Publish-On-NPM:
     - git config --global user.name "matthieu"
     - git checkout 140-semantic-release
     - git pull
-    - git push origin master
+    - git push
     - git remote -v
     - npm run version
     - npm run publish
