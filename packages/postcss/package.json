@@ -8,6 +8,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "install:lerna": "yarn install --network-concurrency 1"
+  },
   "files": [
     "postcss.config.js",
     "webpack-loader.js",
@@ -15,9 +18,9 @@
   ],
   "dependencies": {
     "@manomano/browserslist-config": "^0.0.25",
-    "postcss-flexbugs-fixes": "4.1.0",
-    "postcss-loader": "3.0.0",
-    "postcss-preset-env": "6.5.0",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
     "postcss-safe-parser": "^4.0.1"
   }
 }

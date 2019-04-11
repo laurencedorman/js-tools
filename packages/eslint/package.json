@@ -12,6 +12,7 @@
     "extends": "./index.js"
   },
   "scripts": {
+    "install:lerna": "yarn install --network-concurrency 1",
     "lint": "eslint --ext .js --ext .jsx ."
   },
   "dependencies": {

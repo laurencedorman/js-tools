@@ -8,8 +8,15 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "install:lerna": "yarn install --network-concurrency 1",
+    "test": "jest"
+  },
   "dependencies": {
     "lodash.groupby": "^4.6.0",
     "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1"
   }
 }
