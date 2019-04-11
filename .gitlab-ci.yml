@@ -35,6 +35,8 @@ Generate Changelog:
 
 Publish-On-NPM:
   stage: publish
+  variables:
+    CI_DEBUG_TRACE: "true"
   script:
     - git config --global user.email "matthieu@manomano.com"
     - git config --global user.name "matthieu"
