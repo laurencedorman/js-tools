@@ -743,10 +743,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@manomano/babel@^0.0.25":
-  version "0.0.25"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-0.0.25.tgz#1ece09fe7c29cabde88f96decf52873d801b5ec9"
-  integrity sha512-e6dfZIIHu1DW0p3IHHwNq2b15Ti53RpW9oh2FAescEaKd7yoce9P4mgHko7hJdHOkF4zZ1skVHWtSj2x595o+A==
+"@manomano/babel@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.0.tgz#3c3394c5cbba3675d638db4f77974a8122cb3281"
+  integrity sha512-DV11uTwJFauDLKWPmr3rr9zKV/SXiOhrOhPHHLAQF531Rho+GPCUuaKG7JJ3rIt/DCwiZ9mfOoTBjbUJz7etAQ==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
@@ -757,8 +757,8 @@
     "@babel/preset-flow" "^7.0.0"
     "@babel/preset-react" "^7.0.0"
     "@babel/runtime" "^7.4.2"
-    "@manomano/browserslist-config" "^0.0.25"
-    "@manomano/project-settings" "^0.0.25"
+    "@manomano/browserslist-config" "^1.0.0"
+    "@manomano/project-settings" "^1.0.0"
     babel-loader "^8.0.5"
     babel-plugin-dynamic-import-node "^2.2.0"
     babel-plugin-module-resolver "^3.2.0"
@@ -768,22 +768,22 @@
     dependency-tree "^7.0.2"
     webpack "^4.29.6"
 
-"@manomano/browserslist-config@^0.0.25":
-  version "0.0.25"
-  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-0.0.25.tgz#799fdd677ecff6812f7e10279c838386a67c87d2"
-  integrity sha512-8gvppYMRUUirNGtXj3F+eCsL0O7lKYuzNf8OUvXJRk9Bvcw0zSL7oLF9yWse+4g6puY7zLcHnucNF0g6lUS19g==
+"@manomano/browserslist-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.0.tgz#0783759a864884c153a00d044fa5e50f993b3e6e"
+  integrity sha512-3LGpwaYhwsmyThNxMyqrcaxlM46+f84lb6xGpFkA7r0KGZOsCJFVOlKlSoaqFjQb0ccoi0QN9Ilq1+oRYQdbTg==
 
-"@manomano/project-settings@^0.0.25":
-  version "0.0.25"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-0.0.25.tgz#97c82c26f1ee41afe581e97136752230bab97d95"
-  integrity sha512-Yt471m/xGoe+Y23VKZyldfliYfzbuAN/OVEED98kwrjrFS1HnH5EhLbFoPpThdKo+ItSmWc4YYq5s5GEFIDX5g==
+"@manomano/project-settings@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.0.tgz#5c6aceec7f3dd6e1decbfe2c6981b4177422da40"
+  integrity sha512-Fu5A1d81rWb9+VpcXn8RMvOUVvzpd5a8OJ5rb1scj+KwCRLJ/gw+/55t49rFBWjxKIU766ytwsW9LMhI7koadw==
   dependencies:
-    "@manomano/utils" "^0.0.25"
+    "@manomano/utils" "^1.0.0"
 
-"@manomano/utils@^0.0.25":
-  version "0.0.25"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-0.0.25.tgz#446c565581171d91eb0335ea782a61699d033ec2"
-  integrity sha512-WP+jmtMAggKuUz+2GvOoryA9y5Nthm1tnsJ8088I2kReu08MstTvYmu4iI9wWoH4jMoLf86hVzn1Iqw4S2cydA==
+"@manomano/utils@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-1.0.0.tgz#21ba7611d307ae57a7f83a681b0ebcb8a38929e2"
+  integrity sha512-NCHcBT6j2ic1v+xrmkPBGajG2BJO5x3PBJ8oYrOzDAHc67HVsSAo//w89i3ZKTTpo36nfTwQl7Kj9jfBzVzz+w==
   dependencies:
     lodash.groupby "^4.6.0"
     node-fetch "^2.3.0"
