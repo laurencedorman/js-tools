@@ -5,6 +5,7 @@ stages:
   - install
   - test
   - changelog
+  - release
   - publish
 
 # JOBS
@@ -31,21 +32,36 @@ Test:
 Generate Changelog:
   stage: changelog
   only:
-    - tags
+    - master
   script:
     - yarn semantic-release
 
-Publish-On-NPM:
-  stage: publish
+Release:
+  stage: release
+  only:
+    - master
+    - 140-sr-rebase
   script:
     - git remote set-url origin https://${GITLAB_CI_USER}:${GITLAB_CI_TOKEN}@git.manomano.tech/core-utils/js-tools.git
     - git config user.email "$GIT_AUTHOR_EMAIL"
     - git config user.name "$GIT_AUTHOR_NAME"
+
     - git checkout 140-sr-rebase
     - git pull
+
     - npm run version
+
     - npm run install
     - git add .
-    - git commit -m "chore(release)"
+    - git commit -m "chore(release): v1.0.1"
+    - git tag -a v1.0.1
+
     - git push
+    - git push origin :refs/tags/v1.0.1
+
+Publish-On-NPM:
+  stage: publish
+  only:
+    - tags
+  script:
     - npm run publish --dry-run
