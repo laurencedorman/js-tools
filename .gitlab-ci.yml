@@ -37,8 +37,6 @@ Generate Changelog:
 
 Publish-On-NPM:
   stage: publish
-  variables:
-    CI_DEBUG_TRACE: "true"
   script:
     - git remote set-url origin https://${GITLAB_CI_USER}:${GITLAB_CI_TOKEN}@git.manomano.tech/core-utils/js-tools.git
     - git config --global user.email "$GIT_AUTHOR_EMAIL"
