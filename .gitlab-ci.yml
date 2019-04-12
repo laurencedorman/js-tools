@@ -46,6 +46,6 @@ Publish-On-NPM:
     - npm run version
     - npm run install
     - git add .
-    - git commit -m "chore(release): %v"
+    - git commit -m "chore(release)"
     - git push
     - npm run publish --dry-run
