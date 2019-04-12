@@ -39,8 +39,8 @@ Publish-On-NPM:
   stage: publish
   script:
     - git remote set-url origin https://${GITLAB_CI_USER}:${GITLAB_CI_TOKEN}@git.manomano.tech/core-utils/js-tools.git
-    - git config --global user.email "$GIT_AUTHOR_EMAIL"
-    - git config --global user.name "$GIT_AUTHOR_NAME"
+    - git config user.email "$GIT_AUTHOR_EMAIL"
+    - git config user.name "$GIT_AUTHOR_NAME"
     - git checkout 140-sr-rebase
     - git pull
     - git remote -v
