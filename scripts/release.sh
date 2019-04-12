@@ -9,7 +9,7 @@ git checkout 140-sr-rebase
 git pull
 
 # lerna will dumb version without committing
-npm run version
+#npm run version
 
 # upgrade yarn.lock
 npm run install
@@ -17,7 +17,7 @@ git add .
 git commit -m "chore(release): [skip ci] %v"
 
 # push
-git push
+#git push
 
 # add tag
 # TODO
@@ -26,7 +26,7 @@ git push
 # TODO
 
 # publish on npm
-npm run publish --dry-run
+#npm run publish --dry-run
 
 # configure npm credentials to publish packages
 #for package in packages/*; do echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > $package/.npmrc; done
