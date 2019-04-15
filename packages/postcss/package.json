@@ -1,6 +1,6 @@
 {
   "name": "@manomano/postcss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "default manomano postCSS configuration",
   "main": "postcss.config.js",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "parser.js"
   ],
   "dependencies": {
-    "@manomano/browserslist-config": "^1.0.1-next.0",
+    "@manomano/browserslist-config": "^1.0.2",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.6.0",
