@@ -1,6 +1,6 @@
 {
   "name": "@manomano/prettier-config",
-  "version": "0.0.25",
+  "version": "1.0.0",
   "description": "default manomano prettier config",
   "main": "index.js",
   "license": "MIT",

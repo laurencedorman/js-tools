@@ -1,6 +1,6 @@
 {
   "name": "js-tools",
-  "version": "0.0.25",
+  "version": "1.0.0",
   "description": "default manomano frontend tools configuration",
   "license": "MIT",
   "scripts": {
@@ -20,8 +20,8 @@
     }
   },
   "devDependencies": {
-    "@manomano/eslint-config": "0.0.25",
-    "@manomano/prettier-config": "0.0.25",
+    "@manomano/eslint-config": "^1.0.0",
+    "@manomano/prettier-config": "^1.0.0",
     "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/gitlab": "^3.1.2",
     "husky": "^1.3.1",
