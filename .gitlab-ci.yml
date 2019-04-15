@@ -48,5 +48,5 @@ Publish:
     - git checkout 140-sr-rebase
     - git pull
 
-    - npm run version
-    - npm run publish
+    - npm run lerna-version
+    - npm run lerna-publish
