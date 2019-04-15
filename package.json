@@ -20,8 +20,8 @@
     }
   },
   "devDependencies": {
-    "@manomano/eslint-config": "^1.0.1",
-    "@manomano/prettier-config": "^1.0.1",
+    "@manomano/eslint-config": "^1.0.1-next.0",
+    "@manomano/prettier-config": "^1.0.1-next.0",
     "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/gitlab": "^3.1.2",
     "husky": "^1.3.1",

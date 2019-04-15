@@ -12,6 +12,6 @@
     "install:lerna": "yarn install --network-concurrency 1"
   },
   "dependencies": {
-    "@manomano/utils": "^1.0.1"
+    "@manomano/utils": "^1.0.1-next.0"
   }
 }

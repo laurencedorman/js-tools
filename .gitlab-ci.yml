@@ -28,7 +28,6 @@ Test:
     - yarn lint
     - yarn test
 
-
 Publish:
   stage: publish
   only:

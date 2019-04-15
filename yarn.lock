@@ -1371,10 +1371,10 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@manomano/babel@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.0.tgz#3c3394c5cbba3675d638db4f77974a8122cb3281"
-  integrity sha512-DV11uTwJFauDLKWPmr3rr9zKV/SXiOhrOhPHHLAQF531Rho+GPCUuaKG7JJ3rIt/DCwiZ9mfOoTBjbUJz7etAQ==
+"@manomano/babel@^1.0.1-next.0":
+  version "1.0.1-next.0"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.1-next.0.tgz#04726c3236164294cf892588242a7f4660e813e2"
+  integrity sha512-Kt1md4kTnRTx5sPfJ5u3AWAm9pg33k5KSUXs9mz3kescFvYvPlFoOeGfKdztEj48VAd8AgHUnGbdx0MbWFTUmw==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
@@ -1385,8 +1385,8 @@
     "@babel/preset-flow" "^7.0.0"
     "@babel/preset-react" "^7.0.0"
     "@babel/runtime" "^7.4.2"
-    "@manomano/browserslist-config" "^1.0.0"
-    "@manomano/project-settings" "^1.0.0"
+    "@manomano/browserslist-config" "^1.0.1-next.0"
+    "@manomano/project-settings" "^1.0.1-next.0"
     babel-loader "^8.0.5"
     babel-plugin-dynamic-import-node "^2.2.0"
     babel-plugin-module-resolver "^3.2.0"
@@ -1396,19 +1396,19 @@
     dependency-tree "^7.0.2"
     webpack "^4.29.6"
 
-"@manomano/browserslist-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.0.tgz#0783759a864884c153a00d044fa5e50f993b3e6e"
-  integrity sha512-3LGpwaYhwsmyThNxMyqrcaxlM46+f84lb6xGpFkA7r0KGZOsCJFVOlKlSoaqFjQb0ccoi0QN9Ilq1+oRYQdbTg==
+"@manomano/browserslist-config@^1.0.1-next.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.1.tgz#932fac552d81e64011273f54d5539e9092f7d6bb"
+  integrity sha512-VV9OqjR5A6AqIHFa4MgSaYURdlrrb6OxoxcCuPSQDUbUG9SU81MF/0wYPSVW0mXtwifxDtOxlJFqepsVrMWxMQ==
 
-"@manomano/eslint-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-1.0.0.tgz#2c5ad0f418cb3292a31bc624bc24dc08f8c80ace"
-  integrity sha512-77OkUuMyuNBMKW0Zwmgits3ia6RoWN2sYpQ0zoRU4yDCqqUXkGeMcVGzdWBnSyPBTt3MTxX98BZSmBJ/323+eg==
+"@manomano/eslint-config@^1.0.1-next.0":
+  version "1.0.1-next.0"
+  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-1.0.1-next.0.tgz#1aa2b9cdc73f56c9ca691922d4c4c01ab34de14c"
+  integrity sha512-h7wnYF0kSkHXDFiUxn8bgKTdmApihoe7sSSrP4HPkOKJDyJJrJ1QXnXe1ym1L+SegN7hA7OnvRywRkgk9cPKuw==
   dependencies:
     "@babel/core" "^7.0.0-0"
-    "@manomano/babel" "^1.0.0"
-    "@manomano/project-settings" "^1.0.0"
+    "@manomano/babel" "^1.0.1-next.0"
+    "@manomano/project-settings" "^1.0.1-next.0"
     babel-eslint "^9.0.0"
     babel-plugin-module-resolver "^3.0.0"
     eslint "^5.13.0"
@@ -1422,22 +1422,22 @@
     webpack "^4.29.6"
     yarn "^1.15.2"
 
-"@manomano/prettier-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@manomano/prettier-config/-/prettier-config-1.0.0.tgz#a6caf93e6af2147b6155a033392d731f05de35d1"
-  integrity sha512-fOAJpnHJHvF6H63XAWhevikxWw0a9kGbuZwIE24n5tjCJMuswHLMS/ossX+9FiKQeVNq9f6zx7ctaFZEd4F8bA==
+"@manomano/prettier-config@^1.0.1-next.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@manomano/prettier-config/-/prettier-config-1.0.1.tgz#7c09da9cc4fc2130d6afb1734bc012cf9e3994af"
+  integrity sha512-XiorX8TP4PgxpNJ5lthOwRfn6x74nzTQohrJ0DhIqEfOOQUhx+VYizeEnSqBGcA4zW7Tzl8fStzZEPDAuiblEg==
 
-"@manomano/project-settings@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.0.tgz#5c6aceec7f3dd6e1decbfe2c6981b4177422da40"
-  integrity sha512-Fu5A1d81rWb9+VpcXn8RMvOUVvzpd5a8OJ5rb1scj+KwCRLJ/gw+/55t49rFBWjxKIU766ytwsW9LMhI7koadw==
+"@manomano/project-settings@^1.0.1-next.0":
+  version "1.0.1-next.0"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.1-next.0.tgz#92548b7dee2776dfe78a05ee9aefe8b0f9f55475"
+  integrity sha512-q0kXfbLoRCcQFvSSe2asYiN9Jn6QGwx/FU1WC2cGoCLQd2v74K1yWoDXt0faAfmlOHH/kshfb8aDn0L2FEosOg==
   dependencies:
-    "@manomano/utils" "^1.0.0"
+    "@manomano/utils" "^1.0.1-next.0"
 
-"@manomano/utils@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-1.0.0.tgz#21ba7611d307ae57a7f83a681b0ebcb8a38929e2"
-  integrity sha512-NCHcBT6j2ic1v+xrmkPBGajG2BJO5x3PBJ8oYrOzDAHc67HVsSAo//w89i3ZKTTpo36nfTwQl7Kj9jfBzVzz+w==
+"@manomano/utils@^1.0.1-next.0":
+  version "1.0.1-next.0"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-1.0.1-next.0.tgz#870d2b2158385551ef6e5c18e5b3b5267eb246ab"
+  integrity sha512-aUs5ASPJWf72UPWi29xfP6hK4gRearoymwmsvV+YiYnO5vJ/IQjs+HfIU3DJLivadKGvzldW6J1thMR1v38smA==
   dependencies:
     lodash.groupby "^4.6.0"
     node-fetch "^2.3.0"
