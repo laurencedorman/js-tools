@@ -49,4 +49,4 @@ Publish:
     - git pull
 
     - npm run lerna-version
-    - npm run lerna-publish
+    - npm run publish
