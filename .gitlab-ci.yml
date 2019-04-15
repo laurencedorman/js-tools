@@ -5,7 +5,6 @@ stages:
   - install
   - test
   - changelog
-  - release
   - publish
 
 # JOBS
@@ -36,8 +35,8 @@ Generate Changelog:
   script:
     - yarn semantic-release
 
-Release:
-  stage: release
+Publish:
+  stage: publish
   only:
     - master
     - 140-sr-rebase
@@ -50,10 +49,4 @@ Release:
     - git pull
 
     - npm run version
-
-Publish-On-NPM:
-  stage: publish
-  only:
-    - tags
-  script:
     - npm run publish --dry-run
