@@ -49,4 +49,4 @@ Publish:
     - git pull
 
     - npm run version
-    - npm run publish --dry-run
+    - npm run publish
