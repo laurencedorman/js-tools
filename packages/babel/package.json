@@ -1,6 +1,6 @@
 {
   "name": "@manomano/babel",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.2-alpha.0",
   "description": "default manomano babel configuration",
   "main": "preset.js",
   "license": "MIT",
@@ -29,8 +29,8 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.4.2",
-    "@manomano/browserslist-config": "^1.0.1-alpha.0",
-    "@manomano/project-settings": "^1.0.1-alpha.0",
+    "@manomano/browserslist-config": "^1.0.2-alpha.0",
+    "@manomano/project-settings": "^1.0.2-alpha.0",
     "babel-loader": "^8.0.5",
     "babel-plugin-dynamic-import-node": "^2.2.0",
     "babel-plugin-module-resolver": "^3.2.0",
