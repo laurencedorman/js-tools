@@ -51,15 +51,6 @@ Release:
 
     - npm run version
 
-    - npm run install
-
-    - git add .
-    - git commit -m "chore(release):v1.0.1"
-    - git tag -a v1.0.1
-
-    - git push
-    - git push origin :refs/tags/v1.0.1
-
 Publish-On-NPM:
   stage: publish
   only:
