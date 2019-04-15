@@ -4,8 +4,8 @@ image: node:10.15.2
 stages:
   - install
   - test
-  - changelog
   - publish
+  - changelog
 
 # JOBS
 
@@ -28,12 +28,6 @@ Test:
     - yarn lint
     - yarn test
 
-Generate Changelog:
-  stage: changelog
-  only:
-    - master
-  script:
-    - yarn semantic-release
 
 Publish:
   stage: publish
@@ -50,3 +44,10 @@ Publish:
 
     - npm run lerna-version
     - npm run publish
+
+Generate Changelog:
+  stage: changelog
+  only:
+    - master
+  script:
+    - yarn semantic-release
