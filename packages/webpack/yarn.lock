@@ -783,10 +783,10 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.3.tgz#ea01fab16c527f6bfadc00373e38f7f273eb9541"
-  integrity sha512-5nWMH8f/LqXQajzjJE+fAvtrXCWxR+mq3K+f9d94KvEzQGpZZP3i+s5pVEecMHrkO1CN69bM0TACMRsm5vpuIA==
+"@manomano/babel@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.4.tgz#b153a61faa9ac79a836bce0a99d3aa86bec4a16b"
+  integrity sha512-a/lmKDjm3Uw1L+YSA/+DaMOsxQGfAgL755RhJlLcMUW+/iGGTV6BpKGgskLbYPxL1espxkvBQIu8Tnz283w4fg==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
@@ -798,7 +798,7 @@
     "@babel/preset-react" "^7.0.0"
     "@babel/runtime" "^7.4.2"
     "@manomano/browserslist-config" "^1.0.3"
-    "@manomano/project-settings" "^1.0.3"
+    "@manomano/project-settings" "^1.0.4"
     babel-loader "^8.0.5"
     babel-plugin-dynamic-import-node "^2.2.0"
     babel-plugin-module-resolver "^3.2.0"
@@ -813,10 +813,10 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.3.tgz#1a8ed6c1007107dcac50883f619306732a09b9e5"
   integrity sha512-oPzL3sBM3/VqWhCKDS3/MEUAL6CrwkbOO7QRNX9J1ztcNVoVY50a0CdMZKpaXHBSr1bjDl8ORG/cbl90fLaYeA==
 
-"@manomano/postcss@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-1.0.3.tgz#73c2a1882408dd0f68ade1ef4ad06b843b95258a"
-  integrity sha512-WBIbYOykTLyA6XOsr4huOJVYXIbE7uXYiqAsqBmnXc3LnQ74bxDPAUyLTdozard56sdryKhBk9sv1q75L1dHyA==
+"@manomano/postcss@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-1.0.4.tgz#71ca8726e9fecbbc3a09a18739d01be8d44e5c2a"
+  integrity sha512-7+jxajEnsQpK1GmEBAxw9GfUd6cD/kClxUUFKaxkJN7SJlhj7GiImX6MtvjxleEE2ZihmxH1S97eSLp9CiKJKA==
   dependencies:
     "@manomano/browserslist-config" "^1.0.3"
     postcss-flexbugs-fixes "^4.1.0"
@@ -824,10 +824,10 @@
     postcss-preset-env "^6.6.0"
     postcss-safe-parser "^4.0.1"
 
-"@manomano/project-settings@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.3.tgz#3150beb4ddf4a4d983c8db2e1a413c505b17049d"
-  integrity sha512-PiuHLUSiaD/NPUeL1PUo/vhwrAyKhjXeysDeuzS0GKg0vPQqZKwY9DHVjwMWuhZs4B1Mtks8cvv/UgNvIlrMSg==
+"@manomano/project-settings@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.4.tgz#4638267d1baf9677afcaea2eb14d1c314aa7b6ea"
+  integrity sha512-S5+1PAeD1+1/rwu1c/Bmz8TcyCDt/Ny0hOFLDRP2XPWaLc4IaXfD+lNtjiSED1Xy3J2kCk7rRq+7in0a9C+P+g==
   dependencies:
     "@manomano/utils" "^1.0.3"
 
