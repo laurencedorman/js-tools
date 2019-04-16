@@ -1,6 +1,6 @@
 {
   "name": "@manomano/postcss",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "default manomano postCSS configuration",
   "main": "postcss.config.js",
   "license": "MIT",
