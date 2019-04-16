@@ -8,9 +8,9 @@
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
 "@manomano/browserslist-config@^1.0.2":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.1.tgz#932fac552d81e64011273f54d5539e9092f7d6bb"
-  integrity sha512-VV9OqjR5A6AqIHFa4MgSaYURdlrrb6OxoxcCuPSQDUbUG9SU81MF/0wYPSVW0mXtwifxDtOxlJFqepsVrMWxMQ==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.2.tgz#44597473beb57f3ba66f061df7250d6432fa45e2"
+  integrity sha512-4LM5WiPJW40BQU4W6X/H40dCwHUHoKFL7C0midTD1KlVONzren2p53MH1UJ+YO/1P1I6LQm6Nkaq/0BRFzQprA==
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -78,9 +78,9 @@ browserslist@^4.4.2, browserslist@^4.5.4:
     node-releases "^1.1.13"
 
 caniuse-lite@^1.0.30000939, caniuse-lite@^1.0.30000955, caniuse-lite@^1.0.30000957:
-  version "1.0.30000957"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000957.tgz#fb1026bf184d7d62c685205358c3b24b9e29f7b3"
-  integrity sha512-8wxNrjAzyiHcLXN/iunskqQnJquQQ6VX8JHfW5kLgAPRSiSuKZiNfmIkP5j7jgyXqAQBSoXyJxfnbCFS0ThSiQ==
+  version "1.0.30000960"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000960.tgz#ec48297037e5607f582f246ae7b12bee66a78999"
+  integrity sha512-7nK5qs17icQaX6V3/RYrJkOsZyRNnroA4+ZwxaKJzIKy+crIy0Mz5CBlLySd2SNV+4nbUZeqeNfiaEieUBu3aA==
 
 chalk@^2.4.2:
   version "2.4.2"
@@ -281,9 +281,9 @@ minimist@^1.2.0:
   integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
 
 node-releases@^1.1.13:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.13.tgz#8c03296b5ae60c08e2ff4f8f22ae45bd2f210083"
-  integrity sha512-fKZGviSXR6YvVPyc011NHuJDSD8gFQvLPmc2d2V3BS4gr52ycyQ1Xzs7a8B+Ax3Ni/W+5h1h4SqmzeoA8WZRmA==
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.14.tgz#f1f41c83cac82caebd6739e6313d56b3b09c9189"
+  integrity sha512-d58EpVZRhQE60kWiWUaaPlK9dyC4zg3ZoMcHcky2d4hDksyQj0rUozwInOl0C66mBsqo01Tuns8AvxnL5S7PKg==
   dependencies:
     semver "^5.3.0"
 
