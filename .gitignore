@@ -1,3 +1,5 @@
+.npmrc
+
 # IDE/editor specific
 *.swp
 *.swo

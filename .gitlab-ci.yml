@@ -39,7 +39,6 @@ Publish:
     - git config user.email "$GIT_AUTHOR_EMAIL"
     - git config user.name "$GIT_AUTHOR_NAME"
 
-    - git branch -D 140-sr-rebase
     - git checkout 140-sr-rebase
     - git pull
 
