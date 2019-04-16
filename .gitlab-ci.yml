@@ -12,6 +12,7 @@ stages:
 Install:
   stage: install
   script:
+    - yarn
     - yarn bootstrap
   artifacts:
     paths:
