@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.5](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.4...v1.0.5) (2019-04-16)
+
+
+### Bug Fixes
+
+* **ci:** try yarn bootstrap instead of yarn install + run test and lint ([20e0658](https://git.manomano.tech/core-utils/js-tools/commits/20e0658))
+* **ci:** upgrade yarn lock + pull branch before semantic release ([df07cd6](https://git.manomano.tech/core-utils/js-tools/commits/df07cd6))
+
+
+
+
+
 ## [1.0.4](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.3...v1.0.4) (2019-04-16)
 
 
