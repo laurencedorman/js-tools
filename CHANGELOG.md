@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.2...v1.0.3) (2019-04-16)
+
+
+### Bug Fixes
+
+* **ci:** no need to remove branch on pipeline, since master is protected ([bedab0f](https://git.manomano.tech/core-utils/js-tools/commits/bedab0f))
+* **ci:** use semantic release to upgrade version of main packages ([7a1c6d9](https://git.manomano.tech/core-utils/js-tools/commits/7a1c6d9))
+
+
+
+
+
 ## [1.0.2](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.0...v1.0.2) (2019-04-15)
 
 ### Bug Fixes
