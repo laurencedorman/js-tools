@@ -743,9 +743,9 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@manomano/babel@^1.0.1-next.0":
-  version "1.0.1-next.0"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.1-next.0.tgz#04726c3236164294cf892588242a7f4660e813e2"
+"@manomano/babel@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.2.tgz#04726c3236164294cf892588242a7f4660e813e2"
   integrity sha512-Kt1md4kTnRTx5sPfJ5u3AWAm9pg33k5KSUXs9mz3kescFvYvPlFoOeGfKdztEj48VAd8AgHUnGbdx0MbWFTUmw==
   dependencies:
     "@babel/core" "^7.4.0"
@@ -757,8 +757,8 @@
     "@babel/preset-flow" "^7.0.0"
     "@babel/preset-react" "^7.0.0"
     "@babel/runtime" "^7.4.2"
-    "@manomano/browserslist-config" "^1.0.1-next.0"
-    "@manomano/project-settings" "^1.0.1-next.0"
+    "@manomano/browserslist-config" "^1.0.2"
+    "@manomano/project-settings" "^1.0.2"
     babel-loader "^8.0.5"
     babel-plugin-dynamic-import-node "^2.2.0"
     babel-plugin-module-resolver "^3.2.0"
@@ -768,21 +768,21 @@
     dependency-tree "^7.0.2"
     webpack "^4.29.6"
 
-"@manomano/browserslist-config@^1.0.1-next.0":
+"@manomano/browserslist-config@^1.0.2":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.1.tgz#932fac552d81e64011273f54d5539e9092f7d6bb"
   integrity sha512-VV9OqjR5A6AqIHFa4MgSaYURdlrrb6OxoxcCuPSQDUbUG9SU81MF/0wYPSVW0mXtwifxDtOxlJFqepsVrMWxMQ==
 
-"@manomano/project-settings@^1.0.1-next.0":
-  version "1.0.1-next.0"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.1-next.0.tgz#92548b7dee2776dfe78a05ee9aefe8b0f9f55475"
+"@manomano/project-settings@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.2.tgz#92548b7dee2776dfe78a05ee9aefe8b0f9f55475"
   integrity sha512-q0kXfbLoRCcQFvSSe2asYiN9Jn6QGwx/FU1WC2cGoCLQd2v74K1yWoDXt0faAfmlOHH/kshfb8aDn0L2FEosOg==
   dependencies:
-    "@manomano/utils" "^1.0.1-next.0"
+    "@manomano/utils" "^1.0.2"
 
-"@manomano/utils@^1.0.1-next.0":
-  version "1.0.1-next.0"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-1.0.1-next.0.tgz#870d2b2158385551ef6e5c18e5b3b5267eb246ab"
+"@manomano/utils@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-1.0.2.tgz#870d2b2158385551ef6e5c18e5b3b5267eb246ab"
   integrity sha512-aUs5ASPJWf72UPWi29xfP6hK4gRearoymwmsvV+YiYnO5vJ/IQjs+HfIU3DJLivadKGvzldW6J1thMR1v38smA==
   dependencies:
     lodash.groupby "^4.6.0"
