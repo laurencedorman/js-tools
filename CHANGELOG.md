@@ -5,40 +5,16 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.2](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.0...v1.0.2) (2019-04-15)
 
-
 ### Bug Fixes
 
-* **changelog:** clean changelog ([a850fb6](https://git.manomano.tech/core-utils/js-tools/commits/a850fb6))
-* **ci:** generate changelog will happen after publishing ([f8fe482](https://git.manomano.tech/core-utils/js-tools/commits/f8fe482))
-* **ci:** use conventional commits to upgrade version ([b4d8656](https://git.manomano.tech/core-utils/js-tools/commits/b4d8656))
-
-
-
-
+- **ci:** generate changelog will happen after publishing ([f8fe482](https://git.manomano.tech/core-utils/js-tools/commits/f8fe482))
 
 ## [1.0.1](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.0...v1.0.1) (2019-04-15)
 
-
 ### Bug Fixes
 
-* **changelog:** clean changelog ([a850fb6](https://git.manomano.tech/core-utils/js-tools/commits/a850fb6))
-* **ci:** use conventional commits to upgrade version ([b4d8656](https://git.manomano.tech/core-utils/js-tools/commits/b4d8656))
-
-
-
-
-
-## [1.0.1](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.0...v1.0.1) (2019-04-15)
-
-
-### Bug Fixes
-
-* **changelog:** clean changelog ([a850fb6](https://git.manomano.tech/core-utils/js-tools/commits/a850fb6))
-* **ci:** use conventional commits to upgrade version ([b4d8656](https://git.manomano.tech/core-utils/js-tools/commits/b4d8656))
-
-
-
-
+- **changelog:** clean changelog ([a850fb6](https://git.manomano.tech/core-utils/js-tools/commits/a850fb6))
+- **ci:** use conventional commits to upgrade version ([b4d8656](https://git.manomano.tech/core-utils/js-tools/commits/b4d8656))
 
 # [1.0.0](https://git.manomano.tech/core-utils/js-tools/compare/v0.0.25...v1.0.0) (2019-04-12)
 
@@ -49,5 +25,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-- **ci:** JS-Tools is now deployed automatically on master
 - **ci:** JS-Tools is now deployed automatically on master
