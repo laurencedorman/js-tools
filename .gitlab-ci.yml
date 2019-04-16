@@ -34,7 +34,6 @@ Publish:
     - master
     - 140-sr-rebase
   script:
-    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
     - git remote set-url origin https://${GITLAB_CI_USER}:${GITLAB_CI_TOKEN}@git.manomano.tech/core-utils/js-tools.git
     - git config user.email "$GIT_AUTHOR_EMAIL"
     - git config user.name "$GIT_AUTHOR_NAME"
@@ -42,12 +41,17 @@ Publish:
     - git checkout 140-sr-rebase
     - git pull
 
+    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
+
     - npm run lerna-version
+
     - npm run publish
 
 Generate Changelog:
   stage: changelog
   only:
     - master
+    - 140-sr-rebase
+
   script:
     - yarn semantic-release

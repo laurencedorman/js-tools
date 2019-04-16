@@ -1,8 +1,11 @@
 {
-  "branch": "140-semantic-release",
-  "verifyConditions": ["@semantic-release/changelog", "@semantic-release/gitlab"],
+  "branch": "140-sr-rebase",
+  "verifyConditions": ["@semantic-release/git", "@semantic-release/gitlab"],
   "prepare": [
-    "@semantic-release/changelog",
+    {
+      "path": "@semantic-release/git",
+      "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
+    }
   ],
   "publish": ["@semantic-release/gitlab"],
   "success": false,
