@@ -900,10 +900,10 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.8.tgz#368b136bd38bda88c9998de7da578002dbb0fe52"
-  integrity sha512-f9L1b304qWzROa6swBmXdfyeMXYiQ7nod9jGlGL6NeKW1eG+kFsywMNAYdFbqs6QwmNGuZdDN7AjI0L7PryblA==
+"@manomano/babel@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.9.tgz#14dd3ebe7fd780df902d344f0d5845addc99158a"
+  integrity sha512-7jql+uIYqnDOP8HeI17uZXSyh2F1nUkPbeWe4pPH5GordHcMyNs4L0ldJelaPZc29BvTUu1qffPWjZP0XvYp4A==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
@@ -915,7 +915,7 @@
     "@babel/preset-react" "^7.0.0"
     "@babel/runtime" "^7.4.2"
     "@manomano/browserslist-config" "^1.0.3"
-    "@manomano/project-settings" "^1.0.7"
+    "@manomano/project-settings" "^1.0.9"
     babel-loader "^8.0.5"
     babel-plugin-dynamic-import-node "^2.2.0"
     babel-plugin-module-resolver "^3.2.0"
@@ -930,13 +930,13 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.3.tgz#1a8ed6c1007107dcac50883f619306732a09b9e5"
   integrity sha512-oPzL3sBM3/VqWhCKDS3/MEUAL6CrwkbOO7QRNX9J1ztcNVoVY50a0CdMZKpaXHBSr1bjDl8ORG/cbl90fLaYeA==
 
-"@manomano/jest-config@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-1.0.8.tgz#de25d771bb197231c860c15dd88a1f133c27ab40"
-  integrity sha512-jI0LrbjDuuYFeuQGNTFN3gRHpGOThIEzpzgPUzaxvtbv80sNxhYb8LHe/xmb2kTSCq2uvKK+C+M8R5t1NCUlew==
+"@manomano/jest-config@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-1.0.9.tgz#27e46b78199c77cb9b3fdba089db387bf1e840f3"
+  integrity sha512-rQpsbLlDpKwX47qal9VF1Ce7t0qtBsbwRqZsTTKaeLpydOq+yx3F3zZOoJted20+tg1E51xdAi0ckyuHRDWOPg==
   dependencies:
     "@babel/core" "^7.0.0"
-    "@manomano/babel" "^1.0.8"
+    "@manomano/babel" "^1.0.9"
     babel-jest "^24.3.0"
     identity-obj-proxy "^3.0.0"
     jest "^24.3.0"
@@ -946,10 +946,10 @@
     jest-resolve "^24.3.0"
     webpack "^4.29.6"
 
-"@manomano/postcss@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-1.0.4.tgz#71ca8726e9fecbbc3a09a18739d01be8d44e5c2a"
-  integrity sha512-7+jxajEnsQpK1GmEBAxw9GfUd6cD/kClxUUFKaxkJN7SJlhj7GiImX6MtvjxleEE2ZihmxH1S97eSLp9CiKJKA==
+"@manomano/postcss@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-1.0.9.tgz#16998602a2673116f9b94b5003c940c1dee2d0e9"
+  integrity sha512-NgDn9c4gIMyl/8HDWXWQOUGqdH3SBYUnWX4q01CFWWfSdq5rATfHEqKzs8xMQQDOv67uS2hYc99Iw9vEwp7Xmg==
   dependencies:
     "@manomano/browserslist-config" "^1.0.3"
     postcss-flexbugs-fixes "^4.1.0"
@@ -957,17 +957,17 @@
     postcss-preset-env "^6.6.0"
     postcss-safe-parser "^4.0.1"
 
-"@manomano/project-settings@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.7.tgz#2508ea8edef4dce3d01000f42f7a412ab75781ac"
-  integrity sha512-Sc3UQGkVYnvKGdnIAV4RV/5rf7FuPKLF+fbFFeKfwcqOBLfrHCFB7gK3TinUkJyhgqyxCEPVsT0Tqb+J5sOXeA==
+"@manomano/project-settings@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.9.tgz#9f01754df8f187705d5e61c2daa69d433399c0cb"
+  integrity sha512-acREJo+r2OGZMWSutz0McHQ/MeZEa2UFpjOLtyPk313j5mTK8w3e1zdhgW9fGIPH37J5aiQmOTxeC8tq7oouIA==
   dependencies:
-    "@manomano/utils" "^1.0.6"
+    "@manomano/utils" "^1.0.9"
 
-"@manomano/rollup-config@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@manomano/rollup-config/-/rollup-config-1.0.3.tgz#d25f3b777d1a3a8cee8ac4d8030eea84a250af8c"
-  integrity sha512-QsHyMumq5QpXTwKHciVBEsZjqmh4sUfNdutJQ7BdPl/TP2hSBVusck9l6jwV6teJ/kf6HhwqlPbP4vrC2KeQhw==
+"@manomano/rollup-config@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@manomano/rollup-config/-/rollup-config-1.0.9.tgz#8d1161c5c8d49808b7679c54bfc0d9fadeb7a416"
+  integrity sha512-lwVhqxqvP15TL57I/NJP0OUhskwHDTVVZl/hX+8xrB8D8r25RhsdT8A7KB78zTra4DTdFlR3IraPMOMYP51xNg==
   dependencies:
     "@babel/core" "^7"
     autoprefixer "^9.5.1"
@@ -983,24 +983,24 @@
     rollup-plugin-postcss "^2.0.3"
     rollup-plugin-visualizer "^0.9.2"
 
-"@manomano/utils@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-1.0.6.tgz#ceba13fcb18b0a2a90956fed9d86f2a0a46132ee"
-  integrity sha512-jMntybcxQCUaHNjEjfrZ7Th5vEzxIazR1plAOy5gLMvrv3ibUoxrcdvPZUgCQdDqrl/YaBUsdU7AYXRahYhCXA==
+"@manomano/utils@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-1.0.9.tgz#1ed3fd594b3680f531ab947db4137b34723c0b5a"
+  integrity sha512-2aqpgkZFnQQAMOIRFs1p+ajKaF9E3DiDYYA0XDJzk/ju6nl5/iHn2GSshTElrWF0Q4BOPKMvCo6S8IicIz9VBA==
   dependencies:
     lodash.groupby "^4.6.0"
     node-fetch "^2.3.0"
 
-"@manomano/webpack@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-1.0.8.tgz#319d31208c4c3c849b2cca9755d7caa75da1290c"
-  integrity sha512-F1KzsgMm9CI3hSRV5Coru5Q+Ln31ZoaCrExZ832BhXj3J23+oYztMDlQRZ9OC0o1TzZ1qIhUu+VXLTsXziSa6A==
+"@manomano/webpack@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-1.0.9.tgz#3172fca9e7f700813404d998bc25eee1c4b58fb4"
+  integrity sha512-iMwFp5ZjaD5vds+38jXgbJ1WgpWIgyrSV0P0mZaPKjKfIPdAGVkTFKSroaTMBLpZhIXNRfkvhtm6WcskDcwRDg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
-    "@manomano/babel" "^1.0.8"
-    "@manomano/postcss" "^1.0.4"
-    "@manomano/project-settings" "^1.0.7"
-    "@manomano/utils" "^1.0.6"
+    "@manomano/babel" "^1.0.9"
+    "@manomano/postcss" "^1.0.9"
+    "@manomano/project-settings" "^1.0.9"
+    "@manomano/utils" "^1.0.9"
     assets-webpack-plugin "^3.9.10"
     chalk "^2.4.2"
     css-loader "^2.1.1"
