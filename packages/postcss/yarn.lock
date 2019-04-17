@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@manomano/browserslist-config@^1.0.13":
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.13.tgz#f0025a58cf51f851689bc4b80c1b6128c7f47d23"
-  integrity sha512-yYhc7v83yIzO3R6+B1MBsD2kuf4YYglpW1qOohMAz5gNWjW7nLrKeKdKT70skRlUWwRzxmFcfuNSI5dncRKnPA==
+"@manomano/browserslist-config@^1.0.18":
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.18.tgz#ae8be2d9605e1d340607e1567c9c72bb3aba75c4"
+  integrity sha512-8TQ7aowYiRQ+yx5ZxqYGyNa7+eW9xycAnIXm/4/H83+MExPJpkk7hS1qjh1zqulqlLeZcShmXGIDZKARcOIr5g==
 
 ajv-errors@^1.0.0:
   version "1.0.1"

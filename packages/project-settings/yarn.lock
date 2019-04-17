@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@manomano/utils@^1.0.13":
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-1.0.13.tgz#f1517cf3045c4b22eded751bfc525700b7e6a93f"
-  integrity sha512-JBwNv09bGpZNCNmpHYnU0l533+qg7NT/+bvYP0SXJ7woHOnvkoOA/gDK3GR0UUspHjPIu4lOVJl/igiV7MVe8w==
+"@manomano/utils@^1.0.18":
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-1.0.18.tgz#ab8df21804fcfb62ca06bda9702481b2923f175b"
+  integrity sha512-2OpU9ND0Sh89Cm5Q4yLbBb9rh4NBZDNFYdOYUXWMJJZCIW7NF4OD2hFzSqU6vJ6A9qIWEsqzj2LXBBQU+7IOiA==
   dependencies:
     lodash.groupby "^4.6.0"
     node-fetch "^2.3.0"
