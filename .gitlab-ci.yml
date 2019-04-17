@@ -42,20 +42,8 @@ Publish:
     - git checkout 140-sr-rebase
     - git pull
 
-    # prepare last version to update in every packages, add tag
+    # prepare last version to update in every packages
     - npm run lerna-version
-
-    # add npmrc token to be able to publish
-    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
-
-    # publish every packages that needs to be published
-    - npm run publish
-
-    # get last tag name
-    - lastTagName=$( git describe --abbrev=0 --tags )
-
-    # remove last tag
-    - git push origin :refs/tags/"$lastTagName"
 
     # update yarn.lock in every projects
     - rm packages/*/yarn.lock yarn.lock
@@ -65,3 +53,7 @@ Publish:
 
     # bump version, add changelog in main packages, and add one tag
     - yarn semantic-release
+
+    # publish every packages that needs to be published
+    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
+    - npm run publish
