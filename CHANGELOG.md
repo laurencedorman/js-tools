@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.18](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.17...v1.0.18) (2019-04-17)
+
+
+### Bug Fixes
+
+* **ci:** last bump check ([a41f6ac](https://git.manomano.tech/core-utils/js-tools/commits/a41f6ac))
+* **ci:** typo in lerna version command ([ca9acb4](https://git.manomano.tech/core-utils/js-tools/commits/ca9acb4))
+
+
+
+
+
 ## [1.0.17](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.16...v1.0.17) (2019-04-17)
 
 **Note:** Version bump only for package js-tools
