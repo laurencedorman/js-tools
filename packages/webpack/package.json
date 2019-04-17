@@ -1,6 +1,6 @@
 {
   "name": "@manomano/webpack",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "manomano webpack configuration",
   "main": "config.js",
   "license": "MIT",
