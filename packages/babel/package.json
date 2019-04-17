@@ -1,6 +1,6 @@
 {
   "name": "@manomano/babel",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "default manomano babel configuration",
   "main": "preset.js",
   "license": "MIT",
