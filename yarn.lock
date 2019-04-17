@@ -1402,9 +1402,9 @@
   integrity sha512-oPzL3sBM3/VqWhCKDS3/MEUAL6CrwkbOO7QRNX9J1ztcNVoVY50a0CdMZKpaXHBSr1bjDl8ORG/cbl90fLaYeA==
 
 "@manomano/eslint-config@^1.0.2":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-1.0.11.tgz#b321ab81273d47a112fc218f702de49a59886078"
-  integrity sha512-0lpa2GICk8ecEFozcpcuttM0KwImPUqvyKMk35FyOCK8289+tPnouSYhn8GuNjBEtXYr7ENbAXqZun3KUxTemQ==
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-1.0.12.tgz#ca2bb542091a99ff31c35a85ce9310ac2e217f82"
+  integrity sha512-C7i9di3zc2WNaAvTnrkv2EZWEkUOy6h2bzfReNMQLSWtS5SC/G7cRfnL7MoFc6wBWTdO1H7I/pjnz0mEHjEX8A==
   dependencies:
     "@babel/core" "^7.0.0-0"
     "@manomano/babel" "^1.0.11"

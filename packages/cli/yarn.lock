@@ -930,10 +930,10 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.3.tgz#1a8ed6c1007107dcac50883f619306732a09b9e5"
   integrity sha512-oPzL3sBM3/VqWhCKDS3/MEUAL6CrwkbOO7QRNX9J1ztcNVoVY50a0CdMZKpaXHBSr1bjDl8ORG/cbl90fLaYeA==
 
-"@manomano/jest-config@^1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-1.0.11.tgz#80b9c871ab1d692d86381e16770995fb0bf6ebbb"
-  integrity sha512-6sUekgIVw/g0VifPEJzpTwyvzoS1/srZjgh8KlR1jHseyedfxdBMGFye221IugMSQ3ZlMGebOZGS3WTlnnk7Ew==
+"@manomano/jest-config@^1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-1.0.12.tgz#84e7cac465e651ecb248d771e18435748d180cc7"
+  integrity sha512-smakcFw+RBSR0RGVK4iy2GuN28DVWHjkJJckWgHRrg/YdDVF7pc1fs9xNv9L5B5HkWZialjx1n9cn4+VW/gtiQ==
   dependencies:
     "@babel/core" "^7.0.0"
     "@manomano/babel" "^1.0.11"
@@ -991,10 +991,10 @@
     lodash.groupby "^4.6.0"
     node-fetch "^2.3.0"
 
-"@manomano/webpack@^1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-1.0.11.tgz#d07929746c309d5e7fc14edf44b815a4e9638aef"
-  integrity sha512-P31sKbFPb2DmEWHyd8ocupQ96OP/gKXqNJNQQ+au7Zpj/8LgEFilRaIvK7eF2wuXy+9FObpvXd95nzEuykT1VA==
+"@manomano/webpack@^1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-1.0.12.tgz#3621c049ff07313255f0623eafa1a4044752a8bd"
+  integrity sha512-/Fj9XPWqVUklmjD1eIFGPVBpaY6foA0Thn0HZMIJSdKXO1RgtZ64dof2OacvgDXGC/nP1M5ZHouf6c/N3YYh5w==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@manomano/babel" "^1.0.11"
