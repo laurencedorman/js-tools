@@ -1,6 +1,6 @@
 {
   "name": "@manomano/jest-config",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "default manomano jest configuration",
   "main": "index.js",
   "license": "MIT",
