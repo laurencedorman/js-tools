@@ -1,6 +1,6 @@
 {
   "name": "@manomano/webpack",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "manomano webpack configuration",
   "main": "config.js",
   "license": "MIT",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@babel/code-frame": "^7.0.0",
-    "@manomano/babel": "^1.0.7",
+    "@manomano/babel": "^1.0.8",
     "@manomano/postcss": "^1.0.4",
     "@manomano/project-settings": "^1.0.7",
     "@manomano/utils": "^1.0.6",
