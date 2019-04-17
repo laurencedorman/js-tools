@@ -30,6 +30,8 @@ Publish:
   stage: publish
   only:
     - master
+    - 140-sr-rebase
+
   script:
     # configure git
     - git remote set-url origin https://${GITLAB_CI_USER}:${GITLAB_CI_TOKEN}@git.manomano.tech/core-utils/js-tools.git
@@ -37,8 +39,8 @@ Publish:
     - git config user.name "$GIT_AUTHOR_NAME"
 
     # get last master branch and rebase
-    - git checkout master
-    - git pull origin master
+    - git checkout 140-sr-rebase
+    - git pull
 
     # bump every sub-packages to a new version (following conventional commits) and add a git tag needed by lerna-publish (next job)
     - lerna version --yes --allow-branch 140-sr-rebase --conventional-commits -m 'chore(release):[skip ci] %v'
