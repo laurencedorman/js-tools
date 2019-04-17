@@ -42,11 +42,11 @@ Publish:
     - git checkout 140-sr-rebase
     - git pull
 
+    # prepare last version to update in every packages, add tag
+    - npm run lerna-version
+
     # add npmrc token to be able to publish
     - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
-
-    # prepare last version to update in every packages
-    - npm run lerna-version
 
     # publish every packages that needs to be published
     - npm run publish
