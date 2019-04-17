@@ -32,22 +32,36 @@ Publish:
     - master
     - 140-sr-rebase
   script:
+    # configure git
     - git remote set-url origin https://${GITLAB_CI_USER}:${GITLAB_CI_TOKEN}@git.manomano.tech/core-utils/js-tools.git
     - git config user.email "$GIT_AUTHOR_EMAIL"
     - git config user.name "$GIT_AUTHOR_NAME"
 
+    # get last master branch and rebase
+    # TODO add master instead of branch_name
     - git checkout 140-sr-rebase
     - git pull
 
+    # add npmrc token to be able to publish
     - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
 
+    # prepare last version to update in every packages
     - npm run lerna-version
 
+    # publish every packages that needs to be published
     - npm run publish
 
+    # get last tag name
+    - lastTagName=$( git describe --abbrev=0 --tags )
+
+    # remove last tag
+    - git push origin :refs/tags/"$lastTagName"
+
+    # update yarn.lock in every projects
     - rm packages/*/yarn.lock yarn.lock
     - yarn install-lerna
     - git add packages/*/yarn.lock yarn.lock
     - git commit -m "chore(release):[skip ci] upgrade yarn.lock"
 
+    # bump version, add changelog in main packages, and add one tag
     - yarn semantic-release
