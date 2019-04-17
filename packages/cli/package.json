@@ -1,6 +1,6 @@
 {
   "name": "@manomano/macgyver",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Manomano cli interface",
   "main": "index.js",
   "license": "MIT",
