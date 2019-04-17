@@ -1371,10 +1371,10 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@manomano/babel@^1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.14.tgz#c900da6e718caa4e22b23b91d41683899c8a2ca2"
-  integrity sha512-inFXNJdtMAw4IU2XwaEWrdVDx8cQCo2tD1cpWoonJbtYXdokmMq/tG2GuhUITbSOtoN09lxAmgj1INaQZTY6lg==
+"@manomano/babel@^1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.15.tgz#98389d1b509f61dcde4baf9c04c9f7239b82de43"
+  integrity sha512-Ijj36sBWZypVUISuL68Rs2tQThXx9MmWLc3ZRri0mNGqR0LmW4/IZMQ4l4/IjvvTiggzAeQwqDqA9u8vpehEIw==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
@@ -1402,12 +1402,12 @@
   integrity sha512-yYhc7v83yIzO3R6+B1MBsD2kuf4YYglpW1qOohMAz5gNWjW7nLrKeKdKT70skRlUWwRzxmFcfuNSI5dncRKnPA==
 
 "@manomano/eslint-config@^1.0.2":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-1.0.14.tgz#079ccc212362afe7449272b71278a33ca7010091"
-  integrity sha512-4qH+bsPGVYacfwnh5ViGodpPuEAJvUWOk1OXMCd/KnpRngJ+OY+7jrviXUmSTlWFNnTX8Q8C+ATDUVnRV2LEmw==
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-1.0.15.tgz#1a38ff422006e02266397ecb7cb6fe9edbd54843"
+  integrity sha512-ZVgFr++4BvUNqXcp4DIYErJi7SLb57B6ebmwE7g1ADnRGPMLCY4REkcE7z9d7Pc6GpHRtajiabgs6D10hdjvKA==
   dependencies:
     "@babel/core" "^7.0.0-0"
-    "@manomano/babel" "^1.0.14"
+    "@manomano/babel" "^1.0.15"
     "@manomano/project-settings" "^1.0.14"
     babel-eslint "^9.0.0"
     babel-plugin-module-resolver "^3.0.0"

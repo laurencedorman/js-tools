@@ -783,10 +783,10 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.14.tgz#c900da6e718caa4e22b23b91d41683899c8a2ca2"
-  integrity sha512-inFXNJdtMAw4IU2XwaEWrdVDx8cQCo2tD1cpWoonJbtYXdokmMq/tG2GuhUITbSOtoN09lxAmgj1INaQZTY6lg==
+"@manomano/babel@^1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.15.tgz#98389d1b509f61dcde4baf9c04c9f7239b82de43"
+  integrity sha512-Ijj36sBWZypVUISuL68Rs2tQThXx9MmWLc3ZRri0mNGqR0LmW4/IZMQ4l4/IjvvTiggzAeQwqDqA9u8vpehEIw==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
