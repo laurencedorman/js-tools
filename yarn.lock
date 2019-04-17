@@ -1371,10 +1371,10 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@manomano/babel@^1.0.13":
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.13.tgz#1e3f6ed3ab1b1f222d1c549ae7c1123424992845"
-  integrity sha512-dAhtemRhpa76sqYu6CsFvAMKceH30E5yxEX56S8K0+RYPk+n4E+nXAmIMwfGh/vPqv59jI3eeP/r4nuEOuzR3A==
+"@manomano/babel@^1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.14.tgz#c900da6e718caa4e22b23b91d41683899c8a2ca2"
+  integrity sha512-inFXNJdtMAw4IU2XwaEWrdVDx8cQCo2tD1cpWoonJbtYXdokmMq/tG2GuhUITbSOtoN09lxAmgj1INaQZTY6lg==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
@@ -1386,7 +1386,7 @@
     "@babel/preset-react" "^7.0.0"
     "@babel/runtime" "^7.4.2"
     "@manomano/browserslist-config" "^1.0.13"
-    "@manomano/project-settings" "^1.0.13"
+    "@manomano/project-settings" "^1.0.14"
     babel-loader "^8.0.5"
     babel-plugin-dynamic-import-node "^2.2.0"
     babel-plugin-module-resolver "^3.2.0"
@@ -1402,13 +1402,13 @@
   integrity sha512-yYhc7v83yIzO3R6+B1MBsD2kuf4YYglpW1qOohMAz5gNWjW7nLrKeKdKT70skRlUWwRzxmFcfuNSI5dncRKnPA==
 
 "@manomano/eslint-config@^1.0.2":
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-1.0.13.tgz#4a71042aa302d0fd62df278c99463d2f86869530"
-  integrity sha512-1fPt3gGspL7zVcuH7uKYUtCM1JzVPsSF1qYlcF/Cz9FT52WfPsTbbGnW30eAiWYw6rcNWHo4TpwDLMfIQT8Nnw==
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-1.0.14.tgz#079ccc212362afe7449272b71278a33ca7010091"
+  integrity sha512-4qH+bsPGVYacfwnh5ViGodpPuEAJvUWOk1OXMCd/KnpRngJ+OY+7jrviXUmSTlWFNnTX8Q8C+ATDUVnRV2LEmw==
   dependencies:
     "@babel/core" "^7.0.0-0"
-    "@manomano/babel" "^1.0.13"
-    "@manomano/project-settings" "^1.0.13"
+    "@manomano/babel" "^1.0.14"
+    "@manomano/project-settings" "^1.0.14"
     babel-eslint "^9.0.0"
     babel-plugin-module-resolver "^3.0.0"
     eslint "^5.13.0"
@@ -1427,10 +1427,10 @@
   resolved "https://registry.yarnpkg.com/@manomano/prettier-config/-/prettier-config-1.0.13.tgz#824212f8ef5359ac800dd33feda0971a68efc4ba"
   integrity sha512-ZUp6K/GF46jEIrlpQF2fNA94IpPKy+Z06VnvHMbmHZCWVfSjNr2EKh48/WmZ0wuNZOni8IQa1WDiDX20q+GaYw==
 
-"@manomano/project-settings@^1.0.13":
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.13.tgz#45746a87a27f91d0fa1bca9bc4c3aaac8e3cab7e"
-  integrity sha512-1RDc9LA+7uYlL3SfGJ2/K1w00Twa6un4+BI+q+SJ5g9VtDJ/nQIH/nQU0R65F5bxM8/6KuZ7QGB384A/p3oW8Q==
+"@manomano/project-settings@^1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.14.tgz#ced4ff07e7f691a40d3a7c427d6d8bdf3efb1319"
+  integrity sha512-xH95O9J/XHA3311kXPgFy1VCtJrdrR+T6FgqqqwQ29oWTcw7uUg9g2DtslkxU027poX4Wwr8nZavHSC64TtPzA==
   dependencies:
     "@manomano/utils" "^1.0.13"
 
