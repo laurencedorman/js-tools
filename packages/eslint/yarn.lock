@@ -743,10 +743,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@manomano/babel@^1.0.19":
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.19.tgz#78bd0bb706cd7fa55c55070f566f5ef917ad0bda"
-  integrity sha512-NCcrcDFaJjQ64CI2crXeBBSmyiGzB0gh6N5Towubukd2zBh3ByQQXv1u/nj/osIbf6oi0jz7eNVsqUkFf9xNIA==
+"@manomano/babel@^1.0.20":
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.20.tgz#5d21d4d672514bfae7a4aa33c3a5d1b3e86abd42"
+  integrity sha512-P7K9eCjBd/8xQEm1jGTNlHQDvpNlRR/XkkUgZZEhXl3G95kfpMSu8UMcGj7C5SLwyfhC1v7M2/L43loyi9Pc5g==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
