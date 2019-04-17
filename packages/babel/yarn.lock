@@ -748,10 +748,10 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.3.tgz#1a8ed6c1007107dcac50883f619306732a09b9e5"
   integrity sha512-oPzL3sBM3/VqWhCKDS3/MEUAL6CrwkbOO7QRNX9J1ztcNVoVY50a0CdMZKpaXHBSr1bjDl8ORG/cbl90fLaYeA==
 
-"@manomano/project-settings@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.9.tgz#9f01754df8f187705d5e61c2daa69d433399c0cb"
-  integrity sha512-acREJo+r2OGZMWSutz0McHQ/MeZEa2UFpjOLtyPk313j5mTK8w3e1zdhgW9fGIPH37J5aiQmOTxeC8tq7oouIA==
+"@manomano/project-settings@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.10.tgz#35560607a942b8a48bc4a1fcba25a891c428d778"
+  integrity sha512-7izuLQo0liMBTCyP+cDnnqBypjmCCIcxmsEXxU36kUOf9kwYcx6U/elI2Z1HmCyawxN8Z87ITZl7MVsF7SL2Cg==
   dependencies:
     "@manomano/utils" "^1.0.9"
 
