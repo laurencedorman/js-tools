@@ -5,14 +5,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.13](https://github.com/manomanotech/js-tools/compare/v1.0.12...v1.0.13) (2019-04-17)
 
-
 ### Bug Fixes
 
-* **ci:** upgrade every repository ([42d2232](https://github.com/manomanotech/js-tools/commit/42d2232))
-
-
-
-
+- **ci:** upgrade every repository ([42d2232](https://github.com/manomanotech/js-tools/commit/42d2232))
 
 ## [1.0.2](https://github.com/manomanotech/js-tools/compare/v1.0.0...v1.0.2) (2019-04-15)
 

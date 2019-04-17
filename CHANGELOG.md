@@ -7,44 +7,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package js-tools
 
-
-
-
-
 ## [1.0.16](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.15...v1.0.16) (2019-04-17)
 
 **Note:** Version bump only for package js-tools
-
-
-
-
 
 ## [1.0.15](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.14...v1.0.15) (2019-04-17)
 
 **Note:** Version bump only for package js-tools
 
-
-
-
-
 ## [1.0.14](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.13...v1.0.14) (2019-04-17)
 
 **Note:** Version bump only for package js-tools
 
-
-
-
-
 ## [1.0.13](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.12...v1.0.13) (2019-04-17)
-
 
 ### Bug Fixes
 
-* **ci:** upgrade every repository ([42d2232](https://git.manomano.tech/core-utils/js-tools/commits/42d2232))
-
-
-
-
+- **ci:** upgrade every repository ([42d2232](https://git.manomano.tech/core-utils/js-tools/commits/42d2232))
 
 ## [1.0.12](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.11...v1.0.12) (2019-04-17)
 

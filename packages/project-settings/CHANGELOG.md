@@ -7,20 +7,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @manomano/project-settings
 
-
-
-
-
 ## [1.0.13](https://github.com/manomanotech/js-tools/compare/v1.0.12...v1.0.13) (2019-04-17)
-
 
 ### Bug Fixes
 
-* **ci:** upgrade every repository ([42d2232](https://github.com/manomanotech/js-tools/commit/42d2232))
-
-
-
-
+- **ci:** upgrade every repository ([42d2232](https://github.com/manomanotech/js-tools/commit/42d2232))
 
 ## [1.0.10](https://github.com/manomanotech/js-tools/compare/v1.0.9...v1.0.10) (2019-04-17)
 
