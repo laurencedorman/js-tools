@@ -900,10 +900,10 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.10.tgz#ac54d7333038267fcaebdee5eaa5e27d81eccdd7"
-  integrity sha512-CrKPTE/lvalsNkDMbfzQhsEPpUSQlDWe4c+hXCQWQBC8vEcxzGLztsHQ+yi/208K1rY+Eey1SKWHCDPBFnFBzg==
+"@manomano/babel@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.11.tgz#ccc2c960d53eb9cc74a5f8044e3c27fdf32da57c"
+  integrity sha512-8epNBt57DQ8ND9NKmKX3JgpVMbP69KHtPL2+WaMK4iulfvMd+KUA+oTEUuIiuWFrLTDzEGDnz7fxyJbpZI0uIg==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
@@ -930,13 +930,13 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.3.tgz#1a8ed6c1007107dcac50883f619306732a09b9e5"
   integrity sha512-oPzL3sBM3/VqWhCKDS3/MEUAL6CrwkbOO7QRNX9J1ztcNVoVY50a0CdMZKpaXHBSr1bjDl8ORG/cbl90fLaYeA==
 
-"@manomano/jest-config@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-1.0.10.tgz#45afa5da4c4dd3a4f80c5ffbf91bd323c65260f3"
-  integrity sha512-d+DVSm18yzvHWOgwwaOBRuYTofThS0ZWtlJoUqXdsd2j04ATnWP4Olo5oKXFYQqf10/X3KDzb+xSjXSMXOZwhg==
+"@manomano/jest-config@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-1.0.11.tgz#80b9c871ab1d692d86381e16770995fb0bf6ebbb"
+  integrity sha512-6sUekgIVw/g0VifPEJzpTwyvzoS1/srZjgh8KlR1jHseyedfxdBMGFye221IugMSQ3ZlMGebOZGS3WTlnnk7Ew==
   dependencies:
     "@babel/core" "^7.0.0"
-    "@manomano/babel" "^1.0.10"
+    "@manomano/babel" "^1.0.11"
     babel-jest "^24.3.0"
     identity-obj-proxy "^3.0.0"
     jest "^24.3.0"
@@ -991,13 +991,13 @@
     lodash.groupby "^4.6.0"
     node-fetch "^2.3.0"
 
-"@manomano/webpack@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-1.0.10.tgz#383788e19be006833a075a18fa059206c450735e"
-  integrity sha512-J5g8NynzDYDMtRUnDU+d8I+wTOUlOOxHhWXvJNWMYjOmEnbPI4jOQPP+Pauti8XUyE5TYRoeqgKr2w2/lxkJAw==
+"@manomano/webpack@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-1.0.11.tgz#d07929746c309d5e7fc14edf44b815a4e9638aef"
+  integrity sha512-P31sKbFPb2DmEWHyd8ocupQ96OP/gKXqNJNQQ+au7Zpj/8LgEFilRaIvK7eF2wuXy+9FObpvXd95nzEuykT1VA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
-    "@manomano/babel" "^1.0.10"
+    "@manomano/babel" "^1.0.11"
     "@manomano/postcss" "^1.0.9"
     "@manomano/project-settings" "^1.0.10"
     "@manomano/utils" "^1.0.9"

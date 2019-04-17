@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "install-lerna": "lerna run install:lerna",
+    "install-lerna": "yarn install && lerna run install:lerna",
     "link-packages": "lerna link",
     "lint": "lerna run lint",
     "lerna-version": "lerna version --yes --allow-branch 140-sr-rebase --conventional-commits -m 'chore(release): [skip ci] %v'",
