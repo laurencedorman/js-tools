@@ -61,3 +61,5 @@ Publish:
     # bump version in the main package, and add one tag
     #- yarn semantic-release
     - yarn standard-version
+
+    - git push
