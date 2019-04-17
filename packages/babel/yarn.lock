@@ -743,22 +743,22 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@manomano/browserslist-config@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.3.tgz#1a8ed6c1007107dcac50883f619306732a09b9e5"
-  integrity sha512-oPzL3sBM3/VqWhCKDS3/MEUAL6CrwkbOO7QRNX9J1ztcNVoVY50a0CdMZKpaXHBSr1bjDl8ORG/cbl90fLaYeA==
+"@manomano/browserslist-config@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.13.tgz#f0025a58cf51f851689bc4b80c1b6128c7f47d23"
+  integrity sha512-yYhc7v83yIzO3R6+B1MBsD2kuf4YYglpW1qOohMAz5gNWjW7nLrKeKdKT70skRlUWwRzxmFcfuNSI5dncRKnPA==
 
-"@manomano/project-settings@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.10.tgz#35560607a942b8a48bc4a1fcba25a891c428d778"
-  integrity sha512-7izuLQo0liMBTCyP+cDnnqBypjmCCIcxmsEXxU36kUOf9kwYcx6U/elI2Z1HmCyawxN8Z87ITZl7MVsF7SL2Cg==
+"@manomano/project-settings@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.13.tgz#45746a87a27f91d0fa1bca9bc4c3aaac8e3cab7e"
+  integrity sha512-1RDc9LA+7uYlL3SfGJ2/K1w00Twa6un4+BI+q+SJ5g9VtDJ/nQIH/nQU0R65F5bxM8/6KuZ7QGB384A/p3oW8Q==
   dependencies:
-    "@manomano/utils" "^1.0.9"
+    "@manomano/utils" "^1.0.13"
 
-"@manomano/utils@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-1.0.9.tgz#1ed3fd594b3680f531ab947db4137b34723c0b5a"
-  integrity sha512-2aqpgkZFnQQAMOIRFs1p+ajKaF9E3DiDYYA0XDJzk/ju6nl5/iHn2GSshTElrWF0Q4BOPKMvCo6S8IicIz9VBA==
+"@manomano/utils@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-1.0.13.tgz#f1517cf3045c4b22eded751bfc525700b7e6a93f"
+  integrity sha512-JBwNv09bGpZNCNmpHYnU0l533+qg7NT/+bvYP0SXJ7woHOnvkoOA/gDK3GR0UUspHjPIu4lOVJl/igiV7MVe8w==
   dependencies:
     lodash.groupby "^4.6.0"
     node-fetch "^2.3.0"
