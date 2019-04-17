@@ -51,12 +51,13 @@ Publish:
     - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
     - npm run publish
 
+    # bump version in the main package, and add one tag
+    - npx standard-version
+
     # update yarn.lock in every sub-packages and main packages with the new version
     - rm packages/*/yarn.lock yarn.lock
     - yarn install-lerna
     - git add packages/*/yarn.lock yarn.lock
     - git commit -m "chore(release):[skip ci] upgrade yarn.lock"
 
-    # bump version in the main package, and add one tag
-    - npx standard-version
     - git push
