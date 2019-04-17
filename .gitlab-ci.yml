@@ -56,4 +56,5 @@ Publish:
     - git commit -m "chore(release):[skip ci] upgrade yarn.lock"
 
     # bump version in the main package, and add one tag
-    - yarn semantic-release
+    #- yarn semantic-release
+    - yarn standard-version

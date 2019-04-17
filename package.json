@@ -11,6 +11,7 @@
     "lerna-version": "lerna version --yes --allow-branch 140-sr-rebase --conventional-commits -m 'chore(release): [skip ci] %v'",
     "publish": "lerna publish from-git --yes --force-publish=* --no-git-reset",
     "semantic-release": "npx semantic-release",
+    "standard-version": "standard-version",
     "test": "lerna run test"
   },
   "eslintConfig": {
@@ -40,5 +41,11 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "standard-version": {
+    "skip": {
+      "changelog": true,
+      "tag": true
+    }
   }
 }
