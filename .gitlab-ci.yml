@@ -41,7 +41,7 @@ Publish:
     - git pull origin master
 
     # bump every sub-packages to a new version (following conventional commits) and add a git tag needed by lerna-publish (next job)
-    - lerna version --yes --allow-branch 140-sr-rebase --conventional-commits -m 'chore(release): [skip ci] %v'
+    - lerna version --yes --allow-branch 140-sr-rebase --conventional-commits -m 'chore(release):[skip ci] %v'
 
     # publish every sub-packages that need to be published (checking last tag provided by lerna-version)
     - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
