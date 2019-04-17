@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.9](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.8...v1.0.9) (2019-04-17)
+
+
+### Bug Fixes
+
+* **ci:** add npmrc just before publishing ([eb6cd3f](https://git.manomano.tech/core-utils/js-tools/commits/eb6cd3f))
+* **ci:** lerna publish will be last command ([18068ba](https://git.manomano.tech/core-utils/js-tools/commits/18068ba))
+* **ci:** use standard version instead of semantic release ([8c28e84](https://git.manomano.tech/core-utils/js-tools/commits/8c28e84))
+
+
+
+
+
 ## [1.0.8](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.7...v1.0.8) (2019-04-17)
 
 
