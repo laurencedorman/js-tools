@@ -42,18 +42,18 @@ Publish:
     - git checkout 140-sr-rebase
     - git pull
 
-    # prepare last version to update in every packages
+    # bump every sub-packages to a new version (following conventional commits) and add a git tag needed by lerna-publish (next job)
     - npm run lerna-version
 
-    # update yarn.lock in every projects
+    # publish every sub-packages that need to be published (checking last tag provided by lerna-version)
+    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
+    - npm run publish
+
+    # update yarn.lock in every sub-packages and main packages with the new version
     - rm packages/*/yarn.lock yarn.lock
     - yarn install-lerna
     - git add packages/*/yarn.lock yarn.lock
     - git commit -m "chore(release):[skip ci] upgrade yarn.lock"
 
-    # bump version, add changelog in main packages, and add one tag
+    # bump version in the main package, and add one tag
     - yarn semantic-release
-
-    # publish every packages that needs to be published
-    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
-    - npm run publish

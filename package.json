@@ -8,7 +8,7 @@
     "install-lerna": "lerna run install:lerna",
     "link-packages": "lerna link",
     "lint": "lerna run lint",
-    "lerna-version": "lerna version --yes --allow-branch 140-sr-rebase --conventional-commits -m 'chore(release): [skip ci] %v' --no-git-tag-version",
+    "lerna-version": "lerna version --yes --allow-branch 140-sr-rebase --conventional-commits -m 'chore(release): [skip ci] %v'",
     "publish": "lerna publish from-git --yes --force-publish=* --no-git-reset",
     "semantic-release": "npx semantic-release",
     "test": "lerna run test"
