@@ -930,10 +930,10 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.13.tgz#f0025a58cf51f851689bc4b80c1b6128c7f47d23"
   integrity sha512-yYhc7v83yIzO3R6+B1MBsD2kuf4YYglpW1qOohMAz5gNWjW7nLrKeKdKT70skRlUWwRzxmFcfuNSI5dncRKnPA==
 
-"@manomano/jest-config@^1.0.15":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-1.0.15.tgz#033123265df6150eac4f87fd815df8dba467975c"
-  integrity sha512-WDwOv5zXzczbRl04m1nAxGEWqi18CcGpIrdgk4hnuvo1TnKK8vAAZ5Dz+Er9xBqiZjjV3K8i6urpMNN639vrDg==
+"@manomano/jest-config@^1.0.16":
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-1.0.16.tgz#50a1a5e29c1007960904f6f20802584ad6143f4b"
+  integrity sha512-karf36EbflfxJQExL3u73uTiHF4Y7n25rTS+W+pcQmfzhYJ52dFi+xOheSudLWSBuqQl/J8y3PEu8FpRb6WdGw==
   dependencies:
     "@babel/core" "^7.0.0"
     "@manomano/babel" "^1.0.15"
@@ -991,10 +991,10 @@
     lodash.groupby "^4.6.0"
     node-fetch "^2.3.0"
 
-"@manomano/webpack@^1.0.15":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-1.0.15.tgz#9b2f50dbbb99039194cd45767b548ed302260838"
-  integrity sha512-7edscbvDxiqLvFzVQuNK3w5QeHYeFaq4XhpIunaQhIWysdeNnqQQvEPwDEOybrruSptQSjqqlKOIhBqwe0q6bQ==
+"@manomano/webpack@^1.0.16":
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-1.0.16.tgz#10103fe0179fcd380bdc243f970422629e0eef27"
+  integrity sha512-PsDYf69pK88mUwBEuBF4dLMKS1A8mjDO0wZ6JIAzxLfABjaP4TihToQxWiDA6qiZX4H0SJBO0tvQhsdt8EzA1A==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@manomano/babel" "^1.0.15"
