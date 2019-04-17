@@ -895,10 +895,10 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.6.tgz#fa98a913dd36bf9f21e427ea051c747bc7d014a5"
-  integrity sha512-fiTpfQe7ZnUfrcxkqah8kjqPmtDtrqzIA084ugHsT+MyT4DwtVhE0UQAbn2def+UHR0InSzRsIMP9DX8K8Ze1w==
+"@manomano/babel@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.7.tgz#a4759fc1779cf9a10d885a10a54ed0e62807a1c7"
+  integrity sha512-E3UTQMU0CrEnQgBWM2k3CxmmrQP24IQgELhtXIWmZVUw6R0DS0DOhTuRmntcnOzsnhPekmnDdXZ0Saj4hQ46HQ==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
@@ -910,7 +910,7 @@
     "@babel/preset-react" "^7.0.0"
     "@babel/runtime" "^7.4.2"
     "@manomano/browserslist-config" "^1.0.3"
-    "@manomano/project-settings" "^1.0.6"
+    "@manomano/project-settings" "^1.0.7"
     babel-loader "^8.0.5"
     babel-plugin-dynamic-import-node "^2.2.0"
     babel-plugin-module-resolver "^3.2.0"
@@ -925,10 +925,10 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.3.tgz#1a8ed6c1007107dcac50883f619306732a09b9e5"
   integrity sha512-oPzL3sBM3/VqWhCKDS3/MEUAL6CrwkbOO7QRNX9J1ztcNVoVY50a0CdMZKpaXHBSr1bjDl8ORG/cbl90fLaYeA==
 
-"@manomano/project-settings@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.6.tgz#221082ea441bade08c0ff8351f49006a7e042ae6"
-  integrity sha512-PUooxk8MsoBM4KLu3ltDf9p//V5PhjVNaOIHodkwyo35vLlD17H8s0yp2pBsE1CBG4vZi43KKJQsnHwn7mQQ4g==
+"@manomano/project-settings@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.7.tgz#2508ea8edef4dce3d01000f42f7a412ab75781ac"
+  integrity sha512-Sc3UQGkVYnvKGdnIAV4RV/5rf7FuPKLF+fbFFeKfwcqOBLfrHCFB7gK3TinUkJyhgqyxCEPVsT0Tqb+J5sOXeA==
   dependencies:
     "@manomano/utils" "^1.0.6"
 
