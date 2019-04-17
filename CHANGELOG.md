@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.13](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.12...v1.0.13) (2019-04-17)
+
+
+### Bug Fixes
+
+* **ci:** upgrade every repository ([42d2232](https://git.manomano.tech/core-utils/js-tools/commits/42d2232))
+
+
+
+
+
 ## [1.0.12](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.11...v1.0.12) (2019-04-17)
 
 ### Bug Fixes
