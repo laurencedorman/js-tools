@@ -900,10 +900,10 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.18.tgz#a3288c2370dc4cf0a68cc04898646ccfba753990"
-  integrity sha512-mkbNdWwWDeeChVJKG2PJbP2mkSaGI2HMwHeqyAmap9riMXZfGbq2YRlW6XEjcHrISXQeO0E8j7ZErAlkvqDpRw==
+"@manomano/babel@^1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-1.0.19.tgz#78bd0bb706cd7fa55c55070f566f5ef917ad0bda"
+  integrity sha512-NCcrcDFaJjQ64CI2crXeBBSmyiGzB0gh6N5Towubukd2zBh3ByQQXv1u/nj/osIbf6oi0jz7eNVsqUkFf9xNIA==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
@@ -915,7 +915,7 @@
     "@babel/preset-react" "^7.0.0"
     "@babel/runtime" "^7.4.2"
     "@manomano/browserslist-config" "^1.0.18"
-    "@manomano/project-settings" "^1.0.18"
+    "@manomano/project-settings" "^1.0.19"
     babel-loader "^8.0.5"
     babel-plugin-dynamic-import-node "^2.2.0"
     babel-plugin-module-resolver "^3.2.0"
@@ -930,13 +930,13 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.18.tgz#ae8be2d9605e1d340607e1567c9c72bb3aba75c4"
   integrity sha512-8TQ7aowYiRQ+yx5ZxqYGyNa7+eW9xycAnIXm/4/H83+MExPJpkk7hS1qjh1zqulqlLeZcShmXGIDZKARcOIr5g==
 
-"@manomano/jest-config@^1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-1.0.18.tgz#d219c1bc9c0b44cf9c810e7b615d35b33737c2cf"
-  integrity sha512-t6ImIHMxKQgcjnt+3E044zZWC+9+6R1Kiu4Ajrl1IE3/CIlstVlknNndKwegJCcM/cNmxL9fXN0Ii+5/M6VZYw==
+"@manomano/jest-config@^1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-1.0.19.tgz#be2003b721cd5181872c8cb5accb4c6bf34882e1"
+  integrity sha512-b3pMtn11s03a919Kra4RH93cMUV8keoqdwZldxmzXRHXYTRTYSWxsoslmwJ9zMMAXn3/bM8C5cl4OjFxS3UN4w==
   dependencies:
     "@babel/core" "^7.0.0"
-    "@manomano/babel" "^1.0.18"
+    "@manomano/babel" "^1.0.19"
     babel-jest "^24.3.0"
     identity-obj-proxy "^3.0.0"
     jest "^24.3.0"
@@ -946,10 +946,10 @@
     jest-resolve "^24.3.0"
     webpack "^4.29.6"
 
-"@manomano/postcss@^1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-1.0.18.tgz#43ee0211a7e3160127672d1dc1709cd8c468f436"
-  integrity sha512-ASWNH923HTzkLYblzqP5Hl60m+NxP83k1L8BL+oNejJhthY1WdqfvEOFlvXuspr8NRN7VAdXLwnwZ/TKiry2Aw==
+"@manomano/postcss@^1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-1.0.19.tgz#685e41a4523e0f2022255c402e5c056889d38f35"
+  integrity sha512-ChSVs9PFZkkyD+jGAsaYT9YlpWTB5alFz0WQnLxpplslAIOl3mwFHRt84mnNxhZ0y/955UKZHwvzvm19IPz6gg==
   dependencies:
     "@manomano/browserslist-config" "^1.0.18"
     postcss-flexbugs-fixes "^4.1.0"
@@ -957,10 +957,10 @@
     postcss-preset-env "^6.6.0"
     postcss-safe-parser "^4.0.1"
 
-"@manomano/project-settings@^1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.18.tgz#14c23226aac981f843b783a23c5e8eb9d1865aff"
-  integrity sha512-wG+Qm/up+98ZOJ9OUWTShWiluCCIFgi0BvbKTFLd0n2HNMuCPDjvbZVBe8Tcv88ztbV4m6t2SQ4muxQiflsoog==
+"@manomano/project-settings@^1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-1.0.19.tgz#dbb10a980fdbe4dea979b355b1310accc1e2cf35"
+  integrity sha512-npnI3MlcNDob+DJWlIx21IDgYmwWgB6ndPf7hc4cgMkfPhrJxExEYsMThglu2dfjAFlZQjvNyUtcSmN0JB6S5w==
   dependencies:
     "@manomano/utils" "^1.0.18"
 
@@ -991,15 +991,15 @@
     lodash.groupby "^4.6.0"
     node-fetch "^2.3.0"
 
-"@manomano/webpack@^1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-1.0.18.tgz#536ab3f72ec33629f0264f6d94e966c6c0bbdf5a"
-  integrity sha512-s/DY5+P58Twk2F9E8X4Uru4jOjwkFueVcg/ottrkjiXkimrZxXfwhk301MGZbxRJ6Ox8fMuNKX5D+sW3ip5+kA==
+"@manomano/webpack@^1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-1.0.19.tgz#bb6e52b6423473d0e888df85f81ce8e14b752698"
+  integrity sha512-Za7vHi1PuHN+Ke5U5tAPbrEzTa0dC/2yvybhLfGlXGCprm4eMb3tzOo4YJlexJqpbn8Lszb6d0/ogyHLZX9nCw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
-    "@manomano/babel" "^1.0.18"
-    "@manomano/postcss" "^1.0.18"
-    "@manomano/project-settings" "^1.0.18"
+    "@manomano/babel" "^1.0.19"
+    "@manomano/postcss" "^1.0.19"
+    "@manomano/project-settings" "^1.0.19"
     "@manomano/utils" "^1.0.18"
     assets-webpack-plugin "^3.9.10"
     chalk "^2.4.2"
