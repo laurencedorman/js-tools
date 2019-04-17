@@ -10,6 +10,7 @@
     "lint": "lerna run lint",
     "lerna-version": "lerna version --yes --allow-branch 140-sr-rebase --conventional-commits -m 'chore(release): [skip ci] %v'",
     "publish": "lerna publish from-git --yes --force-publish=* --no-git-reset",
+    "release": "./scripts/release.sh",
     "standard-version": "npx standard-version",
     "test": "lerna run test"
   },
