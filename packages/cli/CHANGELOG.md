@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.21](https://github.com/manomanotech/js-tools/compare/v1.0.20...v1.0.21) (2019-04-18)
+
+
+### Bug Fixes
+
+* **dept:** upgrade dept ([14d03df](https://github.com/manomanotech/js-tools/commit/14d03df))
+
+
+
+
+
 ## [1.0.20](https://github.com/manomanotech/js-tools/compare/v1.0.19...v1.0.20) (2019-04-17)
 
 **Note:** Version bump only for package @manomano/macgyver
