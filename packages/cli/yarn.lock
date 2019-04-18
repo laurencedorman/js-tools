@@ -9,7 +9,7 @@
   dependencies:
     "@babel/highlight" "^7.0.0"
 
-"@babel/core@^7", "@babel/core@^7.0.0", "@babel/core@^7.1.0", "@babel/core@^7.4.0":
+"@babel/core@7.4.3", "@babel/core@^7", "@babel/core@^7.0.0", "@babel/core@^7.1.0", "@babel/core@^7.4.0":
   version "7.4.3"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.4.3.tgz#198d6d3af4567be3989550d97e068de94503074f"
   integrity sha512-oDpASqKFlbspQfzAE7yaeTmdljSH2ADIvBlb0RwbStltTuWa0+7CCI1fYVINNv9saHPa1W7oaKeuNuKj+RQCvA==
@@ -930,7 +930,7 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-1.0.18.tgz#ae8be2d9605e1d340607e1567c9c72bb3aba75c4"
   integrity sha512-8TQ7aowYiRQ+yx5ZxqYGyNa7+eW9xycAnIXm/4/H83+MExPJpkk7hS1qjh1zqulqlLeZcShmXGIDZKARcOIr5g==
 
-"@manomano/jest-config@^1.0.20":
+"@manomano/jest-config@1.0.20":
   version "1.0.20"
   resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-1.0.20.tgz#98ac2e02fa43523a2513d3914661331fd12f3b32"
   integrity sha512-YTft7hSYdmo2b/obTf9oZMjnOCzZ7noxTPDtk92fmYNbpdoF7sTCjiF06KVC2zJQH9nC2qX8Xm5RTLEIq569lw==
@@ -964,7 +964,7 @@
   dependencies:
     "@manomano/utils" "^1.0.18"
 
-"@manomano/rollup-config@^1.0.18":
+"@manomano/rollup-config@1.0.18":
   version "1.0.18"
   resolved "https://registry.yarnpkg.com/@manomano/rollup-config/-/rollup-config-1.0.18.tgz#10306377534e0833107c0b22c6bb45c32b665571"
   integrity sha512-KDhB2D+1CkLz/JXOypvkkUmu8tqMR3K1VcD+TVsxG1W0kmAFJTivSG64LOyldtI55fPsW9L3mVAdbmG4CcLNVw==
@@ -991,7 +991,7 @@
     lodash.groupby "^4.6.0"
     node-fetch "^2.3.0"
 
-"@manomano/webpack@^1.0.20":
+"@manomano/webpack@1.0.20":
   version "1.0.20"
   resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-1.0.20.tgz#f8fd59d07826f8e0c65a4a949ace163aac8b250b"
   integrity sha512-iSqIFuNiDu5M9cQMkVHFYpLt38DqhKCup80k/8JwCJ0VyCDIJxfza7ZycE2YY5fqC+bRRN5//opQKk/ScIAAjA==
@@ -5994,7 +5994,7 @@ jest-get-type@^24.3.0:
   resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-24.3.0.tgz#582cfd1a4f91b5cdad1d43d2932f816d543c65da"
   integrity sha512-HYF6pry72YUlVcvUx3sEpMRwXEWGEPlJ0bSPVnB3b3n++j4phUEoSPcS6GC0pPJ9rpyPSe4cb5muFo6D39cXow==
 
-jest-haste-map@^24.0.0, jest-haste-map@^24.7.1:
+jest-haste-map@24.7.1, jest-haste-map@^24.0.0, jest-haste-map@^24.7.1:
   version "24.7.1"
   resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-24.7.1.tgz#772e215cd84080d4bbcb759cfb668ad649a21471"
   integrity sha512-g0tWkzjpHD2qa03mTKhlydbmmYiA2KdcJe762SbfFo/7NIMgBWAA0XqQlApPwkWOF7Cxoi/gUqL0i6DIoLpMBw==
