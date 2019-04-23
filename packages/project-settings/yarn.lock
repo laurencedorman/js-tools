@@ -2,20 +2,20 @@
 # yarn lockfile v1
 
 
-"@manomano/utils@^0.0.25":
-  version "0.0.25"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-0.0.25.tgz#446c565581171d91eb0335ea782a61699d033ec2"
-  integrity sha512-WP+jmtMAggKuUz+2GvOoryA9y5Nthm1tnsJ8088I2kReu08MstTvYmu4iI9wWoH4jMoLf86hVzn1Iqw4S2cydA==
+"@manomano/utils@^1.0.21":
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-1.0.21.tgz#2a9b54aa5fda56f02d4115088d1f5b953f38cd6b"
+  integrity sha512-C09p7N5hzVdfL8FhTlSGhSqKaYz7bC0QGH56c/cOKmd2GwaGttCNBzlUxpABwoBEaEobhgQEKbdm6nrGM4BvDQ==
   dependencies:
-    lodash.groupby "^4.6.0"
-    node-fetch "^2.3.0"
+    lodash.groupby "4.6.0"
+    node-fetch "2.3.0"
 
-lodash.groupby@^4.6.0:
+lodash.groupby@4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.groupby/-/lodash.groupby-4.6.0.tgz#0b08a1dcf68397c397855c3239783832df7403d1"
   integrity sha1-Cwih3PaDl8OXhVwyOXg4Mt90A9E=
 
-node-fetch@^2.3.0:
+node-fetch@2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
   integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
