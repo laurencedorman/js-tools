@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://git.manomano.tech/core-utils/js-tools/compare/v0.0.25...v2.0.0) (2019-04-23)
+
+
+### Bug Fixes
+
+* **lerna:** allow only master ([c2381eb](https://git.manomano.tech/core-utils/js-tools/commits/c2381eb))
+
+
+### Features
+
+* **ci:** add ci on js-tools ([49b142f](https://git.manomano.tech/core-utils/js-tools/commits/49b142f))
+* **ci:** add semantic release on js-tools ([03d0878](https://git.manomano.tech/core-utils/js-tools/commits/03d0878))
+* **jest:** reset mocks for each tests by default ([bef22b4](https://git.manomano.tech/core-utils/js-tools/commits/bef22b4))
+* **webpack:** add polling for docker ([149f32f](https://git.manomano.tech/core-utils/js-tools/commits/149f32f))
+
+
+### BREAKING CHANGES
+
+* **ci:** JS-Tools is now deployed automatically on master
+* **ci:** JS-Tools is now deployed automatically on master
+
+
+
+
+
 ## [1.0.21](https://git.manomano.tech/core-utils/js-tools/compare/v1.0.20...v1.0.21) (2019-04-18)
 
 
