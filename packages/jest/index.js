@@ -8,6 +8,7 @@ const setupFilesAfterEnv = fs.existsSync(paths.testsSetup)
 
 module.exports = {
   collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', '!src/**/*.d.ts'],
+  resetMocks: true,
   resolver: require.resolve('jest-pnp-resolver'),
   setupFilesAfterEnv: setupFilesAfterEnv,
   testMatch: [
