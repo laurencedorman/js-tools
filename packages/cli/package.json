@@ -1,6 +1,6 @@
 {
   "name": "@manomano/macgyver",
-  "version": "0.0.25",
+  "version": "1.0.21",
   "description": "Manomano cli interface",
   "main": "index.js",
   "license": "MIT",
@@ -15,11 +15,11 @@
     "install:lerna": "yarn install --network-concurrency 1"
   },
   "dependencies": {
-    "@babel/core": "^7.0.0",
-    "@manomano/jest-config": "^0.0.25",
-    "@manomano/rollup-config": "^0.0.25",
-    "@manomano/webpack": "^0.0.25",
-    "cross-spawn": "^6.0.5",
-    "jest-haste-map": "^24.0.0"
+    "@babel/core": "7.4.3",
+    "@manomano/jest-config": "^1.0.21",
+    "@manomano/rollup-config": "^1.0.21",
+    "@manomano/webpack": "^1.0.21",
+    "cross-spawn": "6.0.5",
+    "jest-haste-map": "24.7.1"
   }
 }
