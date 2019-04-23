@@ -14,6 +14,10 @@ module.exports = {
   headers: {
     'Access-Control-Allow-Origin': '*',
   },
+  watchOptions: {
+    ignored: /node_modules/,
+    poll: true,
+  },
   publicPath: '/',
   quiet: true,
   https: false,
