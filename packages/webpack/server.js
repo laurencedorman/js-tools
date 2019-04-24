@@ -16,7 +16,8 @@ module.exports = {
   },
   watchOptions: {
     ignored: /node_modules/,
-    poll: true,
+    aggregateTimeout: 300,
+    poll: 500,
   },
   publicPath: '/',
   quiet: true,
