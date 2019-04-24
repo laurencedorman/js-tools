@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/manomanotech/js-tools/compare/v2.0.0...v2.0.1) (2019-04-24)
+
+
+### Bug Fixes
+
+* **webpack:** Use aggregateTimeout for polling ([6d6ac10](https://github.com/manomanotech/js-tools/commit/6d6ac10))
+
+
+
+
+
 # [2.0.0](https://github.com/manomanotech/js-tools/compare/v0.0.25...v2.0.0) (2019-04-23)
 
 
