@@ -24,6 +24,9 @@ module.exports = {
   https: false,
   port: settings.devServer.port,
   overlay: false,
+  historyApiFallback: {
+    disableDotRule: true,
+  },
   proxy: settings.proxy,
   before(app, server) {
     app.use(evalSourceMapMiddleware(server));
