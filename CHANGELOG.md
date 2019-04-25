@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://git.manomano.tech/core-utils/js-tools/compare/v2.0.1...v2.1.0) (2019-04-25)
+
+
+### Features
+
+* **webpack:** Fix reload 404 using SPA ([71fd05f](https://git.manomano.tech/core-utils/js-tools/commits/71fd05f))
+
+
+
+
+
 ## [2.0.1](https://git.manomano.tech/core-utils/js-tools/compare/v2.0.0...v2.0.1) (2019-04-24)
 
 
