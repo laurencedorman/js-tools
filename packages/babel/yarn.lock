@@ -748,20 +748,20 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/project-settings@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.1.0.tgz#bff5b89ed4d429d5ecafe9bee81436f66fd46300"
-  integrity sha512-dtC8ZgYwjdE3b3E+jdob4BhmPBsZQAWmqguvIK0jBNrQrJf1y4K5QghAFA6j+M/Rz2yw6H1bPzPSW32FFkJ8uQ==
+"@manomano/project-settings@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.1.2.tgz#2c258dfb9a594159562a66665d3b820a74194705"
+  integrity sha512-cJmvcwKY/nDCRvpRE7aBZj+ajEUzDHr97G8w4yg/FI4/VzxEJyVaXX2PLgnQOi+oeDW0Lrs1StfjPcwz1VcqXA==
   dependencies:
-    "@manomano/utils" "^2.1.0"
+    "@manomano/utils" "^2.1.2"
 
-"@manomano/utils@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.1.0.tgz#8114d64d05253bf2fcc68ae981c556f2387dd9b2"
-  integrity sha512-5MhlKa1uynIYJxKocCb6S5J7Ft1cu1JWLt22t1cWd+ehMY5q5S61/J7esduy87HoUE2dglO2m3YOfcjJKFPpZw==
+"@manomano/utils@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.1.2.tgz#7703154f77f9a838d67603944a1c4605b180b450"
+  integrity sha512-0Rf1DDh4ac+57y4QeH/lVhIGuEnyk/Efj71syxW+RsQvca4esCAsejeFNRm1nhNq5qQ92Z7feXh5VktM1rirew==
   dependencies:
     lodash.groupby "4.6.0"
-    node-fetch "2.3.0"
+    node-fetch "2.5.0"
 
 "@typescript-eslint/typescript-estree@1.4.2":
   version "1.4.2"
@@ -1308,9 +1308,9 @@ cache-base@^1.0.1:
     unset-value "^1.0.0"
 
 caniuse-lite@^1.0.30000963:
-  version "1.0.30000963"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000963.tgz#5be481d5292f22aff5ee0db4a6c049b65b5798b1"
-  integrity sha512-n4HUiullc7Lw0LyzpeLa2ffP8KxFBGdxqD/8G3bSL6oB758hZ2UE2CVK+tQN958tJIi0/tfpjAc67aAtoHgnrQ==
+  version "1.0.30000966"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000966.tgz#f3c6fefacfbfbfb981df6dfa68f2aae7bff41b64"
+  integrity sha512-qqLQ/uYrpZmFhPY96VuBkMEo8NhVFBZ9y/Bh+KnvGzGJ5I8hvpIaWlF2pw5gqe4PLAL+ZjsPgMOvoXSpX21Keg==
 
 chalk@^2.0.0, chalk@^2.4.2:
   version "2.4.2"
@@ -1736,9 +1736,9 @@ duplexify@^3.4.2, duplexify@^3.6.0:
     stream-shift "^1.0.0"
 
 electron-to-chromium@^1.3.127:
-  version "1.3.129"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.129.tgz#bff32e1840775554aafa301e9dc5002d565aae80"
-  integrity sha512-puirJsgZnedlFEmRa7WEUIaS8ZgHHn7d7inph+RiapCc0x80hdoDyEEpR9z3aRUSZy4fGxOTOFcxnGmySlrmhA==
+  version "1.3.131"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.131.tgz#205a0b7a276b3f56bc056f19178909243054252a"
+  integrity sha512-NSO4jLeyGLWrT4mzzfYX8vt1MYCoMI5LxSYAjt0H9+LF/14JyiKJSyyjA6AJTxflZlEM5v3QU33F0ohbPMCAPg==
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -2840,10 +2840,10 @@ neo-async@^2.5.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
-node-fetch@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
-  integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
+node-fetch@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.5.0.tgz#8028c49fc1191bba56a07adc6e2a954644a48501"
+  integrity sha512-YuZKluhWGJwCcUu4RlZstdAxr8bFfOVHakc1mplwHkk8J+tqM1Y5yraYvIUpeX8aY7+crCwiELJq7Vl0o0LWXw==
 
 node-libs-browser@^2.0.0:
   version "2.2.0"
@@ -3184,9 +3184,9 @@ postcss-values-parser@^1.5.0:
     uniq "^1.0.1"
 
 postcss@^7.0.2:
-  version "7.0.14"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.14.tgz#4527ed6b1ca0d82c53ce5ec1a2041c2346bbd6e5"
-  integrity sha512-NsbD6XUUMZvBxtQAJuWDJeeC4QFsmWsfozWxCJPWf3M55K9iu2iMDaKqyoOdTJ1R4usBXuxlVFAIo8rZPQD4Bg==
+  version "7.0.16"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.16.tgz#48f64f1b4b558cb8b52c88987724359acb010da2"
+  integrity sha512-MOo8zNSlIqh22Uaa3drkdIAgUGEL+AD1ESiSdmElLUmE2uVDo1QloiT/IfW9qRw8Gw+Y/w69UVMGwbufMSftxA==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
@@ -4111,9 +4111,9 @@ wordwrap@~1.0.0:
   integrity sha1-J1hIEIkUVqQXHI0CJkQa3pDLyus=
 
 worker-farm@^1.5.2:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/worker-farm/-/worker-farm-1.6.0.tgz#aecc405976fab5a95526180846f0dba288f3a4a0"
-  integrity sha512-6w+3tHbM87WnSWnENBUvA2pxJPLhQUg5LKwUQHq3r+XPhIM+Gh2R5ycbwPCyuGbNg+lPgdcnQUhuC02kJCvffQ==
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/worker-farm/-/worker-farm-1.7.0.tgz#26a94c5391bbca926152002f69b84a4bf772e5a8"
+  integrity sha512-rvw3QTZc8lAxyVrqcSGVm5yP/IJ2UcB3U0graE3LCFoZ0Yn2x4EoVSqJKdB/T5M+FLcRPjz4TDacRf3OCfNUzw==
   dependencies:
     errno "~0.1.7"
 

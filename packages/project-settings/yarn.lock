@@ -2,20 +2,20 @@
 # yarn lockfile v1
 
 
-"@manomano/utils@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.1.0.tgz#8114d64d05253bf2fcc68ae981c556f2387dd9b2"
-  integrity sha512-5MhlKa1uynIYJxKocCb6S5J7Ft1cu1JWLt22t1cWd+ehMY5q5S61/J7esduy87HoUE2dglO2m3YOfcjJKFPpZw==
+"@manomano/utils@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.1.2.tgz#7703154f77f9a838d67603944a1c4605b180b450"
+  integrity sha512-0Rf1DDh4ac+57y4QeH/lVhIGuEnyk/Efj71syxW+RsQvca4esCAsejeFNRm1nhNq5qQ92Z7feXh5VktM1rirew==
   dependencies:
     lodash.groupby "4.6.0"
-    node-fetch "2.3.0"
+    node-fetch "2.5.0"
 
 lodash.groupby@4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.groupby/-/lodash.groupby-4.6.0.tgz#0b08a1dcf68397c397855c3239783832df7403d1"
   integrity sha1-Cwih3PaDl8OXhVwyOXg4Mt90A9E=
 
-node-fetch@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
-  integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
+node-fetch@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.5.0.tgz#8028c49fc1191bba56a07adc6e2a954644a48501"
+  integrity sha512-YuZKluhWGJwCcUu4RlZstdAxr8bFfOVHakc1mplwHkk8J+tqM1Y5yraYvIUpeX8aY7+crCwiELJq7Vl0o0LWXw==
