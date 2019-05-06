@@ -16,15 +16,15 @@
     "lint": "eslint --ext .js --ext .jsx ."
   },
   "dependencies": {
-    "@babel/core": "7.4.3",
+    "@babel/core": "7.4.4",
     "@manomano/babel": "^2.1.0",
     "@manomano/project-settings": "^2.1.0",
     "babel-eslint": "10.0.1",
     "babel-plugin-module-resolver": "3.2.0",
     "eslint": "5.16.0",
-    "eslint-config-prettier": "4.1.0",
+    "eslint-config-prettier": "4.2.0",
     "eslint-config-react-app": "3.0.8",
-    "eslint-import-resolver-babel-module": "5.0.1",
+    "eslint-import-resolver-babel-module": "5.1.0",
     "eslint-plugin-flowtype": "3.6.1",
     "eslint-plugin-import": "2.17.2",
     "eslint-plugin-jsx-a11y": "6.2.1",
