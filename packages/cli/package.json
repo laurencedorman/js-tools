@@ -15,7 +15,7 @@
     "install:lerna": "yarn install --network-concurrency 1"
   },
   "dependencies": {
-    "@babel/core": "7.4.3",
+    "@babel/core": "7.4.4",
     "@manomano/jest-config": "^2.1.0",
     "@manomano/rollup-config": "^2.1.0",
     "@manomano/webpack": "^2.1.1",
