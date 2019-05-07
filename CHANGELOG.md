@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://git.manomano.tech/core-utils/js-tools/compare/v2.1.2...v2.2.0) (2019-05-07)
+
+
+### Features
+
+* **webpack:** create multiple manifests by lang ([66017c5](https://git.manomano.tech/core-utils/js-tools/commits/66017c5))
+
+
+
+
+
 ## [2.1.2](https://git.manomano.tech/core-utils/js-tools/compare/v2.1.1...v2.1.2) (2019-05-06)
 
 **Note:** Version bump only for package js-tools
