@@ -14,10 +14,9 @@ const StartServerPlugin = require('start-server-webpack-plugin');
 const AssetsPlugin = require('assets-webpack-plugin');
 const settings = require('./settings');
 
-const manifestPlugin = (filename = 'manifest.json') => {
+const manifestPlugin = lang => {
   const options = {
-    filename,
-    basePath: settings.basePath + '/',
+    fileName: `manifest.${lang}.json`,
     map: file => {
       file.name = file.name.replace(/(\.[a-f0-9]{32})(\..*)$/, '$2');
       return file;
