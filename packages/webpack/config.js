@@ -115,7 +115,7 @@ module.exports = (lang, envVariables = {}) => {
       htmlPlugin(env, settings.appHtml),
       definePlugin(settings.globals),
       isDevEnv && hotModule(),
-      isProdEnv && manifestPlugin(),
+      isProdEnv && manifestPlugin(lang),
       isProdEnv && extractCss(lang),
       ignorePlugin(),
       isDevEnv &&
