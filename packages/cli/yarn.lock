@@ -902,10 +902,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.1.2.tgz#8aa85790b9773667e768cc70f9ba1ea9c235a73b"
-  integrity sha512-+B4yZnMEhNIHSmGPWYVyGj/zJAtOjZz+A3JSOy+wSGu+xJ3EnuQsvjfbwVd+Thr8WzxsDNKvfnRmrWFrs49HIg==
+"@manomano/babel@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.2.0.tgz#e0fe690329b66b1e60c220bd489c05457e345ab2"
+  integrity sha512-b0rDrng6BQ4i+jZQBOgtCNNHVj2dN5fKoY+yd2UKp0lEx/xqk9VKaoqCTD3OT9QFA8ThTIEIrSrKIkepU/CrGQ==
   dependencies:
     "@babel/core" "7.4.4"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -917,7 +917,7 @@
     "@babel/preset-react" "7.0.0"
     "@babel/runtime" "7.4.4"
     "@manomano/browserslist-config" "^2.0.0"
-    "@manomano/project-settings" "^2.1.2"
+    "@manomano/project-settings" "^2.2.0"
     babel-loader "8.0.5"
     babel-plugin-dynamic-import-node "2.2.0"
     babel-plugin-module-resolver "3.2.0"
@@ -932,13 +932,13 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/jest-config@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-2.1.2.tgz#0bb139aeb0b7a273af51bbe2a77f3f0fa6492b3c"
-  integrity sha512-/psZ3msIXhAumM2pOxZUqavQNWoQX2tpimFK98jeVO1vXg9tWjJS4qEV6aF+K3JgGnzbqsCQYGlEODHd7Aaypw==
+"@manomano/jest-config@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-2.2.0.tgz#d6f6a19f4ed911a848bf8eb0f8e2c85b58f216e2"
+  integrity sha512-4eTh4fVB1MWzV4ExdcxFMYKe3vsEhPUmzF2ijcaEgFnY/NwCSDRAeXjRqhfSZODjJR/UvymBq+2cDAA5RZ5yhQ==
   dependencies:
     "@babel/core" "7.4.4"
-    "@manomano/babel" "^2.1.2"
+    "@manomano/babel" "^2.2.0"
     babel-jest "24.7.1"
     identity-obj-proxy "3.0.0"
     jest "24.7.1"
@@ -948,10 +948,10 @@
     jest-resolve "24.7.1"
     webpack "4.30.0"
 
-"@manomano/postcss@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-2.1.2.tgz#ca8eb00dd989e2b8b65af7eb6ec9c6d1a4dc8fc8"
-  integrity sha512-okKlYyCLcBEVjqXz9cvmuCe07SeWv8GwSMVDy0c2LUmP9SjnaFD+UIPxvx8XDOZDwGUz4n5wnCloyE+KErSoFw==
+"@manomano/postcss@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-2.2.0.tgz#f794f756e692f86880fc6807fcafda4ac5b9a853"
+  integrity sha512-6IYZIhv6BgAXh0FJIkQsbVzISf/v/y5dooYTwcCzIJSfAM6H2/EVX6CcB4izB+PSLv668Ux6wjgsvPo0OBZ5Gw==
   dependencies:
     "@manomano/browserslist-config" "^2.0.0"
     postcss-flexbugs-fixes "4.1.0"
@@ -959,17 +959,17 @@
     postcss-preset-env "6.6.0"
     postcss-safe-parser "4.0.1"
 
-"@manomano/project-settings@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.1.2.tgz#2c258dfb9a594159562a66665d3b820a74194705"
-  integrity sha512-cJmvcwKY/nDCRvpRE7aBZj+ajEUzDHr97G8w4yg/FI4/VzxEJyVaXX2PLgnQOi+oeDW0Lrs1StfjPcwz1VcqXA==
+"@manomano/project-settings@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.2.0.tgz#ac269e6b60c4b50ac969b52ea3ef03950929b88c"
+  integrity sha512-0uw3V8zJK1NP3QPQze7QmPvPhJ/BPQYxQLx8qv/fEepe3CIfCBHiuwr2kH9nnjKSC1+AEHPgowLldsuhEWKglw==
   dependencies:
-    "@manomano/utils" "^2.1.2"
+    "@manomano/utils" "^2.2.0"
 
-"@manomano/rollup-config@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@manomano/rollup-config/-/rollup-config-2.1.2.tgz#e95eb804d3fe604ff7b91e62a72b9618d1458961"
-  integrity sha512-nwBvgfB9DoIrl9RL9Yz5JOBl8JWu0r1VFVWWlbo2lDo2vADrcvMb5b5GS8KowoKK8/+6vnuSUgCzONTzUyp2xQ==
+"@manomano/rollup-config@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@manomano/rollup-config/-/rollup-config-2.2.0.tgz#936b530821064182dd8a46d53b00195dcab88058"
+  integrity sha512-criftHjgFJTUdx1J6Je0DL51f+pIidgGINDK9Wfvz6Ro0mS92KpbjsCxLoPRHYjAAmE6jr+6hFaUgDXCO36xMw==
   dependencies:
     "@babel/core" "7.4.4"
     autoprefixer "9.5.1"
@@ -985,24 +985,24 @@
     rollup-plugin-postcss "2.0.3"
     rollup-plugin-visualizer "1.1.1"
 
-"@manomano/utils@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.1.2.tgz#7703154f77f9a838d67603944a1c4605b180b450"
-  integrity sha512-0Rf1DDh4ac+57y4QeH/lVhIGuEnyk/Efj71syxW+RsQvca4esCAsejeFNRm1nhNq5qQ92Z7feXh5VktM1rirew==
+"@manomano/utils@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.2.0.tgz#55b989d1ba1dd47e8b68cde4d9aee45fe964fa98"
+  integrity sha512-O8qgfbpMSNFqwFIw/p3tUemfRvE7wFkyMEIj9B6NchGj/Nj3/l3hzjlPubjtwEip3Aa9SHyz198jxoqDYXMcWA==
   dependencies:
     lodash.groupby "4.6.0"
     node-fetch "2.5.0"
 
-"@manomano/webpack@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-2.1.2.tgz#5fd1e4cafafc32db1d2de2922465de77e4ac1170"
-  integrity sha512-Irw7DRWBgdTKmZ+gg/aS4j3EyShPC+oq6AO5eVSp7UMXSpNATq7V1LT5/oYo6SeurayhQYwEHLZYzbzCiZ0nCA==
+"@manomano/webpack@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-2.2.0.tgz#343912ab5b7113014939db4dbf82785f1105dc56"
+  integrity sha512-ApskZV1GCfCoAjavbVrKUrTzTa5qWQeBTbox3OEpEnn1Y2bq7eP88Zot561WHB4yHCm8ogcoS/YNUvBdcCMhTA==
   dependencies:
     "@babel/code-frame" "7.0.0"
-    "@manomano/babel" "^2.1.2"
-    "@manomano/postcss" "^2.1.2"
-    "@manomano/project-settings" "^2.1.2"
-    "@manomano/utils" "^2.1.2"
+    "@manomano/babel" "^2.2.0"
+    "@manomano/postcss" "^2.2.0"
+    "@manomano/project-settings" "^2.2.0"
+    "@manomano/utils" "^2.2.0"
     assets-webpack-plugin "3.9.10"
     chalk "2.4.2"
     css-loader "2.1.1"
@@ -2424,9 +2424,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000939, caniuse-lite@^1.0.30000955, caniuse-lite@^1.0.30000957, caniuse-lite@^1.0.30000963:
-  version "1.0.30000966"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000966.tgz#f3c6fefacfbfbfb981df6dfa68f2aae7bff41b64"
-  integrity sha512-qqLQ/uYrpZmFhPY96VuBkMEo8NhVFBZ9y/Bh+KnvGzGJ5I8hvpIaWlF2pw5gqe4PLAL+ZjsPgMOvoXSpX21Keg==
+  version "1.0.30000967"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000967.tgz#a5039577806fccee80a04aaafb2c0890b1ee2f73"
+  integrity sha512-rUBIbap+VJfxTzrM4akJ00lkvVb5/n5v3EGXfWzSH5zT8aJmGzjA8HWhJ4U6kCpzxozUSnB+yvAYDRPY6mRpgQ==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -10795,9 +10795,9 @@ uglify-js@3.4.x:
     source-map "~0.6.1"
 
 uglify-js@^3.1.4:
-  version "3.5.10"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.5.10.tgz#652bef39f86d9dbfd6674407ee05a5e2d372cf2d"
-  integrity sha512-/GTF0nosyPLbdJBd+AwYiZ+Hu5z8KXWnO0WCGt1BQ/u9Iamhejykqmz5o1OHJ53+VAk6xVxychonnApDjuqGsw==
+  version "3.5.11"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.5.11.tgz#833442c0aa29b3a7d34344c7c63adaa3f3504f6a"
+  integrity sha512-izPJg8RsSyqxbdnqX36ExpbH3K7tDBsAU/VfNv89VkMFy3z39zFjunQGsSHOlGlyIfGLGprGeosgQno3bo2/Kg==
   dependencies:
     commander "~2.20.0"
     source-map "~0.6.1"

@@ -784,10 +784,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.1.2.tgz#8aa85790b9773667e768cc70f9ba1ea9c235a73b"
-  integrity sha512-+B4yZnMEhNIHSmGPWYVyGj/zJAtOjZz+A3JSOy+wSGu+xJ3EnuQsvjfbwVd+Thr8WzxsDNKvfnRmrWFrs49HIg==
+"@manomano/babel@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.2.0.tgz#e0fe690329b66b1e60c220bd489c05457e345ab2"
+  integrity sha512-b0rDrng6BQ4i+jZQBOgtCNNHVj2dN5fKoY+yd2UKp0lEx/xqk9VKaoqCTD3OT9QFA8ThTIEIrSrKIkepU/CrGQ==
   dependencies:
     "@babel/core" "7.4.4"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -799,7 +799,7 @@
     "@babel/preset-react" "7.0.0"
     "@babel/runtime" "7.4.4"
     "@manomano/browserslist-config" "^2.0.0"
-    "@manomano/project-settings" "^2.1.2"
+    "@manomano/project-settings" "^2.2.0"
     babel-loader "8.0.5"
     babel-plugin-dynamic-import-node "2.2.0"
     babel-plugin-module-resolver "3.2.0"
@@ -814,10 +814,10 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/postcss@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-2.1.2.tgz#ca8eb00dd989e2b8b65af7eb6ec9c6d1a4dc8fc8"
-  integrity sha512-okKlYyCLcBEVjqXz9cvmuCe07SeWv8GwSMVDy0c2LUmP9SjnaFD+UIPxvx8XDOZDwGUz4n5wnCloyE+KErSoFw==
+"@manomano/postcss@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-2.2.0.tgz#f794f756e692f86880fc6807fcafda4ac5b9a853"
+  integrity sha512-6IYZIhv6BgAXh0FJIkQsbVzISf/v/y5dooYTwcCzIJSfAM6H2/EVX6CcB4izB+PSLv668Ux6wjgsvPo0OBZ5Gw==
   dependencies:
     "@manomano/browserslist-config" "^2.0.0"
     postcss-flexbugs-fixes "4.1.0"
@@ -825,17 +825,17 @@
     postcss-preset-env "6.6.0"
     postcss-safe-parser "4.0.1"
 
-"@manomano/project-settings@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.1.2.tgz#2c258dfb9a594159562a66665d3b820a74194705"
-  integrity sha512-cJmvcwKY/nDCRvpRE7aBZj+ajEUzDHr97G8w4yg/FI4/VzxEJyVaXX2PLgnQOi+oeDW0Lrs1StfjPcwz1VcqXA==
+"@manomano/project-settings@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.2.0.tgz#ac269e6b60c4b50ac969b52ea3ef03950929b88c"
+  integrity sha512-0uw3V8zJK1NP3QPQze7QmPvPhJ/BPQYxQLx8qv/fEepe3CIfCBHiuwr2kH9nnjKSC1+AEHPgowLldsuhEWKglw==
   dependencies:
-    "@manomano/utils" "^2.1.2"
+    "@manomano/utils" "^2.2.0"
 
-"@manomano/utils@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.1.2.tgz#7703154f77f9a838d67603944a1c4605b180b450"
-  integrity sha512-0Rf1DDh4ac+57y4QeH/lVhIGuEnyk/Efj71syxW+RsQvca4esCAsejeFNRm1nhNq5qQ92Z7feXh5VktM1rirew==
+"@manomano/utils@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.2.0.tgz#55b989d1ba1dd47e8b68cde4d9aee45fe964fa98"
+  integrity sha512-O8qgfbpMSNFqwFIw/p3tUemfRvE7wFkyMEIj9B6NchGj/Nj3/l3hzjlPubjtwEip3Aa9SHyz198jxoqDYXMcWA==
   dependencies:
     lodash.groupby "4.6.0"
     node-fetch "2.5.0"
@@ -2053,9 +2053,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000939, caniuse-lite@^1.0.30000955, caniuse-lite@^1.0.30000957, caniuse-lite@^1.0.30000963:
-  version "1.0.30000966"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000966.tgz#f3c6fefacfbfbfb981df6dfa68f2aae7bff41b64"
-  integrity sha512-qqLQ/uYrpZmFhPY96VuBkMEo8NhVFBZ9y/Bh+KnvGzGJ5I8hvpIaWlF2pw5gqe4PLAL+ZjsPgMOvoXSpX21Keg==
+  version "1.0.30000967"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000967.tgz#a5039577806fccee80a04aaafb2c0890b1ee2f73"
+  integrity sha512-rUBIbap+VJfxTzrM4akJ00lkvVb5/n5v3EGXfWzSH5zT8aJmGzjA8HWhJ4U6kCpzxozUSnB+yvAYDRPY6mRpgQ==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
