@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.1](https://github.com/manomanotech/js-tools/compare/v2.2.0...v2.2.1) (2019-05-13)
+
+
+### Bug Fixes
+
+* **webpack:** Fix css error on server ([c603a9e](https://github.com/manomanotech/js-tools/commit/c603a9e))
+
+
+
+
+
 # [2.2.0](https://github.com/manomanotech/js-tools/compare/v2.1.2...v2.2.0) (2019-05-07)
 
 
