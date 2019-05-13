@@ -38,6 +38,7 @@ module.exports = lang => {
       nodeExternals({
         whitelist: [
           isDevEnv ? 'webpack/hot/poll?300' : null,
+          /.(scss|css)$/,
           ...settings.transpileExternalLibraries,
         ].filter(Boolean),
       }),

@@ -11,7 +11,7 @@ const babelLoader = {
   include: filePath => {
     if (!filePath.includes('node_modules')) return true;
 
-    return settings.transpileExternalLibraries.every(regx =>
+    return settings.transpileExternalLibraries.some(regx =>
       regx.test(filePath)
     );
   },
