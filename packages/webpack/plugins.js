@@ -14,9 +14,9 @@ const StartServerPlugin = require('start-server-webpack-plugin');
 const AssetsPlugin = require('assets-webpack-plugin');
 const settings = require('./settings');
 
-const manifestPlugin = lang => {
+const manifestPlugin = ({ name }) => {
   const options = {
-    fileName: `manifest.${lang}.json`,
+    fileName: `manifest.${name}.json`,
     map: file => {
       file.name = file.name.replace(/(\.[a-f0-9]{32})(\..*)$/, '$2');
       return file;
@@ -91,10 +91,10 @@ const imageMin = () =>
 
 const definePlugin = definitions => new webpack.DefinePlugin(definitions);
 
-const extractCss = lang =>
+const extractCss = ({ name }) =>
   new MiniCssExtractPlugin({
-    filename: `css/[name].[contenthash:8].${lang}.css`,
-    chunkFilename: `css/[name].[contenthash:8].chunk.${lang}.css`,
+    filename: `css/[name].[contenthash:8].${name}.css`,
+    chunkFilename: `css/[name].[contenthash:8].chunk.${name}.css`,
   });
 
 const ignorePlugin = () => new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/);
@@ -112,9 +112,10 @@ const optimizeCss = () =>
     },
   });
 
-const defineLang = lang =>
+const definePlatform = platform =>
   new webpack.DefinePlugin({
-    __LANG__: JSON.stringify(lang),
+    __LANG__: JSON.stringify(platform.language),
+    __PLATFORM__: JSON.stringify(platform),
   });
 
 const hashedModuleIdsPlugin = () => new webpack.HashedModuleIdsPlugin();
@@ -164,7 +165,7 @@ module.exports = {
   ignorePlugin,
   bundleAnalyzer,
   optimizeCss,
-  defineLang,
+  definePlatform,
   hashedModuleIdsPlugin,
   webpackBar,
   ignoreAssets,
