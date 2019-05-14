@@ -784,10 +784,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.2.1.tgz#6725b2e833e54a5434f8dc9eee372ffdbc1790e7"
-  integrity sha512-cXrln9GsU48T8nMjZbQqfntbIwDNEGrTZFGMCTTYAwhgcHLpsCGk4C05cm0BfFGl3z+uiwDMJC/c7p+gga5EZw==
+"@manomano/babel@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.3.0.tgz#c9ae7de360042467dcc722e435eceaf9da6066ab"
+  integrity sha512-vKV5kDBDAGyuPbnlaV5meo5ATPTEau0hrM4G33P59vT4OJccM1oOe2yRYKBif9eaH6CvxZuwegLNAcSjQG54oQ==
   dependencies:
     "@babel/core" "7.4.4"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -799,7 +799,7 @@
     "@babel/preset-react" "7.0.0"
     "@babel/runtime" "7.4.4"
     "@manomano/browserslist-config" "^2.0.0"
-    "@manomano/project-settings" "^2.2.1"
+    "@manomano/project-settings" "^2.3.0"
     babel-loader "8.0.5"
     babel-plugin-dynamic-import-node "2.2.0"
     babel-plugin-module-resolver "3.2.0"
@@ -814,10 +814,10 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/postcss@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-2.2.1.tgz#ab0c592298baa96b91a8d51047d88d4609edb49b"
-  integrity sha512-rcV+l12KesLHYq/MTGpfTg58hHsOcDLrgyFEHySoMLenpDB6o4UcALJTq3S7SgKxzt8Crn3xENwz9kY4Y/0B0g==
+"@manomano/postcss@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-2.3.0.tgz#d45ef6f6ade539e940a1bdb06493c2a15610c10e"
+  integrity sha512-wMaGnDnVqX6gKPjLsShjx6wZWO048pA/l9fKL6V3ptq2VeGp8Ozr+hQMBBEYekfdIadhHkl42GIFvC/UoiG+nw==
   dependencies:
     "@manomano/browserslist-config" "^2.0.0"
     postcss-flexbugs-fixes "4.1.0"
@@ -825,17 +825,17 @@
     postcss-preset-env "6.6.0"
     postcss-safe-parser "4.0.1"
 
-"@manomano/project-settings@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.2.1.tgz#2b6520d04b0a3a11be77ba1c2da87faa860a1cb7"
-  integrity sha512-eZRlYjYnC4//T67iK8ZUcS9p9XLx7rm2fbjjtGnVgnfHoAvi51b3DmjyRpr/VS4qzXazxIJpOt8NZRRSjDFgnw==
+"@manomano/project-settings@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.3.0.tgz#04b94a77a9488d588a5178b09d03051fa8b4d741"
+  integrity sha512-Uop7HK8yePiMqbPHhOq7PRxWK7jraw9m8JrpOaSKdFfD3SD7tChUuT8hkRVca4ffKtyVAOed1PMHQ8JocW5ZOA==
   dependencies:
-    "@manomano/utils" "^2.2.1"
+    "@manomano/utils" "^2.3.0"
 
-"@manomano/utils@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.2.1.tgz#fb06f7264d41077b505a167ac34ea9f97976a753"
-  integrity sha512-869CVRpwH/f9+KahFY+ZY95MEBYCeorCLiJ5Cm+6Wd59KYHhfGwYZP+BP/Hnz7w2/kuzUp7O+bYlBeI+Pkb82g==
+"@manomano/utils@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.3.0.tgz#3c945153e32dbd3421976f71e706e6ef57da6e60"
+  integrity sha512-omRbZOLo59q2yGagx+mSU16jMQMU6EyU3b8FX1oa/jJPi2uAIwMdsOLPHSsaML1Xm7qzsfx5mnBY+7LYzDPdog==
   dependencies:
     lodash.groupby "4.6.0"
     node-fetch "2.5.0"
@@ -946,9 +946,9 @@
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
 "@types/node@*":
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.0.tgz#d11813b9c0ff8aaca29f04cbc12817f4c7d656e5"
-  integrity sha512-Jrb/x3HT4PTJp6a4avhmJCDEVrPdqLfl3e8GGMbpkGGdwAV5UGlIs4vVEfsHHfylZVOKZWpOqmqFH8CbfOZ6kg==
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.1.tgz#3dde31f8da274dfeb90e96abf55038fef46285f0"
+  integrity sha512-7sy7DKVJrCTbaAERJZq/CU12bzdmpjRr321/Ne9QmzhB3iZ//L16Cizcni5hHNbANxDbxwMb9EFoWkM8KPkp0A==
 
 "@types/q@^1.5.1":
   version "1.5.2"
@@ -6147,9 +6147,9 @@ node-pre-gyp@^0.12.0:
     tar "^4"
 
 node-releases@^1.1.13, node-releases@^1.1.17:
-  version "1.1.18"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.18.tgz#cc98fd75598a324a77188ebddf6650e9cbd8b1d5"
-  integrity sha512-/mnVgm6u/8OwlIsoyRXtTI0RfQcxZoAZbdwyXap0EeWwcOpDDymyCHM2/aR9XKmHXrvizHoPAOs0pcbiJ6RUaA==
+  version "1.1.19"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.19.tgz#c492d1e381fea0350b338b646c27867e88e91b3d"
+  integrity sha512-SH/B4WwovHbulIALsQllAVwqZZD1kPmKCqrhGfR29dXjLAVZMHvBjD3S6nL9D/J9QkmZ1R92/0wCMDKXUUvyyA==
   dependencies:
     semver "^5.3.0"
 
@@ -7824,9 +7824,9 @@ redent@^1.0.0:
     strip-indent "^1.0.1"
 
 regenerate-unicode-properties@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-8.0.2.tgz#7b38faa296252376d363558cfbda90c9ce709662"
-  integrity sha512-SbA/iNrBUf6Pv2zU8Ekv1Qbhv92yxL4hiDa2siuxs4KKn4oOoMDHXjAf7+Nz9qinUQ46B1LcWEi/PhJfPWpZWQ==
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-8.1.0.tgz#ef51e0f0ea4ad424b77bf7cb41f3e015c70a3f0e"
+  integrity sha512-LGZzkgtLY79GeXLm8Dp0BVLdQlWICzBnJz/ipWUgo59qBaZ+BHtq51P2q1uVZlppMuUAT37SDk39qUbjTWB7bA==
   dependencies:
     regenerate "^1.4.0"
 

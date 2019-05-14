@@ -748,17 +748,17 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/project-settings@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.2.1.tgz#2b6520d04b0a3a11be77ba1c2da87faa860a1cb7"
-  integrity sha512-eZRlYjYnC4//T67iK8ZUcS9p9XLx7rm2fbjjtGnVgnfHoAvi51b3DmjyRpr/VS4qzXazxIJpOt8NZRRSjDFgnw==
+"@manomano/project-settings@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.3.0.tgz#04b94a77a9488d588a5178b09d03051fa8b4d741"
+  integrity sha512-Uop7HK8yePiMqbPHhOq7PRxWK7jraw9m8JrpOaSKdFfD3SD7tChUuT8hkRVca4ffKtyVAOed1PMHQ8JocW5ZOA==
   dependencies:
-    "@manomano/utils" "^2.2.1"
+    "@manomano/utils" "^2.3.0"
 
-"@manomano/utils@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.2.1.tgz#fb06f7264d41077b505a167ac34ea9f97976a753"
-  integrity sha512-869CVRpwH/f9+KahFY+ZY95MEBYCeorCLiJ5Cm+6Wd59KYHhfGwYZP+BP/Hnz7w2/kuzUp7O+bYlBeI+Pkb82g==
+"@manomano/utils@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.3.0.tgz#3c945153e32dbd3421976f71e706e6ef57da6e60"
+  integrity sha512-omRbZOLo59q2yGagx+mSU16jMQMU6EyU3b8FX1oa/jJPi2uAIwMdsOLPHSsaML1Xm7qzsfx5mnBY+7LYzDPdog==
   dependencies:
     lodash.groupby "4.6.0"
     node-fetch "2.5.0"
@@ -2892,9 +2892,9 @@ node-pre-gyp@^0.12.0:
     tar "^4"
 
 node-releases@^1.1.17:
-  version "1.1.18"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.18.tgz#cc98fd75598a324a77188ebddf6650e9cbd8b1d5"
-  integrity sha512-/mnVgm6u/8OwlIsoyRXtTI0RfQcxZoAZbdwyXap0EeWwcOpDDymyCHM2/aR9XKmHXrvizHoPAOs0pcbiJ6RUaA==
+  version "1.1.19"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.19.tgz#c492d1e381fea0350b338b646c27867e88e91b3d"
+  integrity sha512-SH/B4WwovHbulIALsQllAVwqZZD1kPmKCqrhGfR29dXjLAVZMHvBjD3S6nL9D/J9QkmZ1R92/0wCMDKXUUvyyA==
   dependencies:
     semver "^5.3.0"
 
@@ -3352,9 +3352,9 @@ readdirp@^2.2.1:
     readable-stream "^2.0.2"
 
 regenerate-unicode-properties@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-8.0.2.tgz#7b38faa296252376d363558cfbda90c9ce709662"
-  integrity sha512-SbA/iNrBUf6Pv2zU8Ekv1Qbhv92yxL4hiDa2siuxs4KKn4oOoMDHXjAf7+Nz9qinUQ46B1LcWEi/PhJfPWpZWQ==
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-8.1.0.tgz#ef51e0f0ea4ad424b77bf7cb41f3e015c70a3f0e"
+  integrity sha512-LGZzkgtLY79GeXLm8Dp0BVLdQlWICzBnJz/ipWUgo59qBaZ+BHtq51P2q1uVZlppMuUAT37SDk39qUbjTWB7bA==
   dependencies:
     regenerate "^1.4.0"
 
