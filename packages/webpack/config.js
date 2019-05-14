@@ -23,7 +23,7 @@ const {
   extractCss,
   ignorePlugin,
   imageMin,
-  defineLang,
+  definePlatform,
   hashedModuleIdsPlugin,
   webpackBar,
   envPlugin,
@@ -35,7 +35,7 @@ const env = process.env.NODE_ENV || 'none';
 const isDevEnv = env === 'development';
 const isProdEnv = env === 'production';
 
-module.exports = (lang, envVariables = {}) => {
+module.exports = (platform, envVariables = {}) => {
   return {
     mode: env,
     bail: isProdEnv,
@@ -52,10 +52,12 @@ module.exports = (lang, envVariables = {}) => {
       path: isProdEnv ? settings.output.path : undefined,
       pathinfo: isDevEnv,
       filename: isProdEnv
-        ? `js/${settings.output.filename}.[contenthash:8].${lang}.js`
+        ? `js/${settings.output.filename}.[contenthash:8].${platform.name}.js`
         : `${settings.output.filename}.js`,
       chunkFilename: isProdEnv
-        ? `js/${settings.output.chunkFilename}.[chunkhash:8].${lang}.js`
+        ? `js/${settings.output.chunkFilename}.[chunkhash:8].${
+            platform.name
+          }.js`
         : `${settings.output.chunkFilename}.js`,
       publicPath: isProdEnv
         ? settings.output.publicPath
@@ -110,13 +112,13 @@ module.exports = (lang, envVariables = {}) => {
     },
     plugins: [
       hashedModuleIdsPlugin(),
-      defineLang(lang),
+      definePlatform(platform),
       imageMin(),
       htmlPlugin(env, settings.appHtml),
       definePlugin(settings.globals),
       isDevEnv && hotModule(),
-      isProdEnv && manifestPlugin(lang),
-      isProdEnv && extractCss(lang),
+      isProdEnv && manifestPlugin(platform),
+      isProdEnv && extractCss(platform),
       ignorePlugin(),
       isDevEnv &&
         webpackBar({

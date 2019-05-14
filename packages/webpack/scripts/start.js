@@ -13,7 +13,7 @@ const WebpackDevServer = require('webpack-dev-server');
 const clearConsole = require('react-dev-utils/clearConsole');
 const openBrowser = require('react-dev-utils/openBrowser');
 
-const settings = require('../settings');
+const { devServer, platforms } = require('../settings');
 const config = require('../config.js');
 const devServerConfig = require('../server.js');
 
@@ -22,12 +22,14 @@ const isInteractive = process.stdout.isTTY;
 // Process CLI arguments
 const argv = process.argv.slice(2);
 const parsedArgs = require('minimist')(argv);
-const { lang } = parsedArgs;
+const { platform } = parsedArgs;
 
-const compiler = webpack(config(lang, envVariables));
-const devServer = new WebpackDevServer(compiler, devServerConfig);
+const selectedPlatform = platforms.find(({ name }) => name === platform);
 
-devServer.listen(settings.devServer.port, settings.devServer.host, err => {
+const compiler = webpack(config(selectedPlatform, envVariables));
+const ClientdevServer = new WebpackDevServer(compiler, devServerConfig);
+
+ClientdevServer.listen(devServer.port, devServer.host, err => {
   if (err) {
     return console.log(err);
   }
@@ -35,14 +37,14 @@ devServer.listen(settings.devServer.port, settings.devServer.host, err => {
     clearConsole();
   }
   console.log(chalk.rgb(41, 185, 173)('Starting the development server...\n'));
-  const URL = 'http://localhost:' + settings.devServer.port;
+  const URL = 'http://localhost:' + devServer.port;
   console.log(URL);
   openBrowser(URL);
 });
 
 ['SIGINT', 'SIGTERM'].forEach(function(sig) {
   process.on(sig, function() {
-    devServer.close();
+    ClientdevServer.close();
     process.exit();
   });
 });

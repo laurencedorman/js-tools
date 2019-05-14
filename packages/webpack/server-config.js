@@ -16,7 +16,7 @@ const {
 const {
   extractCss,
   ignorePlugin,
-  defineLang,
+  definePlatform,
   ignoreAssets,
   webpackBar,
   hotModule,
@@ -29,7 +29,7 @@ const env = process.env.NODE_ENV || 'none';
 const isDevEnv = env === 'development';
 const isProdEnv = env === 'production';
 
-module.exports = lang => {
+module.exports = platform => {
   return {
     mode: env,
     target: 'node',
@@ -73,8 +73,8 @@ module.exports = lang => {
     },
 
     plugins: [
-      defineLang(lang),
-      extractCss(lang),
+      definePlatform(platform),
+      extractCss(platform),
       ignorePlugin(),
       new webpack.optimize.LimitChunkCountPlugin({
         maxChunks: 1,

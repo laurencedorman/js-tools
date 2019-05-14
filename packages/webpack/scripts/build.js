@@ -36,10 +36,12 @@ function copyPublicFolder() {
   });
 }
 
-function build(previousFileSizes, lang) {
-  console.log(`Creating an optimized ${chalk.green(lang)} production build...`);
+function build(previousFileSizes, platform) {
+  console.log(
+    `Creating an optimized ${chalk.green(platform.name)} production build...`
+  );
 
-  const compiler = webpack(config(lang, envVariables));
+  const compiler = webpack(config(platform, envVariables));
   return new Promise((resolve, reject) => {
     compiler.run((err, stats) => {
       let messages;
@@ -105,9 +107,9 @@ const doBuild = async () => {
     fs.emptyDirSync(settings.appBuild);
     copyPublicFolder();
 
-    for (const lang of settings.languages) {
+    for (const platform of settings.platforms) {
       try {
-        const { stats, warnings } = await build(previousFileSizes, lang);
+        const { stats, warnings } = await build(previousFileSizes, platform);
         if (warnings.length) {
           console.log(chalk.yellow('Compiled with warnings.\n'));
           console.log(warnings.join('\n\n'));

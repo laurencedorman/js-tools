@@ -11,7 +11,7 @@ process.on('unhandledRejection', err => {
 const webpack = require('webpack');
 
 const fs = require('fs-extra');
-const settings = require('../settings');
+const { appServerOutput, devServer, platforms } = require('../settings');
 const { paths } = require('@manomano/project-settings');
 const serverConfig = require('../server-config');
 const clientConfig = require('../config');
@@ -22,18 +22,20 @@ const WebpackDevServer = require('webpack-dev-server');
 // Process CLI arguments
 const argv = process.argv.slice(2);
 const parsedArgs = require('minimist')(argv);
-const { lang } = parsedArgs;
+const { platform } = parsedArgs;
+
+const selectedPlatform = platforms.find(({ name }) => name === platform);
 
 try {
-  fs.emptyDirSync(settings.appServerOutput);
+  fs.emptyDirSync(appServerOutput);
 
   // Delete assets.json to always have a manifest up to date
   fs.removeSync(paths.appManifest);
 
   process.env.ASSETS_MANIFEST = paths.appManifest;
 
-  const serverCompiler = webpack(serverConfig(lang));
-  const clientCompiler = webpack(clientConfig(lang, envVariables));
+  const serverCompiler = webpack(serverConfig(selectedPlatform));
+  const clientCompiler = webpack(clientConfig(selectedPlatform, envVariables));
 
   let watching;
 
@@ -49,19 +51,22 @@ try {
   });
 
   // Create a new instance of Webpack-dev-server for our client assets.
-  const devServer = new WebpackDevServer(clientCompiler, devServerConfig);
+  const webpackDevServer = new WebpackDevServer(
+    clientCompiler,
+    devServerConfig
+  );
 
-  devServer.listen(settings.devServer.port, settings.devServer.host, err => {
+  webpackDevServer.listen(devServer.port, devServer.host, err => {
     if (err) {
       return console.log(err);
     }
     console.log('Starting the development server...\n');
-    console.log('http://localhost:' + settings.devServer.port);
+    console.log('http://localhost:' + devServer.port);
   });
 
   ['SIGINT', 'SIGTERM'].forEach(sig => {
     process.on(sig, () => {
-      devServer.close();
+      webpackDevServer.close();
       process.exit();
     });
   });
