@@ -38,7 +38,9 @@ function copyPublicFolder() {
 
 function build(previousFileSizes, platform) {
   console.log(
-    `Creating an optimized ${chalk.green(platform.name)} production build...`
+    `Creating an optimized ${chalk.green(
+      platform.name.toLowerCase()
+    )} production build...`
   );
 
   const compiler = webpack(config(platform, envVariables));
