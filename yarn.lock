@@ -1392,9 +1392,9 @@
     write-file-atomic "^2.3.0"
 
 "@manomano/babel@^2.1.0":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.3.1.tgz#b99f8ef963f753fe832469f063d3adc01bfa8dea"
-  integrity sha512-5rt+SZoeQJS/nnqUN/jkuftoNc6qG4zQRsBfIqDRZElutTclU6DQVOaIL5cjjxqqDKbTXzGqgOoW/ZpGxGuAJg==
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.3.2.tgz#ba90a5542af5ee35e77895205c270d2528760b7b"
+  integrity sha512-Jg/vjtaQxfVTSzz/s62lGGX5XJddvjK1xqT4i65+G/IEgC6Sed0Q6Zz4FBtWct2YeaQMG/MZ1n5da9QGJsrukQ==
   dependencies:
     "@babel/core" "7.4.4"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -1406,7 +1406,7 @@
     "@babel/preset-react" "7.0.0"
     "@babel/runtime" "7.4.4"
     "@manomano/browserslist-config" "^2.0.0"
-    "@manomano/project-settings" "^2.3.1"
+    "@manomano/project-settings" "^2.3.2"
     babel-loader "8.0.5"
     babel-plugin-dynamic-import-node "2.2.0"
     babel-plugin-module-resolver "3.2.0"
@@ -1447,17 +1447,17 @@
   resolved "https://registry.yarnpkg.com/@manomano/prettier-config/-/prettier-config-2.0.0.tgz#bd84931c0936104df611b0aa8788172033bf10b5"
   integrity sha512-lUNOfJC/kVgES4H/WJ3x4XORDeTSz1lUDQohjGmPJfNB+XxfCAhehjkMenLU+X4s39BrV04LeMwxsTgzTe4rlA==
 
-"@manomano/project-settings@^2.1.0", "@manomano/project-settings@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.3.1.tgz#a55a9fe88453b7ebcad06c1f3f8854e34196f4ad"
-  integrity sha512-ebdYw4cedrVSPQddffJP6hRuL/CpjrG+PsUdCSJMe5IBYe+bgCZpTwXt75jE5C90UOOvc000y9ib5AE+ndzDkA==
+"@manomano/project-settings@^2.1.0", "@manomano/project-settings@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.3.2.tgz#ba284b90cb3e42c75819dbf7543f01284907d608"
+  integrity sha512-xunFMnm3rNw92qMD/vxMnKEPudP5dv2r+I0jNqLu4s/i8h/0KcM8+y5wKWS9irnqSH451SUSVKbQlmIWPGeUlA==
   dependencies:
-    "@manomano/utils" "^2.3.0"
+    "@manomano/utils" "^2.3.2"
 
-"@manomano/utils@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.3.0.tgz#3c945153e32dbd3421976f71e706e6ef57da6e60"
-  integrity sha512-omRbZOLo59q2yGagx+mSU16jMQMU6EyU3b8FX1oa/jJPi2uAIwMdsOLPHSsaML1Xm7qzsfx5mnBY+7LYzDPdog==
+"@manomano/utils@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.3.2.tgz#aae6205a7236fc5b6feb4a4547c416a4ebdf2733"
+  integrity sha512-AIVBKkFqEFy7DrLrCjd+5yX5BtqM6Deg15sGjsXs1mYJDW/runyjf03PLdnEJ2dy60Z9OYbBqGUDRVE41A8O/Q==
   dependencies:
     lodash.groupby "4.6.0"
     node-fetch "2.5.0"
@@ -2247,7 +2247,7 @@ byte-size@^4.0.3:
   resolved "https://registry.yarnpkg.com/byte-size/-/byte-size-4.0.4.tgz#29d381709f41aae0d89c631f1c81aec88cd40b23"
   integrity sha512-82RPeneC6nqCdSwCX2hZUz3JPOvN5at/nTEw/CMf05Smu3Hrpo9Psb7LjN+k+XndNArG1EY8L4+BM3aTM4BCvw==
 
-cacache@^11.0.1, cacache@^11.0.2, cacache@^11.3.2:
+cacache@^11.0.1, cacache@^11.3.2:
   version "11.3.2"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-11.3.2.tgz#2d81e308e3d258ca38125b676b98b2ac9ce69bfa"
   integrity sha512-E0zP4EPGDOaT2chM08Als91eYnf8Z+eH1awwwVsngUmgppfM5jjJ8l3z5vO5p5w/I3LsiXawb1sW0VY65pQABg==
@@ -4664,6 +4664,11 @@ is-windows@^1.0.2:
   resolved "https://registry.yarnpkg.com/is-windows/-/is-windows-1.0.2.tgz#d1850eb9791ecd18e6182ce12a30f396634bb19d"
   integrity sha512-eXK1UInq2bPmjyX6e3VHIzMLobc4J94i4AWn+Hpq3OU5KkrRC96OAcR3PRJ/pGu6m8TRnBHP9dkXQVsT/COVIA==
 
+is-wsl@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
+  integrity sha1-HxbkqiKwTRM2tmGIpmrzxgDDpm0=
+
 isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
@@ -6952,7 +6957,7 @@ semver@~5.3.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
   integrity sha1-myzl094C0XxgEq0yaqa00M9U+U8=
 
-serialize-javascript@^1.4.0:
+serialize-javascript@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.7.0.tgz#d6e0dfb2a3832a8c94468e6eb1db97e55a192a65"
   integrity sha512-ke8UG8ulpFOxO8f8gRYabHQe/ZntKlcig2Mp+8+URDP1D8vJZ0KUt7LYo07q25Z/+JVSgpr/cui9PIp5H6/+nA==
@@ -7465,20 +7470,21 @@ temp-write@^3.4.0:
     uuid "^3.0.1"
 
 terser-webpack-plugin@^1.1.0:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/terser-webpack-plugin/-/terser-webpack-plugin-1.2.3.tgz#3f98bc902fac3e5d0de730869f50668561262ec8"
-  integrity sha512-GOK7q85oAb/5kE12fMuLdn2btOS9OBZn4VsecpHDywoUC/jLhSAKOiYo0ezx7ss2EXPMzyEWFoE0s1WLE+4+oA==
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/terser-webpack-plugin/-/terser-webpack-plugin-1.2.4.tgz#56f87540c28dd5265753431009388f473b5abba3"
+  integrity sha512-64IiILNQlACWZLzFlpzNaG0bpQ4ytaB7fwOsbpsdIV70AfLUmIGGeuKL0YV2WmtcrURjE2aOvHD4/lrFV3Rg+Q==
   dependencies:
-    cacache "^11.0.2"
+    cacache "^11.3.2"
     find-cache-dir "^2.0.0"
+    is-wsl "^1.1.0"
     schema-utils "^1.0.0"
-    serialize-javascript "^1.4.0"
+    serialize-javascript "^1.7.0"
     source-map "^0.6.1"
-    terser "^3.16.1"
-    webpack-sources "^1.1.0"
-    worker-farm "^1.5.2"
+    terser "^3.17.0"
+    webpack-sources "^1.3.0"
+    worker-farm "^1.7.0"
 
-terser@^3.16.1:
+terser@^3.17.0:
   version "3.17.0"
   resolved "https://registry.yarnpkg.com/terser/-/terser-3.17.0.tgz#f88ffbeda0deb5637f9d24b0da66f4e15ab10cb2"
   integrity sha512-/FQzzPJmCpjAH9Xvk2paiWrFq+5M6aVOf+2KRbwhByISDX/EujxsK+BAvrhb6H+2rtrLCHK9N01wO014vrIwVQ==
@@ -7869,7 +7875,7 @@ webidl-conversions@^4.0.2:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
   integrity sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
 
-webpack-sources@^1.1.0, webpack-sources@^1.3.0:
+webpack-sources@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.3.0.tgz#2a28dcb9f1f45fe960d8f1493252b5ee6530fa85"
   integrity sha512-OiVgSrbGu7NEnEvQJJgdSFPl2qWKkWq5lHMhgiToIiN9w34EBnjYzSYs+VbL5KoYiLNtFFa7BZIKxRED3I32pA==
@@ -7952,7 +7958,7 @@ wordwrap@~1.0.0:
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
   integrity sha1-J1hIEIkUVqQXHI0CJkQa3pDLyus=
 
-worker-farm@^1.5.2:
+worker-farm@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/worker-farm/-/worker-farm-1.7.0.tgz#26a94c5391bbca926152002f69b84a4bf772e5a8"
   integrity sha512-rvw3QTZc8lAxyVrqcSGVm5yP/IJ2UcB3U0graE3LCFoZ0Yn2x4EoVSqJKdB/T5M+FLcRPjz4TDacRf3OCfNUzw==
