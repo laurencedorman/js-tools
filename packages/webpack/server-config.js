@@ -30,6 +30,8 @@ const isDevEnv = env === 'development';
 const isProdEnv = env === 'production';
 
 module.exports = platform => {
+  const platformName = platform.name.toLowerCase();
+
   return {
     mode: env,
     target: 'node',
@@ -74,7 +76,7 @@ module.exports = platform => {
 
     plugins: [
       definePlatform(platform),
-      extractCss(platform),
+      extractCss(platformName),
       ignorePlugin(),
       new webpack.optimize.LimitChunkCountPlugin({
         maxChunks: 1,

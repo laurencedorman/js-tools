@@ -14,9 +14,9 @@ const StartServerPlugin = require('start-server-webpack-plugin');
 const AssetsPlugin = require('assets-webpack-plugin');
 const settings = require('./settings');
 
-const manifestPlugin = ({ name }) => {
+const manifestPlugin = platform => {
   const options = {
-    fileName: `manifest.${name}.json`,
+    fileName: `manifest.${platform}.json`,
     map: file => {
       file.name = file.name.replace(/(\.[a-f0-9]{32})(\..*)$/, '$2');
       return file;
@@ -91,10 +91,10 @@ const imageMin = () =>
 
 const definePlugin = definitions => new webpack.DefinePlugin(definitions);
 
-const extractCss = ({ name }) =>
+const extractCss = platform =>
   new MiniCssExtractPlugin({
-    filename: `css/[name].[contenthash:8].${name}.css`,
-    chunkFilename: `css/[name].[contenthash:8].chunk.${name}.css`,
+    filename: `css/[name].[contenthash:8].${platform}.css`,
+    chunkFilename: `css/[name].[contenthash:8].chunk.${platform}.css`,
   });
 
 const ignorePlugin = () => new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/);

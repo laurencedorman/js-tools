@@ -36,6 +36,8 @@ const isDevEnv = env === 'development';
 const isProdEnv = env === 'production';
 
 module.exports = (platform, envVariables = {}) => {
+  const platformName = platform.name.toLowerCase();
+
   return {
     mode: env,
     bail: isProdEnv,
@@ -52,12 +54,10 @@ module.exports = (platform, envVariables = {}) => {
       path: isProdEnv ? settings.output.path : undefined,
       pathinfo: isDevEnv,
       filename: isProdEnv
-        ? `js/${settings.output.filename}.[contenthash:8].${platform.name}.js`
+        ? `js/${settings.output.filename}.[contenthash:8].${platformName}.js`
         : `${settings.output.filename}.js`,
       chunkFilename: isProdEnv
-        ? `js/${settings.output.chunkFilename}.[chunkhash:8].${
-            platform.name
-          }.js`
+        ? `js/${settings.output.chunkFilename}.[chunkhash:8].${platformName}.js`
         : `${settings.output.chunkFilename}.js`,
       publicPath: isProdEnv
         ? settings.output.publicPath
@@ -117,8 +117,8 @@ module.exports = (platform, envVariables = {}) => {
       htmlPlugin(env, settings.appHtml),
       definePlugin(settings.globals),
       isDevEnv && hotModule(),
-      isProdEnv && manifestPlugin(platform),
-      isProdEnv && extractCss(platform),
+      isProdEnv && manifestPlugin(platformName),
+      isProdEnv && extractCss(platformName),
       ignorePlugin(),
       isDevEnv &&
         webpackBar({
