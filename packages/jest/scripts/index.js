@@ -15,6 +15,9 @@ process.on('unhandledRejection', err => {
 const jest = require('jest');
 const { resolve } = require('path');
 
+const fs = require('fs');
+const { paths } = require('@manomano/project-settings');
+
 let argv = process.argv.slice(2);
 
 // Watch unless on CI, in coverage mode, or explicitly running all tests
@@ -32,6 +35,10 @@ if (argv.indexOf('--no-watch') !== -1) {
   argv = argv.filter(arg => arg !== '--no-watch');
 }
 
-argv.push(`--config=${resolve(__dirname, '../index.js')}`);
+if (fs.existsSync(paths.jestConfig)) {
+  argv.push(`--config=${paths.jestConfig}`);
+} else {
+  argv.push(`--config=${resolve(__dirname, '../index.js')}`);
+}
 
 jest.run(argv);
