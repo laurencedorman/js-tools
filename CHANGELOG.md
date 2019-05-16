@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.3](https://git.manomano.tech/core-utils/js-tools/compare/v2.3.2...v2.3.3) (2019-05-16)
+
+
+### Bug Fixes
+
+* **cli:** macgyver test needs jestConfig path ([17dbace](https://git.manomano.tech/core-utils/js-tools/commits/17dbace))
+
+
+
+
+
 ## [2.3.2](https://git.manomano.tech/core-utils/js-tools/compare/v2.3.1...v2.3.2) (2019-05-15)
 
 
