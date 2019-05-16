@@ -1,10 +1,10 @@
 # Macgyver
 
-- Cli interface that bootstrap the manomano configuration.
+- Command Line Interface that bootstraps a project according to the manomano front configuration.
 
-By default the entrypoint is `src/index.js` and anything inside `public` folder will be bundled.
+By default, the entry point is `src/index.js` and anything inside `public` folder will be bundled.
 
-the output is will be placed inside `build` folder.
+The generated output will be placed inside `build` folder.
 
 # Available commands
 
@@ -18,7 +18,7 @@ the output is will be placed inside `build` folder.
 }
 ```
 
-This command starts the dev envrionment.
+This command starts the dev environment.
 
 - build
 
@@ -42,6 +42,8 @@ This command builds the web application.
 }
 ```
 
+This command runs all the tests of the application, using your **jest.config.js** or **@manomano/jest-config** by default.
+
 - rollup
 
 ```json
@@ -51,3 +53,5 @@ This command builds the web application.
   }
 }
 ```
+
+This command builds the packages in order to be published.

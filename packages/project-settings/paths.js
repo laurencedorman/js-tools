@@ -13,6 +13,7 @@ module.exports = {
   appBuild: resolveApp('dist'),
   appSrc: resolveApp('src'),
   testsSetup: resolveApp('setupTests.js'),
+  jestConfig: resolveApp('jest.config.js'),
   appHtml: resolveApp('public/index.html'),
   appPublic: resolveApp('public'),
   appTranslations: path.join(resolveApp('src'), translationsPath),
