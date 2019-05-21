@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.4](https://git.manomano.tech/core-utils/js-tools/compare/v2.3.3...v2.3.4) (2019-05-21)
+
+
+### Bug Fixes
+
+* **alias:** Add default alias ([184b0f7](https://git.manomano.tech/core-utils/js-tools/commits/184b0f7))
+
+
+
+
+
 ## [2.3.3](https://git.manomano.tech/core-utils/js-tools/compare/v2.3.2...v2.3.3) (2019-05-16)
 
 
