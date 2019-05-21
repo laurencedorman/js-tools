@@ -3,10 +3,12 @@ const { manoConfig, composeObjectValues } = require('@manomano/utils');
 
 const defaultAlias = {
   components: 'src/components',
-  modules: 'src/modules',
-  shapes: 'src/shapes',
   contexts: 'src/contexts',
+  modules: 'src/modules',
+  pages: 'src/pages',
+  shapes: 'src/shapes',
   services: 'src/services',
+  store: 'src/store',
   utils: 'src/utils',
 };
 
