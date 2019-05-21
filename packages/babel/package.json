@@ -11,14 +11,6 @@
   "scripts": {
     "install:lerna": "yarn install --network-concurrency 1"
   },
-  "files": [
-    "plugins",
-    "helpers",
-    "preset.js",
-    "preset-externals.js",
-    "webpack-loader.js",
-    "webpack-external-loader.js"
-  ],
   "dependencies": {
     "@babel/core": "7.4.4",
     "@babel/plugin-proposal-class-properties": "7.4.4",

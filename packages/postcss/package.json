@@ -11,11 +11,6 @@
   "scripts": {
     "install:lerna": "yarn install --network-concurrency 1"
   },
-  "files": [
-    "postcss.config.js",
-    "webpack-loader.js",
-    "parser.js"
-  ],
   "dependencies": {
     "@manomano/browserslist-config": "^2.0.0",
     "postcss-flexbugs-fixes": "4.1.0",

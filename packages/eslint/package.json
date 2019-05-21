@@ -13,7 +13,7 @@
   },
   "scripts": {
     "install:lerna": "yarn install --network-concurrency 1",
-    "lint": "eslint --ext .js --ext .jsx ."
+    "lint": "eslint --ext .js ."
   },
   "dependencies": {
     "@babel/core": "7.4.4",
