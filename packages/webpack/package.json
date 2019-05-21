@@ -9,7 +9,8 @@
     "access": "public"
   },
   "scripts": {
-    "install:lerna": "yarn install --network-concurrency 1"
+    "install:lerna": "yarn install --network-concurrency 1",
+    "lint": "eslint --ext .js ."
   },
   "dependencies": {
     "@babel/code-frame": "7.0.0",
@@ -44,5 +45,11 @@
     "webpack-manifest-plugin": "2.0.4",
     "webpack-node-externals": "1.7.2",
     "webpackbar": "3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0"
+  },
+  "eslintConfig": {
+    "extends": "../eslint/index.js"
   }
 }
