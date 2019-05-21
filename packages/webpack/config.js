@@ -114,7 +114,7 @@ module.exports = (platform, envVariables = {}) => {
       hashedModuleIdsPlugin(),
       definePlatform(platform),
       imageMin(),
-      htmlPlugin(env, settings.appHtml),
+      htmlPlugin(env, settings.appHtml, platformName),
       definePlugin(settings.globals),
       isDevEnv && hotModule(),
       isProdEnv && manifestPlugin(platformName),

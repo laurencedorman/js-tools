@@ -26,11 +26,11 @@ const manifestPlugin = platform => {
   return new ManifestPlugin(options);
 };
 
-const htmlPlugin = (env, tpl = '') =>
+const htmlPlugin = (env, tpl = '', platform = 'gb') =>
   new HtmlPlugin(
     Object.assign(
       {
-        filename: tpl.substr(tpl.lastIndexOf('/') + 1),
+        filename: `${platform}.${tpl.substr(tpl.lastIndexOf('/') + 1)}`,
         template: tpl,
         inject: true,
       },
