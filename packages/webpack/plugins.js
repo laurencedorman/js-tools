@@ -49,7 +49,9 @@ const htmlPlugin = (env, tpl = '', platform = 'gb') =>
               minifyURLs: true,
             },
           }
-        : undefined
+        : {
+            filename: tpl.substr(tpl.lastIndexOf('/') + 1),
+          }
     )
   );
 
