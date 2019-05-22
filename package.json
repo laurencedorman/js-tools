@@ -1,6 +1,6 @@
 {
   "name": "js-tools",
-  "version": "1.0.34",
+  "version": "1.0.35",
   "description": "default manomano frontend tools configuration",
   "license": "MIT",
   "scripts": {
