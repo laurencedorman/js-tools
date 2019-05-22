@@ -62,6 +62,7 @@ module.exports = (platform, envVariables = {}) => {
       publicPath: isProdEnv
         ? settings.output.publicPath
         : `http://localhost:${settings.devServer.port}/`,
+      jsonpFunction: 'rootAppWebpackJsonp',
     },
     optimization: {
       minimize: isProdEnv,
