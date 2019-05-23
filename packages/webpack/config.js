@@ -35,7 +35,8 @@ const env = process.env.NODE_ENV || 'none';
 const isDevEnv = env === 'development';
 const isProdEnv = env === 'production';
 const dockerContainerAddress =
-  process.env.DOCKER_CONTAINER_ADDRESS || 'http://localhost';
+  process.env.DOCKER_CONTAINER_ADDRESS ||
+  `http://localhost:${settings.devServer.port}`;
 
 module.exports = (platform, envVariables = {}) => {
   const platformName = platform.name.toLowerCase();
@@ -48,7 +49,7 @@ module.exports = (platform, envVariables = {}) => {
       isDevEnv &&
         `${require.resolve(
           'webpack-dev-server/client'
-        )}?${dockerContainerAddress}:${settings.devServer.port}/`,
+        )}?${dockerContainerAddress}/`,
       isDevEnv && require.resolve('react-dev-utils/webpackHotDevClient'),
       settings.entry,
     ].filter(Boolean),
