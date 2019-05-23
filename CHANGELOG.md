@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.4](https://git.manomano.tech/core-utils/js-tools/compare/v2.4.3...v2.4.4) (2019-05-23)
+
+
+### Bug Fixes
+
+* **webpack:** removed port in webpack dev server address when used with docker container ([ffa9a95](https://git.manomano.tech/core-utils/js-tools/commits/ffa9a95))
+
+
+
+
+
 ## [2.4.3](https://git.manomano.tech/core-utils/js-tools/compare/v2.4.2...v2.4.3) (2019-05-23)
 
 
