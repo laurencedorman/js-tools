@@ -929,10 +929,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.4.2.tgz#a0b9b4da3eee5ea40dcbfdae052a242ff58c0945"
-  integrity sha512-lro7iyxRDQtyIeMy8GfIo1OaA2ySqdH+GCrhO7wERzGRXjjrmlgGxvDCVvGUYMxYk6EQ1fbcQJCZSf2JpswlPQ==
+"@manomano/babel@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.4.3.tgz#8742195794c5d1c7c61fb60c63db2cba6a3dd8d5"
+  integrity sha512-tkS6exx/mz/EcHel1YBdcE/Zuin4wPQCV9E9LbczXgUSYtd5MwK9ABHHtyoAfiGs1BJxyNFUdTxbDlCt3xhV4w==
   dependencies:
     "@babel/core" "7.4.4"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -944,7 +944,7 @@
     "@babel/preset-react" "7.0.0"
     "@babel/runtime" "7.4.4"
     "@manomano/browserslist-config" "^2.0.0"
-    "@manomano/project-settings" "^2.4.2"
+    "@manomano/project-settings" "^2.4.3"
     babel-loader "8.0.5"
     babel-plugin-dynamic-import-node "2.2.0"
     babel-plugin-module-resolver "3.2.0"
@@ -959,13 +959,13 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/jest-config@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-2.4.2.tgz#6ad1e6cf5087e7dc1d8a7f67ff4165de02b12b8f"
-  integrity sha512-sdG4vOuW28pMntpitHXTWBTiAEg9Vaeq6VBU4BAVrkaLnH77TA1rZwuTOplE59U2SFC9w5gK38NAeSEADlLNog==
+"@manomano/jest-config@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-2.4.3.tgz#5fee43b694aea733ae8b7aca826c88d2761aa052"
+  integrity sha512-prFLh+0943AtbVETkVBX6LoHCbSelLp0hfEN6yDIM8YAYmCQ7Ttron7vzKfRKMAQx9YdpZYll5N8YRpjQXTv0Q==
   dependencies:
     "@babel/core" "7.4.4"
-    "@manomano/babel" "^2.4.2"
+    "@manomano/babel" "^2.4.3"
     babel-jest "24.7.1"
     identity-obj-proxy "3.0.0"
     jest "24.7.1"
@@ -986,10 +986,10 @@
     postcss-preset-env "6.6.0"
     postcss-safe-parser "4.0.1"
 
-"@manomano/project-settings@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.4.2.tgz#148612cdc64b7a580e33e68e40a7f9b0690f06b0"
-  integrity sha512-8T+s6PApxE2P91TU9qSyMJCZ6beZEOT1G4Lom1z+tdViGYSemlDZKovnJDel2HFqAasu3RPw8q7sWU6nUw/dnw==
+"@manomano/project-settings@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.4.3.tgz#587f4c632c4f1421ddb8c1f2c16996dadf40d13a"
+  integrity sha512-fOUOF3Sdk+VRuMN2YUe5HxH1i2vbC5Fs9dmOK8St21RR7Ato9QPfeEivx4lqA30J0iVKaLm4XKVCxRBMuMhkaA==
   dependencies:
     "@manomano/utils" "^2.4.2"
 
@@ -1020,15 +1020,15 @@
     lodash.groupby "4.6.0"
     node-fetch "2.5.0"
 
-"@manomano/webpack@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-2.4.2.tgz#a51d7b470c48e8c17a31a2c7fdb308dfd1b1c493"
-  integrity sha512-2Vn3K4g4ICzbpsMgkovvBlcbNSh8pwS2dLL2f/y4/jv0sOtCjVI3kEdmOOXJR6B8Bg9dT/pWr2lEkRkcCcvGOQ==
+"@manomano/webpack@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-2.4.3.tgz#d8b2ebd019fcb64867cdd7a9c207939739ecb110"
+  integrity sha512-ZxJh5FNZX3626/kfghbH6yKqHH+DWUzQ97yUJVrnWYTa578ofq5IqTM4monobZg2IYIFrqrd1evj35tHWSy4Pw==
   dependencies:
     "@babel/code-frame" "7.0.0"
-    "@manomano/babel" "^2.4.2"
+    "@manomano/babel" "^2.4.3"
     "@manomano/postcss" "^2.4.2"
-    "@manomano/project-settings" "^2.4.2"
+    "@manomano/project-settings" "^2.4.3"
     "@manomano/utils" "^2.4.2"
     assets-webpack-plugin "3.9.10"
     chalk "2.4.2"
@@ -7337,9 +7337,9 @@ node-pre-gyp@^0.12.0:
     tar "^4"
 
 node-releases@^1.1.13, node-releases@^1.1.19:
-  version "1.1.20"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.20.tgz#f77f9f9a4fcb22e74ba88fe15732a3a8b037146d"
-  integrity sha512-YnC3NemTLgzOkQTmR4+0yl/7pIsXZcfWXoquNp0Dql03GQ+CYURhnjUDFsSJxpX/Q9nw8lAjLFdnACQoKs6h5w==
+  version "1.1.21"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.21.tgz#46c86f9adaceae4d63c75d3c2f2e6eee618e55f3"
+  integrity sha512-TwnURTCjc8a+ElJUjmDqU6+12jhli1Q61xOQmdZ7ECZVBZuQpN/1UnembiIHDM1wCcfLvh5wrWXUF5H6ufX64Q==
   dependencies:
     semver "^5.3.0"
 
@@ -9788,9 +9788,9 @@ semver@5.5.0:
   integrity sha512-4SJ3dm0WAwWy/NVeioZh5AntkdJoWKxHxcmyP622fOkgHa4z3R0TdBJICINyaSDE6uNwVc8gZr+ZinwZAH4xIA==
 
 semver@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-6.0.0.tgz#05e359ee571e5ad7ed641a6eec1e547ba52dea65"
-  integrity sha512-0UewU+9rFapKFnlbirLi3byoOuhrSsli/z/ihNnvM24vgF+8sNBiI1LZPBSH9wJKUwaUbw+s3hToDLCXkrghrQ==
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.1.0.tgz#e95dc415d45ecf03f2f9f83b264a6b11f49c0cca"
+  integrity sha512-kCqEOOHoBcFs/2Ccuk4Xarm/KiWRSLEX9CAZF8xkJ6ZPlIoTZ8V5f7J16vYLJqDbR7KrxTJpR2lqjIEm2Qx9cQ==
 
 semver@~5.3.0:
   version "5.3.0"
