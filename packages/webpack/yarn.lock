@@ -791,10 +791,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.4.4.tgz#244a4cc601b708d82cba5693834d819fe2c5074d"
-  integrity sha512-vDoTmOz2N5mAwPOjSkhXBxC4H5EkSzb5dBGSO8FFddUTCY48H0Wg9VSmMJRG8nZAhe13tix4oTwzHvL5kaPyRQ==
+"@manomano/babel@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.4.5.tgz#05bae506151793aa3800741b0af696169978e27e"
+  integrity sha512-DJ25JJd5NbbOQLU/vEWxAENelXMEfXdYsbZAwFmLT9YXQCcAC6Nwxl/+Gu+Qp/op40ey/Pux6nvyn1SdHy+GaQ==
   dependencies:
     "@babel/core" "7.4.4"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -806,7 +806,7 @@
     "@babel/preset-react" "7.0.0"
     "@babel/runtime" "7.4.4"
     "@manomano/browserslist-config" "^2.0.0"
-    "@manomano/project-settings" "^2.4.4"
+    "@manomano/project-settings" "^2.4.5"
     babel-loader "8.0.5"
     babel-plugin-dynamic-import-node "2.2.0"
     babel-plugin-module-resolver "3.2.0"
@@ -832,10 +832,10 @@
     postcss-preset-env "6.6.0"
     postcss-safe-parser "4.0.1"
 
-"@manomano/project-settings@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.4.4.tgz#d26aba0a9e3e1e7ad86e86202af244e48b781590"
-  integrity sha512-omUXYPb9MDKTP74lmCohqBCUP5lA7Oo19Rom5gLP2MjJXqdWhr/HK6ik5VNyJc2tuyavY430inOPt7abBbLi7A==
+"@manomano/project-settings@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.4.5.tgz#c92ad63d9828230c232224ab7be2bae3c366d27f"
+  integrity sha512-IIqiWE8PLJ5I4kAl9U4D4elN4jBMRUulbqUR1gYRXGhJBZUKikkgbOHCzn5wCj4aRyGT9gxlv6M/UbTtjhm8vQ==
   dependencies:
     "@manomano/utils" "^2.4.4"
 
