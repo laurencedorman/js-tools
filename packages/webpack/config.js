@@ -13,7 +13,6 @@ const {
 } = require('./loaders');
 
 const {
-  assetsPlugin,
   manifestPlugin,
   htmlPlugin,
   hotModule,
@@ -34,9 +33,6 @@ const settings = require('./settings');
 const env = process.env.NODE_ENV || 'none';
 const isDevEnv = env === 'development';
 const isProdEnv = env === 'production';
-const dockerContainerAddress =
-  process.env.DOCKER_CONTAINER_ADDRESS ||
-  `http://localhost:${settings.devServer.port}`;
 
 module.exports = (platform, envVariables = {}) => {
   const platformName = platform.name.toLowerCase();
@@ -46,10 +42,7 @@ module.exports = (platform, envVariables = {}) => {
     bail: isProdEnv,
     devtool: isProdEnv ? 'source-map' : isDevEnv && 'cheap-module-source-map',
     entry: [
-      isDevEnv &&
-        `${require.resolve(
-          'webpack-dev-server/client'
-        )}?${dockerContainerAddress}/`,
+      isDevEnv && `${require.resolve('webpack-dev-server/client')}`,
       isDevEnv && require.resolve('react-dev-utils/webpackHotDevClient'),
       settings.entry,
     ].filter(Boolean),
@@ -129,7 +122,6 @@ module.exports = (platform, envVariables = {}) => {
           color: '#f56be2',
           name: 'client',
         }),
-      assetsPlugin(settings.appBuild),
       envPlugin(envVariables),
     ].filter(Boolean),
     resolve: settings.resolve,
