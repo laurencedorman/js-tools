@@ -755,17 +755,17 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/project-settings@^2.4.3":
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.4.3.tgz#587f4c632c4f1421ddb8c1f2c16996dadf40d13a"
-  integrity sha512-fOUOF3Sdk+VRuMN2YUe5HxH1i2vbC5Fs9dmOK8St21RR7Ato9QPfeEivx4lqA30J0iVKaLm4XKVCxRBMuMhkaA==
+"@manomano/project-settings@^2.4.4":
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.4.4.tgz#d26aba0a9e3e1e7ad86e86202af244e48b781590"
+  integrity sha512-omUXYPb9MDKTP74lmCohqBCUP5lA7Oo19Rom5gLP2MjJXqdWhr/HK6ik5VNyJc2tuyavY430inOPt7abBbLi7A==
   dependencies:
-    "@manomano/utils" "^2.4.2"
+    "@manomano/utils" "^2.4.4"
 
-"@manomano/utils@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.4.2.tgz#756756556bf5b84a6a208a8493212a99948804a3"
-  integrity sha512-IknDZ/PT5vYYGRd9JU2CUH1KUUqJQs0o9WbW30zvYqkfket7EKymlxSVlKjG2japHMAL+UKWMyPYHyRxChOCFA==
+"@manomano/utils@^2.4.4":
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.4.4.tgz#dc62ce7bcee05b34050fcfc7b797b18569c5ed1c"
+  integrity sha512-Y7Xqb2+E34M/eowyxRrg3TZGG1ReUvwQq3jCIKVbAfWHH8ofyAXMstoF8i+wTmmDgOd3H+mqfcSBpVosQJk5vw==
   dependencies:
     lodash.groupby "4.6.0"
     node-fetch "2.5.0"
