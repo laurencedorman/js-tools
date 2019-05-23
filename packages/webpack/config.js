@@ -34,6 +34,8 @@ const settings = require('./settings');
 const env = process.env.NODE_ENV || 'none';
 const isDevEnv = env === 'development';
 const isProdEnv = env === 'production';
+const dockerContainerAddress =
+  process.env.DOCKER_CONTAINER_ADDRESS || 'http://localhost';
 
 module.exports = (platform, envVariables = {}) => {
   const platformName = platform.name.toLowerCase();
@@ -44,9 +46,9 @@ module.exports = (platform, envVariables = {}) => {
     devtool: isProdEnv ? 'source-map' : isDevEnv && 'cheap-module-source-map',
     entry: [
       isDevEnv &&
-        `${require.resolve('webpack-dev-server/client')}?http://localhost:${
-          settings.devServer.port
-        }/`,
+        `${require.resolve(
+          'webpack-dev-server/client'
+        )}?${dockerContainerAddress}:${settings.devServer.port}/`,
       isDevEnv && require.resolve('react-dev-utils/webpackHotDevClient'),
       settings.entry,
     ].filter(Boolean),
