@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.3](https://git.manomano.tech/core-utils/js-tools/compare/v2.4.2...v2.4.3) (2019-05-23)
+
+
+### Bug Fixes
+
+* **webpack:** fix SSL error when trying to load webpack dev server assets when required from manomano-sf in docker env ([cc02b43](https://git.manomano.tech/core-utils/js-tools/commits/cc02b43))
+
+
+
+
+
 ## [2.4.2](https://git.manomano.tech/core-utils/js-tools/compare/v2.4.1...v2.4.2) (2019-05-22)
 
 **Note:** Version bump only for package js-tools
