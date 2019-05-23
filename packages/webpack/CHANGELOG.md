@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.5](https://github.com/manomanotech/js-tools/compare/v2.4.4...v2.4.5) (2019-05-23)
+
+
+### Bug Fixes
+
+* **webpack:** deleted entry related to SSR + removed from config assetPlugins used by SSR ([d1b1cfe](https://github.com/manomanotech/js-tools/commit/d1b1cfe))
+
+
+
+
+
 ## [2.4.4](https://github.com/manomanotech/js-tools/compare/v2.4.3...v2.4.4) (2019-05-23)
 
 
