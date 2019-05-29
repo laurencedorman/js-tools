@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.5.0](https://github.com/manomanotech/js-tools/compare/v2.4.5...v2.5.0) (2019-05-29)
+
+
+### Features
+
+* **eslint:** Add more strict rules ([8024121](https://github.com/manomanotech/js-tools/commit/8024121))
+
+
+
+
+
 ## [2.4.5](https://github.com/manomanotech/js-tools/compare/v2.4.4...v2.4.5) (2019-05-23)
 
 
