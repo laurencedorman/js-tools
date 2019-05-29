@@ -24,7 +24,7 @@ function pretty(error) {
       { highlightCode: true }
     );
     return `\n${message}\n\n${result}\n${stack}\n`;
-  } catch (error) {
+  } catch (err) {
     return fallback;
   }
 }

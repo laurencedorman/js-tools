@@ -17,10 +17,10 @@ const settings = require('./settings');
 const manifestPlugin = platform => {
   const options = {
     fileName: `manifest.${platform}.json`,
-    map: file => {
-      file.name = file.name.replace(/(\.[a-f0-9]{32})(\..*)$/, '$2');
-      return file;
-    },
+    map: file => ({
+      ...file,
+      name: file.name.replace(/(\.[a-f0-9]{32})(\..*)$/, '$2'),
+    }),
   };
 
   return new ManifestPlugin(options);

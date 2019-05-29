@@ -15,10 +15,12 @@
   "dependencies": {
     "@babel/code-frame": "7.0.0",
     "@manomano/babel": "^2.4.5",
+    "@manomano/eslint-config": "^2.4.5",
     "@manomano/postcss": "^2.4.4",
     "@manomano/project-settings": "^2.4.5",
     "@manomano/utils": "^2.4.4",
     "assets-webpack-plugin": "3.9.10",
+    "bfj": "^6.1.1",
     "chalk": "2.4.2",
     "css-loader": "2.1.1",
     "deepmerge": "3.2.0",
@@ -30,6 +32,7 @@
     "imagemin-webpack-plugin": "2.4.2",
     "jest-message-util": "24.7.1",
     "mini-css-extract-plugin": "0.6.0",
+    "minimist": "^1.2.0",
     "node-sass": "4.12.0",
     "nodemon": "1.19.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
@@ -50,6 +53,10 @@
     "eslint": "5.16.0"
   },
   "eslintConfig": {
-    "extends": "../eslint/index.js"
+    "extends": "@manomano/eslint-config",
+    "rules": {
+      "no-console": 0,
+      "global-require": 0
+    }
   }
 }

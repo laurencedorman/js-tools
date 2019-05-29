@@ -23,10 +23,10 @@ const defaultSettings = {
     path: paths.appBuild,
   },
   resolve: {
-    alias: alias,
+    alias,
     extensions: ['.js', '.json', '.jsx', '.css', '.scss'],
   },
-  platforms: platforms,
+  platforms,
   globals: pkg.globals || {},
   devServer: {
     host: process.env.HOST || '0.0.0.0',

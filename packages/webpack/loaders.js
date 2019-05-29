@@ -2,9 +2,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpackBabelLoader = require('@manomano/babel/webpack-loader');
 const webpackBabelExternalLoader = require('@manomano/babel/webpack-external-loader');
 const postCSSLoader = require('@manomano/postcss/webpack-loader');
-
-const settings = require('./settings');
 const { manoConfig } = require('@manomano/utils');
+const settings = require('./settings');
 
 const babelLoader = {
   test: /\.jsx?$/,
