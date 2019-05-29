@@ -1,9 +1,7 @@
-'use strict';
-
-const settings = require('./settings');
 const errorOverlayMiddleware = require('react-dev-utils/errorOverlayMiddleware');
 const evalSourceMapMiddleware = require('react-dev-utils/evalSourceMapMiddleware');
 const noopServiceWorkerMiddleware = require('react-dev-utils/noopServiceWorkerMiddleware');
+const settings = require('./settings');
 
 module.exports = {
   compress: true,

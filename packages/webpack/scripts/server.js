@@ -11,17 +11,18 @@ process.on('unhandledRejection', err => {
 const webpack = require('webpack');
 
 const fs = require('fs-extra');
-const { appServerOutput, devServer, platforms } = require('../settings');
+const WebpackDevServer = require('webpack-dev-server');
 const { paths } = require('@manomano/project-settings');
 const serverConfig = require('../server-config');
 const clientConfig = require('../config');
 
+const { appServerOutput, devServer, platforms } = require('../settings');
 const devServerConfig = require('../server.js');
-const WebpackDevServer = require('webpack-dev-server');
 
 // Process CLI arguments
 const argv = process.argv.slice(2);
-const parsedArgs = require('minimist')(argv);
+const parsedArgs = require('minimist')(argv); // eslint-disable-line import/order
+
 const { platform } = parsedArgs;
 
 const selectedPlatform = platforms.find(({ name }) => name === platform);
@@ -46,7 +47,7 @@ try {
     // Otherwise, create a new watcher for our server code.
     watching = serverCompiler.watch(
       { quiet: true, stats: 'none' },
-      stats => {}
+      stats => {} // eslint-disable-line no-unused-vars
     );
   });
 
@@ -61,7 +62,7 @@ try {
       return console.log(err);
     }
     console.log('Starting the development server...\n');
-    console.log('http://localhost:' + devServer.port);
+    console.log(`http://localhost:${devServer.port}`);
   });
 
   ['SIGINT', 'SIGTERM'].forEach(sig => {

@@ -17,16 +17,16 @@ const chalk = require('chalk');
 const config = require('../config');
 const settings = require('../settings');
 
-const measureFileSizesBeforeBuild =
-  FileSizeReporter.measureFileSizesBeforeBuild;
-const printFileSizesAfterBuild = FileSizeReporter.printFileSizesAfterBuild;
+const { measureFileSizesBeforeBuild } = FileSizeReporter;
+const { printFileSizesAfterBuild } = FileSizeReporter;
 
 const WARN_AFTER_BUNDLE_GZIP_SIZE = 512 * 1024;
 const WARN_AFTER_CHUNK_GZIP_SIZE = 1024 * 1024;
 
 // Process CLI arguments
 const argv = process.argv.slice(2);
-const parsedArgs = require('minimist')(argv);
+const parsedArgs = require('minimist')(argv); // eslint-disable-line import/order
+
 const writeStatsJson = parsedArgs.stats;
 
 function copyPublicFolder() {
@@ -90,7 +90,7 @@ function build(previousFileSizes, platform) {
       };
       if (writeStatsJson) {
         return require('bfj')
-          .write(settings.appBuild + '/bundle-stats.json', stats.toJson())
+          .write(`${settings.appBuild}/bundle-stats.json`, stats.toJson())
           .then(() => resolve(resolveArgs))
           .catch(error => reject(new Error(error)));
       }
@@ -111,14 +111,14 @@ const doBuild = async () => {
 
     for (const platform of settings.platforms) {
       try {
-        const { stats, warnings } = await build(previousFileSizes, platform);
+        const { stats, warnings } = await build(previousFileSizes, platform); // eslint-disable-line no-await-in-loop
         if (warnings.length) {
           console.log(chalk.yellow('Compiled with warnings.\n'));
           console.log(warnings.join('\n\n'));
           console.log(
-            '\nSearch for the ' +
-              chalk.underline(chalk.yellow('keywords')) +
-              ' to learn more about each warning.'
+            `\nSearch for the ${chalk.underline(
+              chalk.yellow('keywords')
+            )} to learn more about each warning.`
           );
         } else {
           console.log(chalk.green('Compiled successfully.\n'));
