@@ -1,6 +1,6 @@
 {
   "name": "@manomano/eslint-config",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "description": "default manomano eslint configuration",
   "main": "index.js",
   "license": "MIT",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@babel/core": "7.4.5",
-    "@manomano/project-settings": "^2.4.5",
+    "@manomano/project-settings": "^2.5.1",
     "babel-eslint": "10.0.1",
     "eslint": "5.16.0",
     "eslint-config-airbnb": "^17.1.0",

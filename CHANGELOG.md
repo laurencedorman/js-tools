@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.1](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.0...v2.5.1) (2019-05-29)
+
+
+### Bug Fixes
+
+* **eslint:** Fix babel-module not found. ([1727550](https://git.manomano.tech/core-utils/js-tools/commits/1727550))
+
+
+
+
+
 # [2.5.0](https://git.manomano.tech/core-utils/js-tools/compare/v2.4.5...v2.5.0) (2019-05-29)
 
 
