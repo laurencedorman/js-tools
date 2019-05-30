@@ -1,6 +1,6 @@
 {
   "name": "@manomano/project-settings",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "description": "manomano default project settings",
   "main": "index.js",
   "license": "MIT",

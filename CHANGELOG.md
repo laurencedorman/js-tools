@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.2](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.1...v2.5.2) (2019-05-30)
+
+
+### Bug Fixes
+
+* **eslint:** Bump babel/core version to unify across packages. ([ddef8e0](https://git.manomano.tech/core-utils/js-tools/commits/ddef8e0))
+
+
+
+
+
 ## [2.5.1](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.0...v2.5.1) (2019-05-29)
 
 
