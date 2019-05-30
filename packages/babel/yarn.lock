@@ -743,6 +743,26 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@manomano/browserslist-config@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
+  integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
+
+"@manomano/project-settings@^2.5.2":
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.2.tgz#e04ef86fc96435e403b3fdcdeb3aaac1c4d6a7fd"
+  integrity sha512-MBTyqU8wytbrqU18AKJQ5PWq3HZtUcp5GL/zZrm+NVuRJkxUz+wzB5y/Dhdw7lMlcNQdv1KDLv9+omLWpPZxzQ==
+  dependencies:
+    "@manomano/utils" "^2.5.1"
+
+"@manomano/utils@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.1.tgz#6ecea9809b2e63add413a96cc62448fd8a33b7ba"
+  integrity sha512-jlOCTSWoz0hwmUNsKg1/JinzlI3i8Yy5rmOis79D2o+A0uBLfGEMn9VImSyQ6c4f579gSNmET9YgrkP4Wlvqeg==
+  dependencies:
+    lodash.groupby "4.6.0"
+    node-fetch "2.5.0"
+
 "@typescript-eslint/typescript-estree@^1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-1.9.0.tgz#5d6d49be936e96fb0f859673480f89b070a5dd9b"
@@ -2573,6 +2593,11 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
+lodash.groupby@4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.groupby/-/lodash.groupby-4.6.0.tgz#0b08a1dcf68397c397855c3239783832df7403d1"
+  integrity sha1-Cwih3PaDl8OXhVwyOXg4Mt90A9E=
+
 lodash.unescape@4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.unescape/-/lodash.unescape-4.0.1.tgz#bf2249886ce514cda112fae9218cdc065211fc9c"
@@ -2821,6 +2846,11 @@ neo-async@^2.5.0:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
+
+node-fetch@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.5.0.tgz#8028c49fc1191bba56a07adc6e2a954644a48501"
+  integrity sha512-YuZKluhWGJwCcUu4RlZstdAxr8bFfOVHakc1mplwHkk8J+tqM1Y5yraYvIUpeX8aY7+crCwiELJq7Vl0o0LWXw==
 
 node-libs-browser@^2.0.0:
   version "2.2.0"

@@ -819,9 +819,9 @@
   integrity sha512-lUNOfJC/kVgES4H/WJ3x4XORDeTSz1lUDQohjGmPJfNB+XxfCAhehjkMenLU+X4s39BrV04LeMwxsTgzTe4rlA==
 
 "@manomano/project-settings@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.1.tgz#cdc4ada0825d25b42fff6457e89ffe4721aa0853"
-  integrity sha512-1xux22IShWtjZ0U3gofcJ0F0lh2x8RGik6JPfdem3KKnQudwfUy9dB8h17Fk8/6WK0DFNNKih8DNjSbrYEELTA==
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.2.tgz#e04ef86fc96435e403b3fdcdeb3aaac1c4d6a7fd"
+  integrity sha512-MBTyqU8wytbrqU18AKJQ5PWq3HZtUcp5GL/zZrm+NVuRJkxUz+wzB5y/Dhdw7lMlcNQdv1KDLv9+omLWpPZxzQ==
   dependencies:
     "@manomano/utils" "^2.5.1"
 

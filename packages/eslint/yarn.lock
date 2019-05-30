@@ -119,6 +119,21 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@manomano/project-settings@^2.5.2":
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.2.tgz#e04ef86fc96435e403b3fdcdeb3aaac1c4d6a7fd"
+  integrity sha512-MBTyqU8wytbrqU18AKJQ5PWq3HZtUcp5GL/zZrm+NVuRJkxUz+wzB5y/Dhdw7lMlcNQdv1KDLv9+omLWpPZxzQ==
+  dependencies:
+    "@manomano/utils" "^2.5.1"
+
+"@manomano/utils@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.1.tgz#6ecea9809b2e63add413a96cc62448fd8a33b7ba"
+  integrity sha512-jlOCTSWoz0hwmUNsKg1/JinzlI3i8Yy5rmOis79D2o+A0uBLfGEMn9VImSyQ6c4f579gSNmET9YgrkP4Wlvqeg==
+  dependencies:
+    lodash.groupby "4.6.0"
+    node-fetch "2.5.0"
+
 acorn-jsx@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.0.1.tgz#32a064fd925429216a09b141102bfdd185fae40e"
@@ -923,6 +938,11 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
+lodash.groupby@4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.groupby/-/lodash.groupby-4.6.0.tgz#0b08a1dcf68397c397855c3239783832df7403d1"
+  integrity sha1-Cwih3PaDl8OXhVwyOXg4Mt90A9E=
+
 lodash@^4.17.11:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
@@ -988,6 +1008,11 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
+
+node-fetch@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.5.0.tgz#8028c49fc1191bba56a07adc6e2a954644a48501"
+  integrity sha512-YuZKluhWGJwCcUu4RlZstdAxr8bFfOVHakc1mplwHkk8J+tqM1Y5yraYvIUpeX8aY7+crCwiELJq7Vl0o0LWXw==
 
 normalize-package-data@^2.3.2:
   version "2.5.0"
