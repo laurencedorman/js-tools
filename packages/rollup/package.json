@@ -12,7 +12,7 @@
     "install:lerna": "yarn install --network-concurrency 1"
   },
   "dependencies": {
-    "@babel/core": "7.4.4",
+    "@babel/core": "^7.4.5",
     "autoprefixer": "9.5.1",
     "node-sass": "4.12.0",
     "p-queue": "5.0.0",

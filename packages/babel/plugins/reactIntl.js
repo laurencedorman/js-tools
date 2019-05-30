@@ -25,14 +25,14 @@ module.exports = ({ types }) => {
           const { filename, root } = state.file.opts;
 
           const dependencies = dependencyTree.toList({
-            filename: filename,
+            filename,
             directory: root,
-            //This need to be a path to a file.
+            // This need to be a path to a file.
             webpackConfig: join(__dirname, './config.js'),
-            filter: path => {
-              if (/\.(scss|sass)$/.test(path)) return false;
+            filter: dependencyPath => {
+              if (/\.(scss|sass)$/.test(dependencyPath)) return false;
 
-              return !path.includes('node_modules');
+              return !dependencyPath.includes('node_modules');
             },
           });
 
@@ -87,7 +87,7 @@ module.exports = ({ types }) => {
                 '+',
                 types.binaryExpression(
                   '+',
-                  types.stringLiteral(paths.appTranslations + '/'),
+                  types.stringLiteral(`${paths.appTranslations}/`),
                   types.identifier('__LANG__')
                 ),
                 types.stringLiteral('.json')
