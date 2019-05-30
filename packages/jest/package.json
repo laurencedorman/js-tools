@@ -12,7 +12,7 @@
     "install:lerna": "yarn install --network-concurrency 1"
   },
   "dependencies": {
-    "@babel/core": "7.4.4",
+    "@babel/core": "^7.4.5",
     "@manomano/babel": "^2.5.1",
     "babel-jest": "24.7.1",
     "identity-obj-proxy": "3.0.0",
