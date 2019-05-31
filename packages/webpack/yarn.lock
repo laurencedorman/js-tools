@@ -703,7 +703,7 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.4.5":
+"@babel/runtime@^7.4.5":
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.5.tgz#582bb531f5f9dc67d2fcb682979894f75e253f12"
   integrity sha512-TuI4qpWZP6lGOGIuGWtp9sPluqYICmbk8T/1vpSysqJxRPkudh/ofFWyqdcMsDf2s7KvDL4/YHgKyvcS3g9CJQ==
@@ -784,10 +784,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^2.5.2":
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.5.2.tgz#a5e64337621dba1b621a907c2d07653b0d5b29ce"
-  integrity sha512-GUr6gyUX3V0Z/AQ104xRAIMw+1rWoiclIK1Cm4xyO1gcGrNqFDW2XZccrXB8dN/i5HVpAJ/SXbBJPmi/rGFvmw==
+"@manomano/babel@^2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.5.3.tgz#428d0130f959d402028b0523a90b93ebc1f39348"
+  integrity sha512-QddgS5Z/NqwAIm7gDjMEC7W0i1zF7hiy/J9ybPJ/salm1hze7ISzi1amBh1OXIRkyExG31iyJMRfgK8CV0Aiow==
   dependencies:
     "@babel/core" "^7.4.5"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -799,29 +799,30 @@
     "@babel/preset-react" "7.0.0"
     "@babel/runtime" "^7.4.5"
     "@manomano/browserslist-config" "^2.0.0"
-    "@manomano/project-settings" "^2.5.2"
-    babel-loader "8.0.5"
+    "@manomano/project-settings" "^2.5.3"
+    babel-loader "8.0.6"
     babel-plugin-dynamic-import-node "2.2.0"
     babel-plugin-module-resolver "3.2.0"
     babel-plugin-named-asset-import "0.3.2"
-    babel-plugin-react-intl "3.0.1"
+    babel-plugin-react-intl "3.1.1"
     babel-plugin-transform-react-remove-prop-types "0.4.24"
     dependency-tree "7.0.2"
-    webpack "4.30.0"
+    webpack "4.32.2"
 
 "@manomano/browserslist-config@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/eslint-config@^2.5.2":
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-2.5.2.tgz#1b4d88caa26569379389d66603f4ccbcac44cec1"
-  integrity sha512-XQ8aLB560g4QAPJIgJa6wN7/xabXRkrTzLQT/8C2ODCF2m7se0ncpYNTpdSFMMKQVQk321ozrtsWhMw2DPYwag==
+"@manomano/eslint-config@^2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-2.5.3.tgz#9c68e48a07b1559be42839a5c3431c94887059b5"
+  integrity sha512-MFidNHvsyz0SrfABQ/Jb8JJ0gc6Plj8MU65PzWwr5UZ985obQxPVQ0UKbST997KaMr81gJDdvxAOUcfvU8uxxQ==
   dependencies:
     "@babel/core" "^7.4.5"
-    "@manomano/project-settings" "^2.5.2"
+    "@manomano/project-settings" "^2.5.3"
     babel-eslint "10.0.1"
+    babel-plugin-module-resolver "^3.2.0"
     eslint "5.16.0"
     eslint-config-airbnb "17.1.0"
     eslint-config-prettier "4.3.0"
@@ -834,10 +835,10 @@
     eslint-plugin-react "7.13.0"
     eslint-plugin-react-hooks "1.6.0"
 
-"@manomano/postcss@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-2.5.1.tgz#b986ca29e4912ea2cc979052d512a2e9f9fe6b2e"
-  integrity sha512-80poCMGSRGEtTtNmQZA5n76pxXhKeN4zhrY+sbqmnfe5bHsFtQoAhOgCVdFkrRBjEaDnWSgR0SdlHnrAHmqMFg==
+"@manomano/postcss@^2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-2.5.3.tgz#78467bc5bed251b6f29c37b20222d7f4d8d6bab3"
+  integrity sha512-eFJ0mwmqE/Rax8IMqDtle8ivhS4eTDajdxokWuJR12tsHVyZgGPue/U15zjI3ouTa2IrNuwF3lNUnoAWZR7KZA==
   dependencies:
     "@manomano/browserslist-config" "^2.0.0"
     postcss-flexbugs-fixes "4.1.0"
@@ -845,20 +846,20 @@
     postcss-preset-env "6.6.0"
     postcss-safe-parser "4.0.1"
 
-"@manomano/project-settings@^2.5.2":
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.2.tgz#e04ef86fc96435e403b3fdcdeb3aaac1c4d6a7fd"
-  integrity sha512-MBTyqU8wytbrqU18AKJQ5PWq3HZtUcp5GL/zZrm+NVuRJkxUz+wzB5y/Dhdw7lMlcNQdv1KDLv9+omLWpPZxzQ==
+"@manomano/project-settings@^2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.3.tgz#32956aa4369ff08cbb82887099aea2f8a0649273"
+  integrity sha512-J0uNzV8VuysVh8W4uKWzl4rHfWuT3SiAP1GfyzSPNMyyBjs+Z6ZouaweGKt9o/ZCwxWJwDbaBQg8IajXeUP2KQ==
   dependencies:
-    "@manomano/utils" "^2.5.1"
+    "@manomano/utils" "^2.5.3"
 
-"@manomano/utils@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.1.tgz#6ecea9809b2e63add413a96cc62448fd8a33b7ba"
-  integrity sha512-jlOCTSWoz0hwmUNsKg1/JinzlI3i8Yy5rmOis79D2o+A0uBLfGEMn9VImSyQ6c4f579gSNmET9YgrkP4Wlvqeg==
+"@manomano/utils@^2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.3.tgz#4d4fac919b4029294e1ac0085ae96a8283544069"
+  integrity sha512-PJEp1DBCq93PEg6X3Cvs6Tfu/6Jz7PVuUKbFPwXiI6PNQDZ7/Hva1PwMJU7ZOQjRD99OEThqb/qi/HV1KNINSA==
   dependencies:
     lodash.groupby "4.6.0"
-    node-fetch "2.5.0"
+    node-fetch "2.6.0"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -1590,15 +1591,15 @@ babel-eslint@10.0.1:
     eslint-scope "3.7.1"
     eslint-visitor-keys "^1.0.0"
 
-babel-loader@8.0.5:
-  version "8.0.5"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.5.tgz#225322d7509c2157655840bba52e46b6c2f2fe33"
-  integrity sha512-NTnHnVRd2JnRqPC0vW+iOQWU5pchDbYXsG2E6DMXEpMfUcQKclF9gmf3G3ZMhzG7IG9ji4coL0cm+FxeWxDpnw==
+babel-loader@8.0.6:
+  version "8.0.6"
+  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.6.tgz#e33bdb6f362b03f4bb141a0c21ab87c501b70dfb"
+  integrity sha512-4BmWKtBOBm13uoUwd08UwjZlaw3O9GWf456R9j+5YykFZ6LUIjIKLc0zEZf+hauxPOJs96C8k6FvYD09vWzhYw==
   dependencies:
     find-cache-dir "^2.0.0"
     loader-utils "^1.0.2"
     mkdirp "^0.5.1"
-    util.promisify "^1.0.0"
+    pify "^4.0.1"
 
 babel-plugin-dynamic-import-node@2.2.0:
   version "2.2.0"
@@ -1607,7 +1608,7 @@ babel-plugin-dynamic-import-node@2.2.0:
   dependencies:
     object.assign "^4.1.0"
 
-babel-plugin-module-resolver@3.2.0:
+babel-plugin-module-resolver@3.2.0, babel-plugin-module-resolver@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-module-resolver/-/babel-plugin-module-resolver-3.2.0.tgz#ddfa5e301e3b9aa12d852a9979f18b37881ff5a7"
   integrity sha512-tjR0GvSndzPew/Iayf4uICWZqjBwnlMWjSx6brryfQ81F9rxBVqwDJtFCV8oOs0+vJeefK9TmdZtkIFdFe1UnA==
@@ -1623,14 +1624,13 @@ babel-plugin-named-asset-import@0.3.2:
   resolved "https://registry.yarnpkg.com/babel-plugin-named-asset-import/-/babel-plugin-named-asset-import-0.3.2.tgz#20978ed446b8e1bf4a2f42d0a94c0ece85f75f4f"
   integrity sha512-CxwvxrZ9OirpXQ201Ec57OmGhmI8/ui/GwTDy0hSp6CmRvgRC0pSair6Z04Ck+JStA0sMPZzSJ3uE4n17EXpPQ==
 
-babel-plugin-react-intl@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-intl/-/babel-plugin-react-intl-3.0.1.tgz#4abc7fff04a7bbbb7034aec0a675713f2e52181c"
-  integrity sha512-FqnEO+Tq7kJVUPKsSG3s5jaHi3pAC4RUR11IrscvjsfkOApLP2DtzNo6dtQ+tX+OzEzJx7cUms8aCw5BFyW5xg==
+babel-plugin-react-intl@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-intl/-/babel-plugin-react-intl-3.1.1.tgz#efa400dbba14b38361f70c2b11bb2eda6c206f95"
+  integrity sha512-Ih5pzsd7AQ+iT1GhxDdTpXtdMgO2ZvyjBcLIfrDK19D0AswtCEgpnuZd+Wue2gD9N8YfmVBJszONpPwR3bcYOg==
   dependencies:
-    "@babel/runtime" "^7.0.0"
-    intl-messageformat-parser "^1.2.0"
-    mkdirp "^0.5.1"
+    fs-extra "^8.0.1"
+    intl-messageformat-parser "^1.6.3"
 
 babel-plugin-transform-react-remove-prop-types@0.4.24:
   version "0.4.24"
@@ -4286,7 +4286,7 @@ fs-constants@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs-constants/-/fs-constants-1.0.0.tgz#6be0de9be998ce16af8afc24497b9ee9b7ccd9ad"
   integrity sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==
 
-fs-extra@8.0.1:
+fs-extra@8.0.1, fs-extra@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.0.1.tgz#90294081f978b1f182f347a440a209154344285b"
   integrity sha512-W+XLrggcDzlle47X/XnS7FXrXu9sDo+Ze9zpndeBxdgv88FHLm1HtmkhEwavruS6koanBjp098rUpHs65EmG7A==
@@ -5200,7 +5200,7 @@ internal-ip@^4.3.0:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
 
-intl-messageformat-parser@^1.2.0:
+intl-messageformat-parser@^1.6.3:
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-1.6.3.tgz#26e5363f013f2d54e900de0d180f8b04db0e635b"
   integrity sha512-QslP7jJxG0VCCA2Dy8GfUECzEGEN+duCO5/N6LdOPTf/EOs5B3C6apkznzQ57dUKqtVt4TYJyIS/5Gern/y04A==
@@ -6427,10 +6427,10 @@ no-case@^2.2.0:
   dependencies:
     lower-case "^1.1.1"
 
-node-fetch@2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.5.0.tgz#8028c49fc1191bba56a07adc6e2a954644a48501"
-  integrity sha512-YuZKluhWGJwCcUu4RlZstdAxr8bFfOVHakc1mplwHkk8J+tqM1Y5yraYvIUpeX8aY7+crCwiELJq7Vl0o0LWXw==
+node-fetch@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
+  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
 node-forge@0.7.5:
   version "0.7.5"
@@ -9993,36 +9993,6 @@ webpack-sources@^1.1.0, webpack-sources@^1.3.0:
   dependencies:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
-
-webpack@4.30.0:
-  version "4.30.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.30.0.tgz#aca76ef75630a22c49fcc235b39b4c57591d33a9"
-  integrity sha512-4hgvO2YbAFUhyTdlR4FNyt2+YaYBYHavyzjCMbZzgglo02rlKi/pcsEzwCuCpsn1ryzIl1cq/u8ArIKu8JBYMg==
-  dependencies:
-    "@webassemblyjs/ast" "1.8.5"
-    "@webassemblyjs/helper-module-context" "1.8.5"
-    "@webassemblyjs/wasm-edit" "1.8.5"
-    "@webassemblyjs/wasm-parser" "1.8.5"
-    acorn "^6.0.5"
-    acorn-dynamic-import "^4.0.0"
-    ajv "^6.1.0"
-    ajv-keywords "^3.1.0"
-    chrome-trace-event "^1.0.0"
-    enhanced-resolve "^4.1.0"
-    eslint-scope "^4.0.0"
-    json-parse-better-errors "^1.0.2"
-    loader-runner "^2.3.0"
-    loader-utils "^1.1.0"
-    memory-fs "~0.4.1"
-    micromatch "^3.1.8"
-    mkdirp "~0.5.0"
-    neo-async "^2.5.0"
-    node-libs-browser "^2.0.0"
-    schema-utils "^1.0.0"
-    tapable "^1.1.0"
-    terser-webpack-plugin "^1.1.0"
-    watchpack "^1.5.0"
-    webpack-sources "^1.3.0"
 
 webpack@4.32.2:
   version "4.32.2"
