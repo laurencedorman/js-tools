@@ -19,7 +19,7 @@
     }
   },
   "devDependencies": {
-    "@manomano/eslint-config": "2.5.1",
+    "@manomano/eslint-config": "2.5.2",
     "@manomano/prettier-config": "2.0.0",
     "husky": "2.3.0",
     "lerna": "3.14.1",

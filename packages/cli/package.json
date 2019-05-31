@@ -19,7 +19,6 @@
     "@manomano/jest-config": "^2.5.2",
     "@manomano/rollup-config": "^2.5.2",
     "@manomano/webpack": "^2.5.2",
-    "cross-spawn": "6.0.5",
-    "jest-haste-map": "24.7.1"
+    "cross-spawn": "6.0.5"
   }
 }

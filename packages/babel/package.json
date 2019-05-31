@@ -23,13 +23,13 @@
     "@babel/runtime": "^7.4.5",
     "@manomano/browserslist-config": "^2.0.0",
     "@manomano/project-settings": "^2.5.2",
-    "babel-loader": "8.0.5",
+    "babel-loader": "8.0.6",
     "babel-plugin-dynamic-import-node": "2.2.0",
     "babel-plugin-module-resolver": "3.2.0",
     "babel-plugin-named-asset-import": "0.3.2",
-    "babel-plugin-react-intl": "3.0.1",
+    "babel-plugin-react-intl": "3.1.1",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "dependency-tree": "7.0.2",
-    "webpack": "4.30.0"
+    "webpack": "4.32.2"
   }
 }
