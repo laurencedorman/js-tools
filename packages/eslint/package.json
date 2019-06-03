@@ -1,6 +1,6 @@
 {
   "name": "@manomano/eslint-config",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "description": "default manomano eslint configuration",
   "main": "index.js",
   "license": "MIT",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.4.5",
-    "@manomano/project-settings": "^2.5.3",
+    "@manomano/project-settings": "^2.5.4",
     "babel-eslint": "10.0.1",
     "babel-plugin-module-resolver": "^3.2.0",
     "eslint": "5.16.0",

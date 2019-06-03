@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.4](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.3...v2.5.4) (2019-06-03)
+
+
+### Bug Fixes
+
+* **eslint:** Disable import/prefer-default-export rule. ([05d73e0](https://git.manomano.tech/core-utils/js-tools/commits/05d73e0))
+
+
+
+
+
 ## [2.5.3](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.2...v2.5.3) (2019-05-31)
 
 **Note:** Version bump only for package js-tools
