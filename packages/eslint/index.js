@@ -1,5 +1,12 @@
 const { alias, paths } = require('@manomano/project-settings');
 
+/**
+ * Levels of the rules
+ * 0 - Off
+ * 1 - Warning
+ * 2 - Error
+ */
+
 module.exports = {
   extends: [
     'airbnb',
@@ -27,5 +34,6 @@ module.exports = {
     'react/display-name': 2, // Enforces displayName to be readable
     'consistent-return': 0, // Allow arrow functions to not return nothing.
     'no-restricted-syntax': 0, // Don't disable generators/async await syntax.
+    'import/prefer-default-export': 0, // Enable any kind exports.
   },
 };
