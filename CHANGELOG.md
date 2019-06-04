@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.5](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.4...v2.5.5) (2019-06-04)
+
+
+### Bug Fixes
+
+* **webpack:** switch chunkhash to contenthash in chunk webpack config ([867184c](https://git.manomano.tech/core-utils/js-tools/commits/867184c))
+
+
+
+
+
 ## [2.5.4](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.3...v2.5.4) (2019-06-03)
 
 
