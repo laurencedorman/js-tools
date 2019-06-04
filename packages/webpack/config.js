@@ -51,7 +51,9 @@ module.exports = (platform, envVariables = {}) => {
         ? `js/${settings.output.filename}.[contenthash:8].${platformName}.js`
         : `${settings.output.filename}.js`,
       chunkFilename: isProdEnv
-        ? `js/${settings.output.chunkFilename}.[chunkhash:8].${platformName}.js`
+        ? `js/${
+            settings.output.chunkFilename
+          }.[contenthash:8].${platformName}.js`
         : `${settings.output.chunkFilename}.js`,
       publicPath: isProdEnv
         ? settings.output.publicPath
