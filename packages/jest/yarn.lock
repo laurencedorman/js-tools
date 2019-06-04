@@ -897,10 +897,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^2.5.4":
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.5.4.tgz#2d7ac489f5d8aecb0e0dfa27e9aaa63800169e1d"
-  integrity sha512-5loBzzPy/tCVxG7XDweQ1kq/3Pa0OusNkmM/k9K+nC4pSLr/CUASObtMO94kJruPQqZXoI1uDsv/TcUhXs8Kjg==
+"@manomano/babel@^2.5.5":
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.5.5.tgz#71861ced0c6a6592a98b8fab359126fc526dcaca"
+  integrity sha512-RaFCuR7pTDecjCgJdw7CIsEWvatMldjO/bs+FUCtQmfXgDdgq9aUb/hFJX1nqqjPj3cWGwXlfBQfEqiiET72XQ==
   dependencies:
     "@babel/core" "^7.4.5"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -912,7 +912,7 @@
     "@babel/preset-react" "7.0.0"
     "@babel/runtime" "^7.4.5"
     "@manomano/browserslist-config" "^2.0.0"
-    "@manomano/project-settings" "^2.5.4"
+    "@manomano/project-settings" "^2.5.5"
     babel-loader "8.0.6"
     babel-plugin-dynamic-import-node "2.2.0"
     babel-plugin-module-resolver "3.2.0"
@@ -927,17 +927,17 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/project-settings@^2.5.4":
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.4.tgz#888dc75ecdb461b1514f8fab9a4fff5d43276687"
-  integrity sha512-40KZv8fUtyNs1UMDlJF/oLXdlMBucLMGkUSv0zHaAK/MfK5jXC9nhl1Jq4nj1jcUmKPGvaVsDgrc43pl/yz1SQ==
+"@manomano/project-settings@^2.5.5":
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.5.tgz#17ff45dc760836364f5083b4dc037a0e4b930f52"
+  integrity sha512-Q/3hkVv4kcFb9IN+SPMVDRPcHuBcBBf2zPTBuEwT6/uRAvmhd7M+44Xon9ydAzQqEwiHT6AMLe7HKFYu/5tZUA==
   dependencies:
-    "@manomano/utils" "^2.5.3"
+    "@manomano/utils" "^2.5.5"
 
-"@manomano/utils@^2.5.3":
-  version "2.5.3"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.3.tgz#4d4fac919b4029294e1ac0085ae96a8283544069"
-  integrity sha512-PJEp1DBCq93PEg6X3Cvs6Tfu/6Jz7PVuUKbFPwXiI6PNQDZ7/Hva1PwMJU7ZOQjRD99OEThqb/qi/HV1KNINSA==
+"@manomano/utils@^2.5.5":
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.5.tgz#d6e41a206ae1e09a8fbd289db508bf0d307cf0b6"
+  integrity sha512-YEc64TmyoiMRkRTnjatO0QvmPEJI8Og5JbMxETagFnNYxZ0dvyJKtAfJWLrw3wI3T1tPt45q7Km2L1hAumW3tQ==
   dependencies:
     lodash.groupby "4.6.0"
     node-fetch "2.6.0"
@@ -1698,9 +1698,9 @@ camelcase@^5.0.0:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 caniuse-lite@^1.0.30000971:
-  version "1.0.30000971"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000971.tgz#d1000e4546486a6977756547352bc96a4cfd2b13"
-  integrity sha512-TQFYFhRS0O5rdsmSbF1Wn+16latXYsQJat66f7S7lizXW1PVpWJeZw9wqqVLIjuxDRz7s7xRUj13QCfd8hKn6g==
+  version "1.0.30000973"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000973.tgz#2f8e8e54f9e6c5b7a631c9e69bfa1093d8cfd360"
+  integrity sha512-/F3t/Yo8LEdRSEPCmI15fLu5vepVh9UCg/9inJXF5AAfW7xRRJkbaM2ut52iRMQMnGCLQouLbFdbOA+VEFOIsg==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -2239,9 +2239,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.3.137:
-  version "1.3.143"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.143.tgz#8b2a631ab75157aa53d0c2933275643b99ef580b"
-  integrity sha512-J9jOpxIljQZlV6GIP2fwAWq0T69syawU0sH3EW3O2Bgxquiy+veeIT5mBDRz+i3oHUSL1tvVgRKH3/4QiQh9Pg==
+  version "1.3.144"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.144.tgz#d742d2c451090798303a4a5eea4f33f5e60f5d94"
+  integrity sha512-jNRFJpfNrYm5uJ4x0q9oYMOfbL0JPOlkNli8GS/5zEmCjnE5jAtoCo4BYajHiqSPqEeAjtTdItL4p7EZw+jSfg==
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -2502,9 +2502,9 @@ file-exists-dazinatorfork@^1.0.2:
   integrity sha512-r70c72ln2YHzQINNfxDp02hAhbGkt1HffZ+Du8oetWDLjDtFja/Lm10lUaSh9e+wD+7VDvPee0b0C9SAy8pWZg==
 
 filing-cabinet@^2.3.1:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/filing-cabinet/-/filing-cabinet-2.3.2.tgz#57e3da3f2fb81149ee68ad9b50744b96290e2447"
-  integrity sha512-31zt8QRdGW8HEQNdAz2Hsk/eixQE+ZOFh7k9Fwh6cHb/ms7SbyE+JInGG8HP36HL6erPb6aCw6Q8OeyxE9PfNg==
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/filing-cabinet/-/filing-cabinet-2.3.3.tgz#77882b25ef0859c321a871b440823bc2ed590995"
+  integrity sha512-Lp9FNBm74UnZI/0tVcH8WlJZmnYf9/qImt1/VUaEj3rlBl+V7M5yVAzYPJ7X1T2WxQeCrSQN4jN64SlQa6Rbew==
   dependencies:
     app-module-path "^2.2.0"
     commander "^2.13.0"
@@ -2513,7 +2513,7 @@ filing-cabinet@^2.3.1:
     is-relative-path "^1.0.2"
     module-definition "^3.0.0"
     module-lookup-amd "^6.1.0"
-    resolve "^1.9.0"
+    resolve "^1.11.1"
     resolve-dependency-path "^2.0.0"
     sass-lookup "^3.0.0"
     stylus-lookup "^3.0.1"
@@ -5011,10 +5011,10 @@ resolve@1.1.7:
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
   integrity sha1-IDEU2CrSxe2ejgQRs5ModeiJ6Xs=
 
-resolve@^1.10.0, resolve@^1.3.2, resolve@^1.4.0, resolve@^1.8.1, resolve@^1.9.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.11.0.tgz#4014870ba296176b86343d50b60f3b50609ce232"
-  integrity sha512-WL2pBDjqT6pGUNSUzMw00o4T7If+z4H2x3Gz893WoUQ5KW8Vr9txp00ykiP16VBaZF5+j/OcXJHZ9+PCvdiDKw==
+resolve@^1.10.0, resolve@^1.11.1, resolve@^1.3.2, resolve@^1.4.0, resolve@^1.8.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.11.1.tgz#ea10d8110376982fef578df8fc30b9ac30a07a3e"
+  integrity sha512-vIpgF6wfuJOZI7KKKSP+HmiKggadPQAdsp5HiC1mvqnfp0gF1vdwgBWZIdrVft9pgqoMFQN+R7BSWZiBxx+BBw==
   dependencies:
     path-parse "^1.0.6"
 
