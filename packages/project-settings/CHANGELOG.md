@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.6](https://github.com/manomanotech/js-tools/compare/v2.5.5...v2.5.6) (2019-06-06)
+
+
+### Bug Fixes
+
+* **webpack,project-settings:** Changed project alias to relative paths to prevent babel plugin module resolver to insert absolute paths ([34962b4](https://github.com/manomanotech/js-tools/commit/34962b4))
+
+
+
+
+
 ## [2.5.5](https://github.com/manomanotech/js-tools/compare/v2.5.4...v2.5.5) (2019-06-04)
 
 **Note:** Version bump only for package @manomano/project-settings
