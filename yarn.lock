@@ -819,16 +819,16 @@
   integrity sha512-lUNOfJC/kVgES4H/WJ3x4XORDeTSz1lUDQohjGmPJfNB+XxfCAhehjkMenLU+X4s39BrV04LeMwxsTgzTe4rlA==
 
 "@manomano/project-settings@^2.5.2":
-  version "2.5.5"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.5.tgz#17ff45dc760836364f5083b4dc037a0e4b930f52"
-  integrity sha512-Q/3hkVv4kcFb9IN+SPMVDRPcHuBcBBf2zPTBuEwT6/uRAvmhd7M+44Xon9ydAzQqEwiHT6AMLe7HKFYu/5tZUA==
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.6.tgz#59efe552c9cc97d4829ef9acefa17203f6550afd"
+  integrity sha512-6aHizzIskU6kO77pANTvIlEt9PfWkzqR0PGy0BTHfnbtaKePSloeudLpB2mwRLX2zjJ+CE/KdKox62Q69v/5dQ==
   dependencies:
-    "@manomano/utils" "^2.5.5"
+    "@manomano/utils" "^2.5.6"
 
-"@manomano/utils@^2.5.5":
-  version "2.5.5"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.5.tgz#d6e41a206ae1e09a8fbd289db508bf0d307cf0b6"
-  integrity sha512-YEc64TmyoiMRkRTnjatO0QvmPEJI8Og5JbMxETagFnNYxZ0dvyJKtAfJWLrw3wI3T1tPt45q7Km2L1hAumW3tQ==
+"@manomano/utils@^2.5.6":
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.6.tgz#04e9258e72963defde95e7ba559650d92da4e808"
+  integrity sha512-JxEaBredfM6ap2bKL/ewBVSuRhdW3BnQw5YLpHDVW8a0JTgsrVEt8Um8i7lywEpWwxp8c8YleO4J3Ud1+HUqSA==
   dependencies:
     lodash.groupby "4.6.0"
     node-fetch "2.6.0"
@@ -936,7 +936,14 @@ acorn@^6.0.7:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.1.1.tgz#7d25ae05bb8ad1f9b699108e1094ecd7884adc1f"
   integrity sha512-jPTiwtOxaHNaAPg/dmrJ/beuzLRnXtB0kQPQ8JpotKJgTB6rX6c8mlf315941pyjBSaPg8NHXS9fhP4u17DpGA==
 
-agent-base@4, agent-base@^4.1.0, agent-base@~4.2.1:
+agent-base@4, agent-base@^4.1.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-4.3.0.tgz#8165f01c436009bccad0b1d122f05ed770efc6ee"
+  integrity sha512-salcGninV0nPrwpGNn4VTXBb1SOuXQBiqbrNXoeizJsHrsL6ERFM2Ne3JUSBWRE6aeNJI2ROP/WEEIDUiDe3cg==
+  dependencies:
+    es6-promisify "^5.0.0"
+
+agent-base@~4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-4.2.1.tgz#d89e5999f797875674c07d87f260fc41e83e8ca9"
   integrity sha512-JVwXMr9nHYTUXsBFKUqhJwvlcYU/blreOEUkhNR2eXZIvwd+c+o5V4MgDPKWnMS/56awN3TRzIP+KoPn+roQtg==
@@ -5475,9 +5482,9 @@ table@^5.2.3:
     string-width "^3.0.0"
 
 tar@^4.4.8:
-  version "4.4.9"
-  resolved "https://registry.yarnpkg.com/tar/-/tar-4.4.9.tgz#058fbb152f6fc45733e84585a40c39e59302e1b3"
-  integrity sha512-xisFa7Q2i3HOgfn+nmnWLGHD6Tm23hxjkx6wwGmgxkJFr6wxwXnJOdJYcZjL453PSdF0+bemO03+flAzkIdLBQ==
+  version "4.4.10"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-4.4.10.tgz#946b2810b9a5e0b26140cf78bea6b0b0d689eba1"
+  integrity sha512-g2SVs5QIxvo6OLp0GudTqEf05maawKUxXru104iaayWA09551tFCTI8f1Asb4lPfkBr91k07iL4c11XO3/b0tA==
   dependencies:
     chownr "^1.1.1"
     fs-minipass "^1.2.5"
