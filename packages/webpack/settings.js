@@ -1,6 +1,6 @@
 const path = require('path');
 const deepmerge = require('deepmerge');
-const { pkg } = require('@manomano/utils');
+const { pkg, composeObjectValues } = require('@manomano/utils');
 const { paths, alias, platforms } = require('@manomano/project-settings');
 
 const projectSettings = pkg && pkg.webpack ? pkg.webpack : {};
@@ -23,7 +23,9 @@ const defaultSettings = {
     path: paths.appBuild,
   },
   resolve: {
-    alias,
+    alias: composeObjectValues(alias, entry =>
+      path.resolve(process.cwd(), entry)
+    ),
     extensions: ['.js', '.json', '.jsx', '.css', '.scss'],
   },
   platforms,
