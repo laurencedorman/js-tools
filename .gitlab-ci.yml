@@ -1,6 +1,12 @@
 # Using the node alpine image
 image: node:10.15.2
 
+before_script:
+  - npm config set registry https://manomano.jfrog.io/manomano/api/npm/npm-all/
+  - npm config set //manomano.jfrog.io/manomano/api/npm/npm-all/:_authToken $BASE64_ARTIFACTORY_TOKEN
+  - npm config set email whatever@manomano.com
+  - npm config set always-auth true
+
 stages:
   - install
   - test
