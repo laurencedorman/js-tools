@@ -1,6 +1,6 @@
 {
   "name": "@manomano/macgyver",
-  "version": "2.5.7",
+  "version": "2.5.8",
   "description": "Manomano cli interface",
   "main": "index.js",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "@babel/core": "^7.4.5",
     "@manomano/jest-config": "^2.5.7",
     "@manomano/rollup-config": "^2.5.7",
-    "@manomano/webpack": "^2.5.7",
+    "@manomano/webpack": "^2.5.8",
     "cross-spawn": "6.0.5"
   }
 }

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.8](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.7...v2.5.8) (2019-06-07)
+
+
+### Bug Fixes
+
+* **postcss:** Fix warnings ([ac2b15c](https://git.manomano.tech/core-utils/js-tools/commits/ac2b15c))
+
+
+
+
+
 ## [2.5.7](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.6...v2.5.7) (2019-06-07)
 
 **Note:** Version bump only for package js-tools
