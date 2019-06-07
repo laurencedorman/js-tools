@@ -1,6 +1,6 @@
 {
   "name": "@manomano/webpack",
-  "version": "2.5.8",
+  "version": "2.5.9",
   "description": "manomano webpack configuration",
   "main": "config.js",
   "license": "MIT",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@babel/code-frame": "7.0.0",
-    "@manomano/babel": "^2.5.7",
+    "@manomano/babel": "^2.5.9",
     "@manomano/eslint-config": "^2.5.7",
     "@manomano/postcss": "^2.5.8",
     "@manomano/project-settings": "^2.5.7",

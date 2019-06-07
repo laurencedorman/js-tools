@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.9](https://github.com/manomanotech/js-tools/compare/v2.5.8...v2.5.9) (2019-06-07)
+
+
+### Bug Fixes
+
+* **babel:** Add test for extractTranslations. ([02dd3a4](https://github.com/manomanotech/js-tools/commit/02dd3a4))
+
+
+
+
+
 ## [2.5.7](https://github.com/manomanotech/js-tools/compare/v2.5.6...v2.5.7) (2019-06-07)
 
 **Note:** Version bump only for package @manomano/babel
