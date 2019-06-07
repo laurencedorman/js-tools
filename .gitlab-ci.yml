@@ -55,6 +55,10 @@ Publish:
     # publish every sub-packages that need to be published (checking last tag provided by lerna-version)
     # do not rename publish
     - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
+    - npm config set registry https://manomano.jfrog.io/manomano/api/npm/npm-all/
+    - npm config set //manomano.jfrog.io/manomano/api/npm/npm-all/:_authToken $BASE64_ARTIFACTORY_TOKEN
+    - npm config set email whatever@manomano.com
+    - npm config set always-auth true
     - npm run publish
 
     # bump version in the main package, and add one tag
