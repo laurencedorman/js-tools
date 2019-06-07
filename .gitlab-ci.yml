@@ -22,6 +22,7 @@ Install:
   artifacts:
     paths:
       - node_modules/
+      - packages/babel/node_modules
       - packages/eslint/node_modules
       - packages/utils/node_modules
     expire_in: 10 minutes
