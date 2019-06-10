@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.4.5",
-    "@manomano/babel": "^2.5.9",
+    "@manomano/babel": "^2.5.6",
     "babel-jest": "24.8.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.8.0",
