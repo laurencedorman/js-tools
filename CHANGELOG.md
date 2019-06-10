@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.10](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.9...v2.5.10) (2019-06-10)
+
+
+### Bug Fixes
+
+* **ci:** artifactory should be initialized only before install ([1038ee8](https://git.manomano.tech/core-utils/js-tools/commits/1038ee8))
+
+
+
+
+
 ## [2.5.9](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.8...v2.5.9) (2019-06-07)
 
 

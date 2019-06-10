@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.10](https://github.com/manomanotech/js-tools/compare/v2.5.9...v2.5.10) (2019-06-10)
+
+**Note:** Version bump only for package @manomano/project-settings
+
+
+
+
+
 ## [2.5.7](https://github.com/manomanotech/js-tools/compare/v2.5.6...v2.5.7) (2019-06-07)
 
 **Note:** Version bump only for package @manomano/project-settings
