@@ -119,10 +119,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@manomano/project-settings@^2.5.6":
-  version "2.5.6"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.6.tgz#59efe552c9cc97d4829ef9acefa17203f6550afd"
-  integrity sha512-6aHizzIskU6kO77pANTvIlEt9PfWkzqR0PGy0BTHfnbtaKePSloeudLpB2mwRLX2zjJ+CE/KdKox62Q69v/5dQ==
+"@manomano/project-settings@^2.5.10":
+  version "2.5.10"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.10.tgz#ace8149f3a5add055a6917cf923124cf5a8bbd8b"
+  integrity sha512-CSiWNs+w+SlpscM0WQpaNmtJZY3aC7Ex182p7iQgdBaQzHlteAYrclbDSlODqVllyWI55xvlML5qYS5zhl3G/w==
   dependencies:
     "@manomano/utils" "^2.5.6"
 
@@ -1014,9 +1014,9 @@ ms@2.0.0:
   integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
 
 ms@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
-  integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 mute-stream@0.0.7:
   version "0.0.7"

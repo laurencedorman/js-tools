@@ -819,9 +819,9 @@
   integrity sha512-lUNOfJC/kVgES4H/WJ3x4XORDeTSz1lUDQohjGmPJfNB+XxfCAhehjkMenLU+X4s39BrV04LeMwxsTgzTe4rlA==
 
 "@manomano/project-settings@^2.5.2":
-  version "2.5.6"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.6.tgz#59efe552c9cc97d4829ef9acefa17203f6550afd"
-  integrity sha512-6aHizzIskU6kO77pANTvIlEt9PfWkzqR0PGy0BTHfnbtaKePSloeudLpB2mwRLX2zjJ+CE/KdKox62Q69v/5dQ==
+  version "2.5.10"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.10.tgz#ace8149f3a5add055a6917cf923124cf5a8bbd8b"
+  integrity sha512-CSiWNs+w+SlpscM0WQpaNmtJZY3aC7Ex182p7iQgdBaQzHlteAYrclbDSlODqVllyWI55xvlML5qYS5zhl3G/w==
   dependencies:
     "@manomano/utils" "^2.5.6"
 
@@ -847,9 +847,9 @@
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
 "@octokit/endpoint@^5.1.0":
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/@octokit/endpoint/-/endpoint-5.1.4.tgz#e6bb3ceda8923fdc9703ded78c9acc28eff88c06"
-  integrity sha512-DypS8gbbcc9rlOCDW0wV9a+B18+ylduj6PpxeE+qa3IK1h5b0eW4CKj5pxxXWOZUYhEKwgOnh3+Q+Y/hx/bOPw==
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/@octokit/endpoint/-/endpoint-5.1.5.tgz#a9505b835fae98dde5f4b63e53b1605b63424d1a"
+  integrity sha512-Es0Qj6ynp0mznTnayCX8veXev43/fGjwVvctynwgzcnW+KIK6nrHdqQXUnAA1Az0DsRgbGsh9fDHjP/3Ybfyyw==
   dependencies:
     deepmerge "3.2.0"
     is-plain-object "^3.0.0"
@@ -883,9 +883,9 @@
     universal-user-agent "^2.1.0"
 
 "@octokit/rest@^16.16.0":
-  version "16.27.3"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.27.3.tgz#20ad5d0c7043364d1e1f72fa74f825c181771fc0"
-  integrity sha512-WWH/SHF4kus6FG+EAfX7/JYH70EjgFYa4AAd2Lf1hgmgzodhrsoxpXPSZliZ5BdJruZPMP7ZYaPoTrYCCKYzmQ==
+  version "16.28.0"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.28.0.tgz#0bc39402cc8894519d8438101cae1fbe0e542452"
+  integrity sha512-9S9h/5tiu5vdrhHHyjXZrq826zaQcfci0O21+KRYL82Y6m8T64dZbYUAFiAlDOsQMtlWmgKmoGIJqWLlgySDdQ==
   dependencies:
     "@octokit/request" "^4.0.1"
     "@octokit/request-error" "^1.0.2"
@@ -1997,9 +1997,9 @@ es-to-primitive@^1.2.0:
     is-symbol "^1.0.2"
 
 es6-promise@^4.0.3:
-  version "4.2.6"
-  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.6.tgz#b685edd8258886365ea62b57d30de28fadcd974f"
-  integrity sha512-aRVgGdnmW2OiySVPUC9e6m+plolMAJKjZnQlCwNSuK5yQ0JN61DZSO1X1Ufd1foqWRAlig0rhduTCHe7sVtK5Q==
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
+  integrity sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==
 
 es6-promisify@^5.0.0:
   version "5.0.0"
@@ -3690,9 +3690,9 @@ lru-cache@^5.1.1:
     yallist "^3.0.2"
 
 macos-release@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/macos-release/-/macos-release-2.2.0.tgz#ab58d55dd4714f0a05ad4b0e90f4370fef5cdea8"
-  integrity sha512-iV2IDxZaX8dIcM7fG6cI46uNmHUxHE4yN+Z8tKHAW1TBPMZDIKHf/3L+YnOuj/FK9il14UaVdHmiQ1tsi90ltA==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/macos-release/-/macos-release-2.3.0.tgz#eb1930b036c0800adebccd5f17bc4c12de8bb71f"
+  integrity sha512-OHhSbtcviqMPt7yfw5ef5aghS2jzFVKEFyCJndQt2YpSQ9qRVSEv2axSJI1paVThEu+FFGs584h/1YhxjVqajA==
 
 make-dir@^1.0.0:
   version "1.3.0"
@@ -3939,9 +3939,9 @@ ms@2.0.0:
   integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
 
 ms@^2.0.0, ms@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
-  integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 multimatch@^2.1.0:
   version "2.1.0"
