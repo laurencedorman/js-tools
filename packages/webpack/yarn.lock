@@ -302,13 +302,6 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-syntax-flow@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-flow/-/plugin-syntax-flow-7.2.0.tgz#a765f061f803bc48f240c26f8747faf97c26bf7c"
-  integrity sha512-r6YMuZDWLtLlu0kqIim5o/3TNRAlWb073HwT3e2nKf9I8IIvOggPrnILYPsrrKilmn/mYEMCf/Z07w3yQJF6dg==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-
 "@babel/plugin-syntax-json-strings@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.2.0.tgz#72bd13f6ffe1d25938129d2a186b11fd62951470"
@@ -419,14 +412,6 @@
   dependencies:
     "@babel/helper-builder-binary-assignment-operator-visitor" "^7.1.0"
     "@babel/helper-plugin-utils" "^7.0.0"
-
-"@babel/plugin-transform-flow-strip-types@^7.0.0":
-  version "7.4.4"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-flow-strip-types/-/plugin-transform-flow-strip-types-7.4.4.tgz#d267a081f49a8705fc9146de0768c6b58dccd8f7"
-  integrity sha512-WyVedfeEIILYEaWGAUWzVNyqG4sfsNooMhXWsu/YzOvVGcsnPb5PguysjJqI3t3qiaYj0BR8T2f5njdjTGe44Q==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-syntax-flow" "^7.2.0"
 
 "@babel/plugin-transform-for-of@^7.4.4":
   version "7.4.4"
@@ -684,14 +669,6 @@
     js-levenshtein "^1.1.3"
     semver "^5.5.0"
 
-"@babel/preset-flow@7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@babel/preset-flow/-/preset-flow-7.0.0.tgz#afd764835d9535ec63d8c7d4caf1c06457263da2"
-  integrity sha512-bJOHrYOPqJZCkPVbG1Lot2r5OSsB+iUOaxiHdlOeB1yPWS6evswVHwvkDLZ54WTaTRIk89ds0iHmGZSnxlPejQ==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-transform-flow-strip-types" "^7.0.0"
-
 "@babel/preset-react@7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@babel/preset-react/-/preset-react-7.0.0.tgz#e86b4b3d99433c7b3e9e91747e2653958bc6b3c0"
@@ -784,10 +761,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^2.5.10":
-  version "2.5.10"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.5.10.tgz#fbbd06c4236794dbfa023fd19aae59d1911c3491"
-  integrity sha512-fG+X9aQjUQ6xpjzgo5akruGz2ofbHcLfWb4dtrikB32glpI5cR2bD4ETFkGeWy4Awseiz6Cu7uaraTd+Sd5MkQ==
+"@manomano/babel@^2.5.11":
+  version "2.5.11"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.5.11.tgz#271361eea6b314a65da230f8c496a53c87cc62a4"
+  integrity sha512-GB8ev8A0kAe9dE0iyctRzDVfET+GsYosLhFTj2CyCf/IEDZX64msT8+QhEQ+2C5cvriYkbFx82Ssasp4i/eNvQ==
   dependencies:
     "@babel/core" "^7.4.5"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -795,11 +772,10 @@
     "@babel/plugin-syntax-dynamic-import" "7.2.0"
     "@babel/plugin-transform-runtime" "7.4.4"
     "@babel/preset-env" "^7.4.5"
-    "@babel/preset-flow" "7.0.0"
     "@babel/preset-react" "7.0.0"
     "@babel/runtime" "^7.4.5"
     "@manomano/browserslist-config" "^2.0.0"
-    "@manomano/project-settings" "^2.5.10"
+    "@manomano/project-settings" "^2.5.11"
     babel-loader "8.0.6"
     babel-plugin-dynamic-import-node "2.2.0"
     babel-plugin-module-resolver "3.2.0"
@@ -815,13 +791,13 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/eslint-config@^2.5.10":
-  version "2.5.10"
-  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-2.5.10.tgz#9d57f9c901a377cf7fb7037b4bee172dcca3ae65"
-  integrity sha512-cz6L/dU7dKYQTSizU9rzRky8JU9RZ+XawiLVqR2Pq87BcyCjFFMxfVQBaVP6xTJdHp0xGUW3/JblmXnyphwcnA==
+"@manomano/eslint-config@^2.5.11":
+  version "2.5.11"
+  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-2.5.11.tgz#c7ce39ac827aab5d53627c448975a8e3cb563c72"
+  integrity sha512-gCcRUpUqsbyaPH4HpC1DiZGazPP9n5CcWyoImXB5+QodXzzdZGwmIkEt4q9dvHxBIF0BUcvwdZa9PA+sB7tSTA==
   dependencies:
     "@babel/core" "^7.4.5"
-    "@manomano/project-settings" "^2.5.10"
+    "@manomano/project-settings" "^2.5.11"
     babel-eslint "10.0.1"
     babel-plugin-module-resolver "^3.2.0"
     eslint "5.16.0"
@@ -829,17 +805,16 @@
     eslint-config-prettier "4.3.0"
     eslint-config-react-app "4.0.1"
     eslint-import-resolver-babel-module "5.1.0"
-    eslint-plugin-flowtype "3.9.1"
     eslint-plugin-import "2.17.3"
     eslint-plugin-jest "22.6.4"
     eslint-plugin-jsx-a11y "6.2.1"
     eslint-plugin-react "7.13.0"
     eslint-plugin-react-hooks "1.6.0"
 
-"@manomano/postcss@^2.5.6":
-  version "2.5.6"
-  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-2.5.6.tgz#8642944db39d09ae064487552b24a49d6ea87828"
-  integrity sha512-TDF+9o/OXH4x6GuuCIFyuw3w4z7oTJkK8SCWZdScdq5f/3Kh0LSlC/gay6WcDS8IYebBL+5cwhvvIAmtcWobpw==
+"@manomano/postcss@^2.5.11":
+  version "2.5.11"
+  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-2.5.11.tgz#432dd5faed4dc008c7d7ac63db7f6b1b36dcb575"
+  integrity sha512-dShmqImJKJ+VrsQCGrffSXOXAqc8WJOuhJCzgQWYsB3vJdK4ok0L64WkOQZDvaZyPUyj9vNxKbeLgfKTX9w2Vg==
   dependencies:
     "@manomano/browserslist-config" "^2.0.0"
     postcss-flexbugs-fixes "4.1.0"
@@ -847,17 +822,17 @@
     postcss-preset-env "6.6.0"
     postcss-safe-parser "4.0.1"
 
-"@manomano/project-settings@^2.5.10":
-  version "2.5.10"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.10.tgz#ace8149f3a5add055a6917cf923124cf5a8bbd8b"
-  integrity sha512-CSiWNs+w+SlpscM0WQpaNmtJZY3aC7Ex182p7iQgdBaQzHlteAYrclbDSlODqVllyWI55xvlML5qYS5zhl3G/w==
+"@manomano/project-settings@^2.5.11":
+  version "2.5.11"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.11.tgz#9378e75afbb8bfb750f9bbabcd05fd43c8334415"
+  integrity sha512-umkyubcQd3nR/fXyukfUpG5J63ilM/CI/OtU4JzLMP53bt6YNLfh8kIuFOYLqMsOQtS8zlyT58ih0ZHGYRcIuw==
   dependencies:
-    "@manomano/utils" "^2.5.6"
+    "@manomano/utils" "^2.5.11"
 
-"@manomano/utils@^2.5.6":
-  version "2.5.6"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.6.tgz#04e9258e72963defde95e7ba559650d92da4e808"
-  integrity sha512-JxEaBredfM6ap2bKL/ewBVSuRhdW3BnQw5YLpHDVW8a0JTgsrVEt8Um8i7lywEpWwxp8c8YleO4J3Ud1+HUqSA==
+"@manomano/utils@^2.5.11":
+  version "2.5.11"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.11.tgz#43032e1d931d491c23ca6a3bd3b6fae05ca231b0"
+  integrity sha512-IwNaLYHJ/pQSeTbZS/neWeNpyxBaiydcaNt9AEKdO5vy+/KAPwKajNOjDflJw+lmd/ap0Gso+9We5o6uovjpgg==
   dependencies:
     lodash.groupby "4.6.0"
     node-fetch "2.6.0"
@@ -2559,16 +2534,6 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
-cosmiconfig@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-4.0.0.tgz#760391549580bbd2df1e562bc177b13c290972dc"
-  integrity sha512-6e5vDdrXZD+t5v0L8CrurPeybg4Fmf+FCSYxXKYVAqLUtyCSbuyqE059d0kDthTNRzKVjL7QMgNpEUlsoYH3iQ==
-  dependencies:
-    is-directory "^0.3.1"
-    js-yaml "^3.9.0"
-    parse-json "^4.0.0"
-    require-from-string "^2.0.1"
-
 cosmiconfig@^5.0.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-5.2.1.tgz#040f726809c591e77a17c0a3626ca45b4f168b1a"
@@ -3558,13 +3523,6 @@ eslint-module-utils@^2.4.0:
   dependencies:
     debug "^2.6.8"
     pkg-dir "^2.0.0"
-
-eslint-plugin-flowtype@3.9.1:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-3.9.1.tgz#6491d930e1f96d53c510e0393e635fddd4a4cac5"
-  integrity sha512-ZlV6SbIXqz2ysvG0F64ZH07dqzLrwMdM1s0UNfoxdXjr4kMKuPPoLViwK+gFC952QIf341AmP4BKtKOhcB96Ug==
-  dependencies:
-    lodash "^4.17.11"
 
 eslint-plugin-import@2.17.3:
   version "2.17.3"
@@ -5658,7 +5616,7 @@ js-tokens@^3.0.2:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
   integrity sha1-mGbfOVECEw449/mWvOtlRDIJwls=
 
-js-yaml@^3.13.0, js-yaml@^3.13.1, js-yaml@^3.9.0:
+js-yaml@^3.13.0, js-yaml@^3.13.1:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
@@ -7482,11 +7440,11 @@ postcss-lab-function@^2.0.1:
     postcss-values-parser "^2.0.0"
 
 postcss-load-config@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-load-config/-/postcss-load-config-2.0.0.tgz#f1312ddbf5912cd747177083c5ef7a19d62ee484"
-  integrity sha512-V5JBLzw406BB8UIfsAWSK2KSwIJ5yoEIVFb4gVkXci0QdKgA24jLmHZ/ghe/GgX0lJ0/D1uUK1ejhzEY94MChQ==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/postcss-load-config/-/postcss-load-config-2.1.0.tgz#c84d692b7bb7b41ddced94ee62e8ab31b417b003"
+  integrity sha512-4pV3JJVPLd5+RueiVVB+gFOAa7GWc25XQcMp86Zexzke69mKf6Nx9LRcQywdz7yZI9n1udOxmLuAwTBypypF8Q==
   dependencies:
-    cosmiconfig "^4.0.0"
+    cosmiconfig "^5.0.0"
     import-cwd "^2.0.0"
 
 postcss-loader@3.0.0:
@@ -8438,11 +8396,6 @@ require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
   integrity sha1-jGStX9MNqxyXbiNE/+f3kqam30I=
-
-require-from-string@^2.0.1:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
-  integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
 
 require-main-filename@^1.0.1:
   version "1.0.1"
@@ -9563,9 +9516,9 @@ tryer@^1.0.0:
   integrity sha512-c3zayb8/kWWpycWYg87P71E1S1ZL6b6IJxfb5fvsUgsf0S2MVGaDhDXXjDMpdCpfWXqptc+4mXwmiy1ypXqRAA==
 
 tslib@^1.9.0:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
-  integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
+  integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
 
 tty-browserify@0.0.0:
   version "0.0.0"
