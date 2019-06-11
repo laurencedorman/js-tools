@@ -19,12 +19,12 @@
     }
   },
   "devDependencies": {
-    "@manomano/eslint-config": "2.5.2",
+    "@manomano/eslint-config": "2.5.10",
     "@manomano/prettier-config": "2.0.0",
-    "husky": "2.3.0",
-    "lerna": "3.14.1",
-    "lint-staged": "8.1.7",
-    "prettier": "1.17.1"
+    "husky": "2.4.0",
+    "lerna": "3.15.0",
+    "lint-staged": "8.2.0",
+    "prettier": "1.18.2"
   },
   "husky": {
     "hooks": {

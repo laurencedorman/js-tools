@@ -7,7 +7,6 @@ const env = require('@babel/preset-env');
 const react = require('@babel/preset-react');
 const pluginClassProperties = require('@babel/plugin-proposal-class-properties');
 const pluginModuleResolver = require('babel-plugin-module-resolver');
-const flow = require('@babel/preset-flow');
 const { alias, paths } = require('@manomano/project-settings');
 
 const isProd = process.env.NODE_ENV === 'production';
@@ -16,7 +15,7 @@ const PHRASE_APP_TRANSLATION = glob.sync(`${paths.appTranslations}/*.json`);
 
 const extractTranslations = file => {
   const result = babel.transformFileSync(file, {
-    presets: [[env, { targets: { node: 'current' } }], react, flow],
+    presets: [[env, { targets: { node: 'current' } }], react],
     plugins: [
       [pluginClassProperties, { loose: true }],
       [pluginModuleResolver, { alias }],
@@ -41,9 +40,7 @@ const getTranslations = filePath => {
     const translations = keysExtracted.reduce((acc, key) => {
       if (isProd && langTranslations[key.id] == null) {
         throw new Error(
-          `Missing translation for key -> ${key.id} At ${filePath}:${
-            key.start.line
-          }:${key.start.column}`
+          `Missing translation for key -> ${key.id} At ${filePath}:${key.start.line}:${key.start.column}`
         );
       }
       return {
