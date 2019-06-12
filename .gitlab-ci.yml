@@ -12,8 +12,8 @@ Install:
   stage: install
   script:
     - npm config set registry https://manomano.jfrog.io/manomano/api/npm/npm-all/
-    - npm config set //manomano.jfrog.io/manomano/api/npm/npm-all/:_authToken $BASE64_ARTIFACTORY_TOKEN
-    - npm config set email whatever@manomano.com
+    - npm config set _auth=$BASE64_ARTIFACTORY_TOKEN
+    - npm config set email matthieu@manomano.com
     - npm config set always-auth true
     - yarn
     - yarn bootstrap
