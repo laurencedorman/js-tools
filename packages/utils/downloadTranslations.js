@@ -1,41 +1,52 @@
 const fetch = require('node-fetch');
-const groupBy = require('lodash.groupby');
+const serializeUrlParams = require('./serializeUrlParams');
+
+const PHRASEAPP_API_URL = 'https://api.phraseapp.com/api/v2';
 
 /**
- * @param {array} translations
+ * @param {Object} obj
+ * @param {string} obj.projectId
+ * @param {string} obj.token
  */
-
-const normalizeTranslations = translations => {
-  return translations.reduce((prev, curr) => {
-    let key = curr.key.name;
-    if (curr.plural_suffix) {
-      key = key + '.' + curr.plural_suffix;
-    }
-    return {
-      ...prev,
-      [key]: curr.content,
-    };
-  }, {});
-};
-
 module.exports = async ({ projectId, token }) => {
-  const req = await fetch(
-    `https://api.phraseapp.com/api/v2/projects/${projectId}/translations`,
+  const queryString = serializeUrlParams({
+    file_format: 'react_simple_json',
+    include_empty_translations: false,
+  });
+
+  const locales = await fetch(
+    `${PHRASEAPP_API_URL}/projects/${projectId}/locales`,
     {
       headers: {
         Authorization: `token ${token}`,
       },
     }
-  );
-  const translations = await req.json();
+  )
+    .then(res => res.json())
+    .then(data =>
+      data.map(({ id, name }) => ({
+        name,
+        url: `${PHRASEAPP_API_URL}/projects/${projectId}/locales/${id}/download?${queryString}`,
+      }))
+    );
 
-  const groupedTranslations = groupBy(
-    translations,
-    ({ locale }) => locale.code
-  );
+  const translations = await locales.reduce(async (promise, { url, name }) => {
+    const results = await promise.then();
+    const req = await fetch(url, {
+      headers: {
+        Authorization: `token ${token}`,
+      },
+    });
+    const json = await req.json();
 
-  return Object.entries(groupedTranslations).map(([lang, translations]) => ({
-    language: lang,
-    translations: normalizeTranslations(translations),
-  }));
+    return [
+      ...results,
+      {
+        language: name,
+        translations: json,
+      },
+    ];
+  }, Promise.resolve([]));
+
+  return translations;
 };
