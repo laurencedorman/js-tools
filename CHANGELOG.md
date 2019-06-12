@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.13](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.12...v2.5.13) (2019-06-12)
+
+
+### Bug Fixes
+
+* **dept:** Fixing the entry point for ssr and spa ([9c310f9](https://git.manomano.tech/core-utils/js-tools/commits/9c310f9))
+
+
+
+
+
 ## [2.5.12](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.11...v2.5.12) (2019-06-12)
 
 
