@@ -119,17 +119,17 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@manomano/project-settings@^2.5.11":
-  version "2.5.11"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.11.tgz#9378e75afbb8bfb750f9bbabcd05fd43c8334415"
-  integrity sha512-umkyubcQd3nR/fXyukfUpG5J63ilM/CI/OtU4JzLMP53bt6YNLfh8kIuFOYLqMsOQtS8zlyT58ih0ZHGYRcIuw==
+"@manomano/project-settings@^2.5.12":
+  version "2.5.12"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.12.tgz#0ad6ef19a08ce27ee90a0a1c42adc08d9aec27a4"
+  integrity sha512-r4m1/Mh8um88GCn0u4iwJtePLKwbEWeRepuncksbTp5MN/M81XDMmFXtEGKy1KsEHKy8uz98aCL3mCG0J7eOgQ==
   dependencies:
-    "@manomano/utils" "^2.5.11"
+    "@manomano/utils" "^2.5.12"
 
-"@manomano/utils@^2.5.11":
-  version "2.5.11"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.11.tgz#43032e1d931d491c23ca6a3bd3b6fae05ca231b0"
-  integrity sha512-IwNaLYHJ/pQSeTbZS/neWeNpyxBaiydcaNt9AEKdO5vy+/KAPwKajNOjDflJw+lmd/ap0Gso+9We5o6uovjpgg==
+"@manomano/utils@^2.5.12":
+  version "2.5.12"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.12.tgz#0eb780cf69de93a00e73284c03a81dda6185ca0f"
+  integrity sha512-/AkE2ItD7Fqjdg0+Z4kn6I/jo6fk1LvLRVNkZo/xLWcLKKD+lnValtvXfMNIU7um31iLu8iTImEGDpwHicWu5g==
   dependencies:
     lodash.groupby "4.6.0"
     node-fetch "2.6.0"
@@ -1258,9 +1258,9 @@ resolve-from@^4.0.0:
   integrity sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==
 
 resolve@^1.10.0, resolve@^1.10.1, resolve@^1.11.0, resolve@^1.3.2, resolve@^1.4.0, resolve@^1.5.0:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.11.1.tgz#ea10d8110376982fef578df8fc30b9ac30a07a3e"
-  integrity sha512-vIpgF6wfuJOZI7KKKSP+HmiKggadPQAdsp5HiC1mvqnfp0gF1vdwgBWZIdrVft9pgqoMFQN+R7BSWZiBxx+BBw==
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.11.0.tgz#4014870ba296176b86343d50b60f3b50609ce232"
+  integrity sha512-WL2pBDjqT6pGUNSUzMw00o4T7If+z4H2x3Gz893WoUQ5KW8Vr9txp00ykiP16VBaZF5+j/OcXJHZ9+PCvdiDKw==
   dependencies:
     path-parse "^1.0.6"
 
