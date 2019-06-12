@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.12](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.11...v2.5.12) (2019-06-12)
+
+
+### Bug Fixes
+
+* **ci:** updated artifactory setting to matthieu profile ([e37a6b4](https://git.manomano.tech/core-utils/js-tools/commits/e37a6b4))
+
+
+
+
+
 ## [2.5.11](https://git.manomano.tech/core-utils/js-tools/compare/v2.5.10...v2.5.11) (2019-06-11)
 
 **Note:** Version bump only for package js-tools
