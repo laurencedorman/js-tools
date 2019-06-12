@@ -879,17 +879,17 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/project-settings@^2.5.12":
-  version "2.5.12"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.12.tgz#0ad6ef19a08ce27ee90a0a1c42adc08d9aec27a4"
-  integrity sha512-r4m1/Mh8um88GCn0u4iwJtePLKwbEWeRepuncksbTp5MN/M81XDMmFXtEGKy1KsEHKy8uz98aCL3mCG0J7eOgQ==
+"@manomano/project-settings@^2.5.13":
+  version "2.5.13"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.13.tgz#a2e60fe57c82a110e253f365cd74134d48a99f54"
+  integrity sha512-Cl0hvsfEmcjIBKk5Y7OBEIY2EydBTyKy9+7aDxns8pm83x0K/+Y3P63Xk3aY0KA6nltbCHplCeH30tU0y9Csag==
   dependencies:
-    "@manomano/utils" "^2.5.12"
+    "@manomano/utils" "^2.5.13"
 
-"@manomano/utils@^2.5.12":
-  version "2.5.12"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.12.tgz#0eb780cf69de93a00e73284c03a81dda6185ca0f"
-  integrity sha512-/AkE2ItD7Fqjdg0+Z4kn6I/jo6fk1LvLRVNkZo/xLWcLKKD+lnValtvXfMNIU7um31iLu8iTImEGDpwHicWu5g==
+"@manomano/utils@^2.5.13":
+  version "2.5.13"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.13.tgz#fc5b9750b58add0a65d38ef9e7c53c4734200f01"
+  integrity sha512-E+Ise6FW9bQHmSMkvIRa6rfe0fkUFhwU6OzzlUGKG22GEYTO2dgEMfmtucFF126SjD0s3w3YHGZ4xPw96HdsVw==
   dependencies:
     lodash.groupby "4.6.0"
     node-fetch "2.6.0"
