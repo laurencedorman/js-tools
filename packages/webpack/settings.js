@@ -14,7 +14,8 @@ const defaultSettings = {
   appServer: paths.appServer,
   appServerOutput: paths.appServerOutput,
   basePath: paths.appDirectory,
-  entry: path.resolve(paths.appSrc, 'index'),
+  entrySSR: path.resolve(paths.appServer, 'client.js'),
+  entrySPA: path.resolve(paths.appClient, 'index.js'),
   entryServer: path.resolve(paths.appServer, 'index.js'),
   output: {
     filename: 'main',

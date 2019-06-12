@@ -43,7 +43,7 @@ function build(previousFileSizes, platform) {
     )} production build...`
   );
 
-  const compiler = webpack(config(platform, envVariables));
+  const compiler = webpack(config(platform, envVariables, settings.entrySPA));
   return new Promise((resolve, reject) => {
     compiler.run((err, stats) => {
       let messages;

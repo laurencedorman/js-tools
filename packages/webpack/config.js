@@ -32,7 +32,7 @@ const env = process.env.NODE_ENV || 'none';
 const isDevEnv = env === 'development';
 const isProdEnv = env === 'production';
 
-module.exports = (platform, envVariables = {}) => {
+module.exports = (platform, envVariables = {}, entryPoint) => {
   const platformName = platform.name.toLowerCase();
 
   return {
@@ -42,7 +42,7 @@ module.exports = (platform, envVariables = {}) => {
     entry: [
       isDevEnv && `${require.resolve('webpack-dev-server/client')}`,
       isDevEnv && require.resolve('react-dev-utils/webpackHotDevClient'),
-      settings.entry,
+      settings[entryPoint],
     ].filter(Boolean),
     output: {
       path: isProdEnv ? settings.output.path : undefined,

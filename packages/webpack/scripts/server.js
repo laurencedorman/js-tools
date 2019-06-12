@@ -16,7 +16,12 @@ const { paths } = require('@manomano/project-settings');
 const serverConfig = require('../server-config');
 const clientConfig = require('../config');
 
-const { appServerOutput, devServer, platforms } = require('../settings');
+const {
+  appServerOutput,
+  devServer,
+  platforms,
+  entrySSR,
+} = require('../settings');
 const devServerConfig = require('../server.js');
 
 // Process CLI arguments
@@ -36,7 +41,9 @@ try {
   process.env.ASSETS_MANIFEST = paths.appManifest;
 
   const serverCompiler = webpack(serverConfig(selectedPlatform));
-  const clientCompiler = webpack(clientConfig(selectedPlatform, envVariables));
+  const clientCompiler = webpack(
+    clientConfig(selectedPlatform, envVariables, entrySSR)
+  );
 
   let watching;
 

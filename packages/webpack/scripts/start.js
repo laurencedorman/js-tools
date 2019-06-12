@@ -13,7 +13,7 @@ const WebpackDevServer = require('webpack-dev-server');
 const clearConsole = require('react-dev-utils/clearConsole');
 const openBrowser = require('react-dev-utils/openBrowser');
 
-const { devServer, platforms } = require('../settings');
+const { devServer, platforms, entrySPA } = require('../settings');
 const config = require('../config.js');
 const devServerConfig = require('../server.js');
 
@@ -27,7 +27,7 @@ const { platform } = parsedArgs;
 
 const selectedPlatform = platforms.find(({ name }) => name === platform);
 
-const compiler = webpack(config(selectedPlatform, envVariables));
+const compiler = webpack(config(selectedPlatform, envVariables, entrySPA));
 const ClientdevServer = new WebpackDevServer(compiler, devServerConfig);
 
 ClientdevServer.listen(devServer.port, devServer.host, err => {

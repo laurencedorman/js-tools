@@ -12,6 +12,7 @@ module.exports = {
   appManifest: resolveApp('dist/assets.json'),
   appBuild: resolveApp('dist'),
   appSrc: resolveApp('src'),
+  appClient: resolveApp('client'),
   testsSetup: resolveApp('setupTests.js'),
   jestConfig: resolveApp('jest.config.js'),
   appHtml: resolveApp('public/index.html'),
