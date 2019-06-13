@@ -1,6 +1,6 @@
 {
   "name": "@manomano/utils",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "description": "set of utilities",
   "main": "index.js",
   "license": "MIT",
