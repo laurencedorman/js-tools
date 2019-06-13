@@ -119,10 +119,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@manomano/project-settings@^2.5.13":
-  version "2.5.13"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.13.tgz#a2e60fe57c82a110e253f365cd74134d48a99f54"
-  integrity sha512-Cl0hvsfEmcjIBKk5Y7OBEIY2EydBTyKy9+7aDxns8pm83x0K/+Y3P63Xk3aY0KA6nltbCHplCeH30tU0y9Csag==
+"@manomano/project-settings@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.6.0.tgz#df4949d5ce227cded5b4cdf065fef09f643dd185"
+  integrity sha512-CBYfPYaA1yjpfHKit6RtqlIJYalOSj2WOYU1xoE9JiGvCh7ojGFPXnZNdOk5rdYdMqFFhvRAf1QmEvcj4WCjUA==
   dependencies:
     "@manomano/utils" "^2.5.13"
 

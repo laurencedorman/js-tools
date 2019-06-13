@@ -901,9 +901,9 @@
   integrity sha512-lUNOfJC/kVgES4H/WJ3x4XORDeTSz1lUDQohjGmPJfNB+XxfCAhehjkMenLU+X4s39BrV04LeMwxsTgzTe4rlA==
 
 "@manomano/project-settings@^2.5.10":
-  version "2.5.13"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.5.13.tgz#a2e60fe57c82a110e253f365cd74134d48a99f54"
-  integrity sha512-Cl0hvsfEmcjIBKk5Y7OBEIY2EydBTyKy9+7aDxns8pm83x0K/+Y3P63Xk3aY0KA6nltbCHplCeH30tU0y9Csag==
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.6.0.tgz#df4949d5ce227cded5b4cdf065fef09f643dd185"
+  integrity sha512-CBYfPYaA1yjpfHKit6RtqlIJYalOSj2WOYU1xoE9JiGvCh7ojGFPXnZNdOk5rdYdMqFFhvRAf1QmEvcj4WCjUA==
   dependencies:
     "@manomano/utils" "^2.5.13"
 
@@ -1948,9 +1948,9 @@ delegates@^1.0.0:
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
 
 deprecation@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/deprecation/-/deprecation-2.0.0.tgz#dd0427cd920c78bc575ec39dab2f22e7c304fb9d"
-  integrity sha512-lbQN037mB3VfA2JFuguM5GCJ+zPinMeCrFe+AfSZ6eqrnJA/Fs+EYMnd6Nb2mn9lf2jO9xwEd9o9lic+D4vkcw==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/deprecation/-/deprecation-2.3.0.tgz#a828f8e6a1105b70b5a8f971a3d057cbfde890cb"
+  integrity sha512-XkLgHkoeWhfPyUv3V1ocE1UGSulHHdFz+uDNUgaOp345+urSFNL7ylsSZnH0gIxWCRoOV0WiniGkSSvTqZmsKQ==
 
 detect-indent@^5.0.0:
   version "5.0.0"
