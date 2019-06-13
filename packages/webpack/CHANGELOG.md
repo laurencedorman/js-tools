@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](https://github.com/manomanotech/js-tools/compare/v2.5.13...v2.6.0) (2019-06-13)
+
+
+### Features
+
+* **webpack:** Add analyze option ([a77faad](https://github.com/manomanotech/js-tools/commit/a77faad))
+
+
+
+
+
 ## [2.5.13](https://github.com/manomanotech/js-tools/compare/v2.5.12...v2.5.13) (2019-06-12)
 
 
