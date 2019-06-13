@@ -40,9 +40,13 @@ try {
 
   process.env.ASSETS_MANIFEST = paths.appManifest;
 
-  const serverCompiler = webpack(serverConfig(selectedPlatform));
+  const serverCompiler = webpack(serverConfig({ platform: selectedPlatform }));
   const clientCompiler = webpack(
-    clientConfig(selectedPlatform, envVariables, entrySSR)
+    clientConfig({
+      entryPoint: entrySSR,
+      envVariables,
+      platform: selectedPlatform,
+    })
   );
 
   let watching;

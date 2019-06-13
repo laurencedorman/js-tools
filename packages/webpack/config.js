@@ -24,6 +24,7 @@ const {
   hashedModuleIdsPlugin,
   webpackBar,
   envPlugin,
+  bundleAnalyzer,
 } = require('./plugins');
 
 const settings = require('./settings');
@@ -32,7 +33,7 @@ const env = process.env.NODE_ENV || 'none';
 const isDevEnv = env === 'development';
 const isProdEnv = env === 'production';
 
-module.exports = (platform, envVariables = {}, entryPoint) => {
+module.exports = ({ platform, envVariables = {}, entryPoint, analyze }) => {
   const platformName = platform.name.toLowerCase();
 
   return {
@@ -42,7 +43,7 @@ module.exports = (platform, envVariables = {}, entryPoint) => {
     entry: [
       isDevEnv && `${require.resolve('webpack-dev-server/client')}`,
       isDevEnv && require.resolve('react-dev-utils/webpackHotDevClient'),
-      settings[entryPoint],
+      entryPoint,
     ].filter(Boolean),
     output: {
       path: isProdEnv ? settings.output.path : undefined,
@@ -51,9 +52,7 @@ module.exports = (platform, envVariables = {}, entryPoint) => {
         ? `js/${settings.output.filename}.[contenthash:8].${platformName}.js`
         : `${settings.output.filename}.js`,
       chunkFilename: isProdEnv
-        ? `js/${
-            settings.output.chunkFilename
-          }.[contenthash:8].${platformName}.js`
+        ? `js/${settings.output.chunkFilename}.[contenthash:8].${platformName}.js`
         : `${settings.output.chunkFilename}.js`,
       publicPath: isProdEnv
         ? settings.output.publicPath
@@ -123,6 +122,7 @@ module.exports = (platform, envVariables = {}, entryPoint) => {
           name: 'client',
         }),
       envPlugin(envVariables),
+      analyze && bundleAnalyzer(platformName),
     ].filter(Boolean),
     resolve: settings.resolve,
     node: {

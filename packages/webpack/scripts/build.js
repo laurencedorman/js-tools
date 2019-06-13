@@ -27,7 +27,7 @@ const WARN_AFTER_CHUNK_GZIP_SIZE = 1024 * 1024;
 const argv = process.argv.slice(2);
 const parsedArgs = require('minimist')(argv); // eslint-disable-line import/order
 
-const writeStatsJson = parsedArgs.stats;
+const { analyze } = parsedArgs;
 
 function copyPublicFolder() {
   fs.copySync(settings.appPublic, settings.appBuild, {
@@ -43,7 +43,14 @@ function build(previousFileSizes, platform) {
     )} production build...`
   );
 
-  const compiler = webpack(config(platform, envVariables, settings.entrySPA));
+  const compiler = webpack(
+    config({
+      entryPoint: settings.entrySPA,
+      envVariables,
+      platform,
+      analyze,
+    })
+  );
   return new Promise((resolve, reject) => {
     compiler.run((err, stats) => {
       let messages;
@@ -88,12 +95,6 @@ function build(previousFileSizes, platform) {
         previousFileSizes,
         warnings: messages.warnings,
       };
-      if (writeStatsJson) {
-        return require('bfj')
-          .write(`${settings.appBuild}/bundle-stats.json`, stats.toJson())
-          .then(() => resolve(resolveArgs))
-          .catch(error => reject(new Error(error)));
-      }
 
       return resolve(resolveArgs);
     });

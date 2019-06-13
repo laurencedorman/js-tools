@@ -101,7 +101,12 @@ const extractCss = platform =>
 
 const ignorePlugin = () => new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/);
 
-const bundleAnalyzer = () => new BundleAnalyzerPlugin();
+const bundleAnalyzer = platform =>
+  new BundleAnalyzerPlugin({
+    analyzerMode: 'static',
+    openAnalyzer: !process.env.CI,
+    reportFilename: `bundleAnalyzer-${platform}.html`,
+  });
 
 const optimizeCss = () =>
   new OptimizeCSSAssetsPlugin({
