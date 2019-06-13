@@ -119,19 +119,18 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@manomano/project-settings@^2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.6.0.tgz#df4949d5ce227cded5b4cdf065fef09f643dd185"
-  integrity sha512-CBYfPYaA1yjpfHKit6RtqlIJYalOSj2WOYU1xoE9JiGvCh7ojGFPXnZNdOk5rdYdMqFFhvRAf1QmEvcj4WCjUA==
+"@manomano/project-settings@^2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.6.1.tgz#dd868073590aa9e2607c8e979fdecc6d3c9d11fa"
+  integrity sha512-1dUjeypDP/egggTKxSY6NmDtTthnqBYMa/Mv11B4HFSXr0vHdSvbvscNxQhL64U2SR6kbV+sWG+rh07flwpY4w==
   dependencies:
-    "@manomano/utils" "^2.5.13"
+    "@manomano/utils" "^2.6.1"
 
-"@manomano/utils@^2.5.13":
-  version "2.5.13"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.5.13.tgz#fc5b9750b58add0a65d38ef9e7c53c4734200f01"
-  integrity sha512-E+Ise6FW9bQHmSMkvIRa6rfe0fkUFhwU6OzzlUGKG22GEYTO2dgEMfmtucFF126SjD0s3w3YHGZ4xPw96HdsVw==
+"@manomano/utils@^2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.6.1.tgz#23a82465c98d4148cd5db92b0bd735e52eb55508"
+  integrity sha512-MS8pdvvI99Hcg7/QP5MwlWe4Gk0nC7HrKmyPvlklt/o/F0afP4LNKPZWhtxsn3b8eAYzTcpWwaCiUehJKm8MTQ==
   dependencies:
-    lodash.groupby "4.6.0"
     node-fetch "2.6.0"
 
 acorn-jsx@^5.0.0:
@@ -954,11 +953,6 @@ locate-path@^2.0.0:
   dependencies:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
-
-lodash.groupby@4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.groupby/-/lodash.groupby-4.6.0.tgz#0b08a1dcf68397c397855c3239783832df7403d1"
-  integrity sha1-Cwih3PaDl8OXhVwyOXg4Mt90A9E=
 
 lodash@^4.17.11:
   version "4.17.11"
