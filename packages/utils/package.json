@@ -13,7 +13,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "lodash.groupby": "4.6.0",
     "node-fetch": "2.6.0"
   },
   "devDependencies": {
