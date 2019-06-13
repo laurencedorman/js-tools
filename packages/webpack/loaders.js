@@ -62,9 +62,10 @@ const cssModule = (env, isServer) => ({
   test: styleModuleRegex,
   use: getStyleLoaders(env, isServer, {
     importLoaders: 1,
-    modules: true,
+    modules: {
+      localIdentName: '[name]__[local]__[hash:base64:5]',
+    },
     sourceMap: false,
-    localIdentName: '[name]__[local]__[hash:base64:5]',
   }),
 });
 
@@ -90,9 +91,10 @@ const sassModule = (env, isServer) => ({
     isServer,
     {
       importLoaders: 2,
-      modules: true,
+      modules: {
+        localIdentName: '[name]__[local]__[hash:base64:5]',
+      },
       sourceMap: false,
-      localIdentName: '[name]__[local]__[hash:base64:5]',
     },
     'sass-loader'
   ),
