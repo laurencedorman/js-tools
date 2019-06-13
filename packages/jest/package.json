@@ -1,6 +1,6 @@
 {
   "name": "@manomano/jest-config",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "default manomano jest configuration",
   "main": "index.js",
   "license": "MIT",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.4.5",
-    "@manomano/babel": "^2.6.0",
+    "@manomano/babel": "^2.6.1",
     "babel-jest": "24.8.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.8.0",
