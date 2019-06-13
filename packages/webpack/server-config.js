@@ -29,7 +29,7 @@ const env = process.env.NODE_ENV || 'none';
 const isDevEnv = env === 'development';
 const isProdEnv = env === 'production';
 
-module.exports = platform => {
+module.exports = ({ platform }) => {
   const platformName = platform.name.toLowerCase();
 
   return {

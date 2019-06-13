@@ -27,7 +27,13 @@ const { platform } = parsedArgs;
 
 const selectedPlatform = platforms.find(({ name }) => name === platform);
 
-const compiler = webpack(config(selectedPlatform, envVariables, entrySPA));
+const compiler = webpack(
+  config({
+    entryPoint: entrySPA,
+    platform: selectedPlatform,
+    envVariables,
+  })
+);
 const ClientdevServer = new WebpackDevServer(compiler, devServerConfig);
 
 ClientdevServer.listen(devServer.port, devServer.host, err => {

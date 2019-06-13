@@ -8,7 +8,7 @@ The generated output will be placed inside `build` folder.
 
 # Available commands
 
-- start
+## start
 
 ```json
 {
@@ -18,9 +18,17 @@ The generated output will be placed inside `build` folder.
 }
 ```
 
-This command starts the dev environment.
+## start-server
 
-- build
+```json
+{
+  "scripts": {
+    "start:server": "macgyver start-server"
+  }
+}
+```
+
+## build
 
 ```json
 {
@@ -30,9 +38,15 @@ This command starts the dev environment.
 }
 ```
 
-This command builds the web application.
+### `options`
 
-- test
+```
+  --analyze               Analyze the generated bundle.
+  --platform           Sets the current platform. Must correspond with one platform name inside manoconfig.platforms
+
+```
+
+## test
 
 ```json
 {
@@ -44,7 +58,7 @@ This command builds the web application.
 
 This command runs all the tests of the application, using your **jest.config.js** or **@manomano/jest-config** by default.
 
-- rollup
+## rollup
 
 ```json
 {
