@@ -1,6 +1,6 @@
 {
   "name": "@manomano/webpack",
-  "version": "2.6.2",
+  "version": "2.6.3",
   "description": "manomano webpack configuration",
   "main": "config.js",
   "license": "MIT",
@@ -13,10 +13,10 @@
   },
   "dependencies": {
     "@babel/code-frame": "7.0.0",
-    "@manomano/babel": "^2.6.2",
-    "@manomano/eslint-config": "^2.6.2",
+    "@manomano/babel": "^2.6.3",
+    "@manomano/eslint-config": "^2.6.3",
     "@manomano/postcss": "^2.6.1",
-    "@manomano/project-settings": "^2.6.2",
+    "@manomano/project-settings": "^2.6.3",
     "@manomano/utils": "^2.6.2",
     "assets-webpack-plugin": "3.9.10",
     "chalk": "2.4.2",
