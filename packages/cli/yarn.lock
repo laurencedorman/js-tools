@@ -879,10 +879,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.6.1.tgz#9bfba9ac8cf178248403746d51584cd0c14809c1"
-  integrity sha512-FZyv2oQlJOCLknZzu8tFOarYaI9tk3ZaFBoMp0zNI6HwAzpMg4wS842wU6KFVeD7K9mRLDBGG+ZVgwK11rLRVg==
+"@manomano/babel@^2.6.2":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.6.2.tgz#877b1a6f620eb742bf4e8359435218776d22a6b0"
+  integrity sha512-iNFCMAM4fKhyS1et/gr5+KwukNoVRZB6ehO0yAp/8f6lNhDqZlCFvzCF83OrW++OnoUN7ILgmvmsGxy331NyXQ==
   dependencies:
     "@babel/core" "^7.4.5"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -893,7 +893,7 @@
     "@babel/preset-react" "7.0.0"
     "@babel/runtime" "^7.4.5"
     "@manomano/browserslist-config" "^2.0.0"
-    "@manomano/project-settings" "^2.6.1"
+    "@manomano/project-settings" "^2.6.2"
     babel-loader "8.0.6"
     babel-plugin-dynamic-import-node "2.2.0"
     babel-plugin-module-resolver "3.2.0"
@@ -909,13 +909,13 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/eslint-config@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-2.6.1.tgz#d10db22c78b0e2e5c9d3049932b0d5758c75ea8e"
-  integrity sha512-rKyo8z0UL0KgpdwuKXuTj/fFRRS7Ptl3QWclRv0Hkz2ZLwJzVS306fx8bO3rhyKhuXAei/R/2gHGCUbh+MMZJA==
+"@manomano/eslint-config@^2.6.2":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-2.6.2.tgz#5e3470a82fb3780d9b14d169b5775ba242448841"
+  integrity sha512-EEuQphvixqPVJh4kNmxFvDV99aYBQWe4MaEsa/ZHAEFf578Rb4BpBNpUatd3fTGpR29pFEgptEPclJPUF+exug==
   dependencies:
     "@babel/core" "^7.4.5"
-    "@manomano/project-settings" "^2.6.1"
+    "@manomano/project-settings" "^2.6.2"
     babel-eslint "10.0.1"
     babel-plugin-module-resolver "^3.2.0"
     eslint "5.16.0"
@@ -929,13 +929,13 @@
     eslint-plugin-react "7.13.0"
     eslint-plugin-react-hooks "1.6.0"
 
-"@manomano/jest-config@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-2.6.1.tgz#4968ca01896f9336d6cb3d108a98ddd24429ca49"
-  integrity sha512-iO6qPO39umJIkZ9URfV97mbqEZqA+aINjkyICf4f77PIDBFALfNARN/sbD4Q4kLXoxELkTa/PwUiiZ1hNaqCwQ==
+"@manomano/jest-config@^2.6.2":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-2.6.2.tgz#91c611617db3d8388fb0fef4b3bb78f351577645"
+  integrity sha512-DXip1cm2rj2gs9/MedrL/emmmYOEG96lfpE7MZHIeYOPJcny9X2w4VykP74g+LXCYeXQmOAOxZP49rJIP5/fKA==
   dependencies:
     "@babel/core" "^7.4.5"
-    "@manomano/babel" "^2.6.1"
+    "@manomano/babel" "^2.6.2"
     babel-jest "24.8.0"
     identity-obj-proxy "3.0.0"
     jest "24.8.0"
@@ -955,12 +955,12 @@
     postcss-preset-env "6.6.0"
     postcss-safe-parser "4.0.1"
 
-"@manomano/project-settings@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.6.1.tgz#dd868073590aa9e2607c8e979fdecc6d3c9d11fa"
-  integrity sha512-1dUjeypDP/egggTKxSY6NmDtTthnqBYMa/Mv11B4HFSXr0vHdSvbvscNxQhL64U2SR6kbV+sWG+rh07flwpY4w==
+"@manomano/project-settings@^2.6.2":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.6.2.tgz#5dedb2b15a10861dcc6a98bc0e0a56e469e0c8e5"
+  integrity sha512-ISXgS7iBVhc/HOvKIBIAJ4HN9/HXEyDcRq3yh8teVIUIKpXFcpcNeZrLi4ocCNDbtHPjaGFvpcPCF+HfcsinYQ==
   dependencies:
-    "@manomano/utils" "^2.6.1"
+    "@manomano/utils" "^2.6.2"
 
 "@manomano/rollup-config@^2.6.1":
   version "2.6.1"
@@ -981,24 +981,24 @@
     rollup-plugin-postcss "2.0.3"
     rollup-plugin-visualizer "1.1.1"
 
-"@manomano/utils@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.6.1.tgz#23a82465c98d4148cd5db92b0bd735e52eb55508"
-  integrity sha512-MS8pdvvI99Hcg7/QP5MwlWe4Gk0nC7HrKmyPvlklt/o/F0afP4LNKPZWhtxsn3b8eAYzTcpWwaCiUehJKm8MTQ==
+"@manomano/utils@^2.6.2":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.6.2.tgz#695d8ae8017ded5c7252c9d8dfb88d5c75f231f6"
+  integrity sha512-1HW2HlwqddAYheBuLzSAob3su2RdNs8cHDBRLA/J0ebWMobk2ZzprUkJVa7Mc2AvummVodwl8t0a2uXRiM5BsA==
   dependencies:
     node-fetch "2.6.0"
 
-"@manomano/webpack@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-2.6.1.tgz#00574a1320c2225f843117370df31bd60b4f6bc2"
-  integrity sha512-v/9J8h8rpcniDFv+d1poHAvzXv7djYVab2wm0L+VDmkR0u6Bx8k67p5W8iDHnma9aaOL6GNtx2xSec9JJmLsqg==
+"@manomano/webpack@^2.6.2":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-2.6.2.tgz#b1c38ce870f80bcfc4352ea2ff5a0a20e3ee3f30"
+  integrity sha512-Jhj0W/bng0W6JvgVoPe3yEvRAKzwiU2dBxNEufWpO50RVnfLIGDE2ZluNxKivb9YIOX8KQzp/jBF5vocWX2RRw==
   dependencies:
     "@babel/code-frame" "7.0.0"
-    "@manomano/babel" "^2.6.1"
-    "@manomano/eslint-config" "^2.6.1"
+    "@manomano/babel" "^2.6.2"
+    "@manomano/eslint-config" "^2.6.2"
     "@manomano/postcss" "^2.6.1"
-    "@manomano/project-settings" "^2.6.1"
-    "@manomano/utils" "^2.6.1"
+    "@manomano/project-settings" "^2.6.2"
+    "@manomano/utils" "^2.6.2"
     assets-webpack-plugin "3.9.10"
     chalk "2.4.2"
     css-loader "2.1.1"

@@ -119,17 +119,17 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@manomano/project-settings@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.6.1.tgz#dd868073590aa9e2607c8e979fdecc6d3c9d11fa"
-  integrity sha512-1dUjeypDP/egggTKxSY6NmDtTthnqBYMa/Mv11B4HFSXr0vHdSvbvscNxQhL64U2SR6kbV+sWG+rh07flwpY4w==
+"@manomano/project-settings@^2.6.2":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.6.2.tgz#5dedb2b15a10861dcc6a98bc0e0a56e469e0c8e5"
+  integrity sha512-ISXgS7iBVhc/HOvKIBIAJ4HN9/HXEyDcRq3yh8teVIUIKpXFcpcNeZrLi4ocCNDbtHPjaGFvpcPCF+HfcsinYQ==
   dependencies:
-    "@manomano/utils" "^2.6.1"
+    "@manomano/utils" "^2.6.2"
 
-"@manomano/utils@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.6.1.tgz#23a82465c98d4148cd5db92b0bd735e52eb55508"
-  integrity sha512-MS8pdvvI99Hcg7/QP5MwlWe4Gk0nC7HrKmyPvlklt/o/F0afP4LNKPZWhtxsn3b8eAYzTcpWwaCiUehJKm8MTQ==
+"@manomano/utils@^2.6.2":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.6.2.tgz#695d8ae8017ded5c7252c9d8dfb88d5c75f231f6"
+  integrity sha512-1HW2HlwqddAYheBuLzSAob3su2RdNs8cHDBRLA/J0ebWMobk2ZzprUkJVa7Mc2AvummVodwl8t0a2uXRiM5BsA==
   dependencies:
     node-fetch "2.6.0"
 
