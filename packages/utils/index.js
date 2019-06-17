@@ -3,11 +3,13 @@ const composeObjectValues = require('./composeObjectValues');
 const getFiles = require('./getFiles');
 const manoConfig = require('./getManoConfig');
 const downloadTranslations = require('./downloadTranslations');
+const gitlab = require('./gitlab');
 
 module.exports = {
-  pkg: projectPkg,
-  manoConfig,
   composeObjectValues,
-  getFiles,
   downloadTranslations,
+  getFiles,
+  gitlab,
+  manoConfig,
+  pkg: projectPkg,
 };
