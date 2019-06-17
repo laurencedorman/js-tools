@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0](https://github.com/manomanotech/js-tools/compare/v2.6.3...v2.7.0) (2019-06-17)
+
+
+### Features
+
+* **utils:** Add gitlab helpers ([c720374](https://github.com/manomanotech/js-tools/commit/c720374))
+
+
+
+
+
 ## [2.6.2](https://github.com/manomanotech/js-tools/compare/v2.6.1...v2.6.2) (2019-06-13)
 
 **Note:** Version bump only for package @manomano/utils
