@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@manomano/utils@^2.6.2":
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.6.2.tgz#695d8ae8017ded5c7252c9d8dfb88d5c75f231f6"
-  integrity sha512-1HW2HlwqddAYheBuLzSAob3su2RdNs8cHDBRLA/J0ebWMobk2ZzprUkJVa7Mc2AvummVodwl8t0a2uXRiM5BsA==
+"@manomano/utils@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.7.0.tgz#a57e426486be8774747fe891f383ed2526c27431"
+  integrity sha512-E/hs71a72xY1is/EHMcZnrpdS+in/BMPrSc+hUalMeak7rsjYugyVftO0QryMj4Njcrjm397zdoCU13zJjzSsg==
   dependencies:
     node-fetch "2.6.0"
 
