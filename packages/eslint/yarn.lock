@@ -119,10 +119,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@manomano/project-settings@^2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.7.0.tgz#0e841bcceb222d87d9024268ba12fc74225d308d"
-  integrity sha512-7x6wmxSzp85z0Q/vCwuodT/0WLVA6Cs0HIVElBHmaxjBOyT3fuxVDi0NEsDE6iB9oHTQ2zfY3vnAvaQI55Miug==
+"@manomano/project-settings@^2.7.1":
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.7.1.tgz#5592a0184899205585ff72b9c6480d57bb9f64b9"
+  integrity sha512-N7qES+YRDbEyhpNcGdsMbCmwcoT5IX60is09zEr+/jKafmjyGFQ7r46sVbwTSnOZewmrR2+3lvkgoor1b5U8gQ==
   dependencies:
     "@manomano/utils" "^2.7.0"
 
@@ -809,14 +809,14 @@ inflight@^1.0.4:
     wrappy "1"
 
 inherits@2:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
-  integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
+  integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
 inquirer@^6.2.2:
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-6.3.1.tgz#7a413b5e7950811013a3db491c61d1f3b776e8e7"
-  integrity sha512-MmL624rfkFt4TG9y/Jvmt8vdmOo836U7Y0Hxr2aFk3RelZEGX4Igk0KabWrcaaZaTv9uzglOqWh1Vly+FAWAXA==
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-6.4.0.tgz#6f9284047c4e48b76b169e46b3ae3b2171ce30a2"
+  integrity sha512-O3qJQ+fU/AI1K2y5/RjqefMEQTdJQf6sPTvyRA1bx6D634ADxcu97u6YOUciIeU2OWIuvpUsQs6Wx3Fdi3eFaQ==
   dependencies:
     ansi-escapes "^3.2.0"
     chalk "^2.4.2"
