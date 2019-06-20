@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.7.1](https://git.manomano.tech/core-utils/js-tools/compare/v2.7.0...v2.7.1) (2019-06-20)
+
+
+### Bug Fixes
+
+* **webpack:** Add SSR assets inside webpack build ([6cdf919](https://git.manomano.tech/core-utils/js-tools/commits/6cdf919))
+
+
+
+
+
 # [2.7.0](https://git.manomano.tech/core-utils/js-tools/compare/v2.6.3...v2.7.0) (2019-06-17)
 
 
