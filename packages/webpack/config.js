@@ -11,20 +11,21 @@ const {
 } = require('./loaders');
 
 const {
-  manifestPlugin,
-  htmlPlugin,
-  hotModule,
-  terserPlugin,
-  optimizeCss,
+  assetsPlugin,
+  bundleAnalyzer,
+  definePlatform,
   definePlugin,
+  envPlugin,
   extractCss,
+  hashedModuleIdsPlugin,
+  hotModule,
+  htmlPlugin,
   ignorePlugin,
   imageMin,
-  definePlatform,
-  hashedModuleIdsPlugin,
+  manifestPlugin,
+  optimizeCss,
+  terserPlugin,
   webpackBar,
-  envPlugin,
-  bundleAnalyzer,
 } = require('./plugins');
 
 const settings = require('./settings');
@@ -122,6 +123,7 @@ module.exports = ({ platform, envVariables = {}, entryPoint, analyze }) => {
           name: 'client',
         }),
       envPlugin(envVariables),
+      assetsPlugin(settings.appBuild),
       analyze && bundleAnalyzer(platformName),
     ].filter(Boolean),
     resolve: settings.resolve,
