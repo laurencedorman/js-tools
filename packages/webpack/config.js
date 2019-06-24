@@ -53,11 +53,13 @@ module.exports = ({ platform, envVariables = {}, entryPoint, analyze }) => {
         ? `js/${settings.output.filename}.[contenthash:8].${platformName}.js`
         : `${settings.output.filename}.js`,
       chunkFilename: isProdEnv
-        ? `js/${settings.output.chunkFilename}.[contenthash:8].${platformName}.js`
+        ? `js/${
+            settings.output.chunkFilename
+          }.[contenthash:8].${platformName}.js`
         : `${settings.output.chunkFilename}.js`,
       publicPath: isProdEnv
         ? settings.output.publicPath
-        : `http://localhost:${settings.devServer.port}/`,
+        : `${settings.protocol}${settings.output.devPublicPath}`,
       jsonpFunction: 'rootAppWebpackJsonp',
     },
     optimization: {

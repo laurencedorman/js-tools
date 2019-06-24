@@ -21,6 +21,7 @@ module.exports = {
   quiet: true,
   https: false,
   port: settings.devServer.port,
+  sockHost: settings.devServer.sockHost,
   overlay: false,
   historyApiFallback: true,
   proxy: settings.proxy,
