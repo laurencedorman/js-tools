@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.8.0](https://git.manomano.tech/core-utils/js-tools/compare/v2.7.1...v2.8.0) (2019-06-24)
+
+
+### Features
+
+* **webpack:** add environment variable for webpack dev server host ([a6e9df9](https://git.manomano.tech/core-utils/js-tools/commits/a6e9df9))
+
+
+
+
+
 ## [2.7.1](https://git.manomano.tech/core-utils/js-tools/compare/v2.7.0...v2.7.1) (2019-06-20)
 
 
