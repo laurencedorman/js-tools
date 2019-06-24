@@ -119,17 +119,17 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@manomano/project-settings@^2.7.1":
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.7.1.tgz#5592a0184899205585ff72b9c6480d57bb9f64b9"
-  integrity sha512-N7qES+YRDbEyhpNcGdsMbCmwcoT5IX60is09zEr+/jKafmjyGFQ7r46sVbwTSnOZewmrR2+3lvkgoor1b5U8gQ==
+"@manomano/project-settings@^2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.8.0.tgz#237b8a69aa4b2797add37cd2d80ad753d387c7a5"
+  integrity sha512-wHGGpk9NaggFO4IeOcPGO1WYDppdUlUQisflwILB0+SaY3EsMu81FNZGiCzoBUrzJvl3Z+Z/zcbWHy//L8/Y1w==
   dependencies:
-    "@manomano/utils" "^2.7.0"
+    "@manomano/utils" "^2.8.0"
 
-"@manomano/utils@^2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.7.0.tgz#a57e426486be8774747fe891f383ed2526c27431"
-  integrity sha512-E/hs71a72xY1is/EHMcZnrpdS+in/BMPrSc+hUalMeak7rsjYugyVftO0QryMj4Njcrjm397zdoCU13zJjzSsg==
+"@manomano/utils@^2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.8.0.tgz#e4c101ae6b7e46c4d777dcb28c3388b5663e3359"
+  integrity sha512-sO9o//BmeB/x6KMcXQYqaJ1/RDAL87AXZWofg2An3vml6vdgRxC6l0C9ThcpNzEtwkXydxaYjrGirYm0kzySfg==
   dependencies:
     node-fetch "2.6.0"
 
@@ -814,9 +814,9 @@ inherits@2:
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
 inquirer@^6.2.2:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-6.4.0.tgz#6f9284047c4e48b76b169e46b3ae3b2171ce30a2"
-  integrity sha512-O3qJQ+fU/AI1K2y5/RjqefMEQTdJQf6sPTvyRA1bx6D634ADxcu97u6YOUciIeU2OWIuvpUsQs6Wx3Fdi3eFaQ==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-6.4.1.tgz#7bd9e5ab0567cd23b41b0180b68e0cfa82fc3c0b"
+  integrity sha512-/Jw+qPZx4EDYsaT6uz7F4GJRNFMRdKNeUZw3ZnKV8lyuUgz/YWRCSUAJMZSVhSq4Ec0R2oYnyi6b3d4JXcL5Nw==
   dependencies:
     ansi-escapes "^3.2.0"
     chalk "^2.4.2"
@@ -1252,9 +1252,9 @@ resolve-from@^4.0.0:
   integrity sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==
 
 resolve@^1.10.0, resolve@^1.10.1, resolve@^1.11.0, resolve@^1.3.2, resolve@^1.4.0, resolve@^1.5.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.11.0.tgz#4014870ba296176b86343d50b60f3b50609ce232"
-  integrity sha512-WL2pBDjqT6pGUNSUzMw00o4T7If+z4H2x3Gz893WoUQ5KW8Vr9txp00ykiP16VBaZF5+j/OcXJHZ9+PCvdiDKw==
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.11.1.tgz#ea10d8110376982fef578df8fc30b9ac30a07a3e"
+  integrity sha512-vIpgF6wfuJOZI7KKKSP+HmiKggadPQAdsp5HiC1mvqnfp0gF1vdwgBWZIdrVft9pgqoMFQN+R7BSWZiBxx+BBw==
   dependencies:
     path-parse "^1.0.6"
 
