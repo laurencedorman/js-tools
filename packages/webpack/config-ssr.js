@@ -1,4 +1,3 @@
-const nodeExternals = require('webpack-node-externals');
 const webpack = require('webpack');
 
 const {
@@ -18,9 +17,6 @@ const {
   ignorePlugin,
   definePlatform,
   ignoreAssets,
-  webpackBar,
-  hotModule,
-  startServer,
 } = require('./plugins');
 
 const settings = require('./settings');
@@ -36,24 +32,11 @@ module.exports = ({ platform }) => {
     mode: env,
     target: 'node',
     watch: isDevEnv,
-    externals: [
-      nodeExternals({
-        whitelist: [
-          isDevEnv ? 'webpack/hot/poll?300' : null,
-          /.(scss|css)$/,
-          ...settings.transpileExternalLibraries,
-        ].filter(Boolean),
-      }),
-    ],
     devtool: isProdEnv ? 'source-map' : isDevEnv && 'cheap-module-source-map',
-    entry: [
-      'webpack/hot/poll?300',
-      '@manomano/webpack/utils/prettyNodeErrors',
-      settings.entryServer,
-    ],
+    entry: settings.entryServer,
     output: {
       path: settings.appServerOutput,
-      filename: 'app.js',
+      filename: 'index.js',
       libraryTarget: 'commonjs2',
     },
     module: {
@@ -81,15 +64,8 @@ module.exports = ({ platform }) => {
       new webpack.optimize.LimitChunkCountPlugin({
         maxChunks: 1,
       }),
-      isDevEnv && hotModule(),
-      isDevEnv && startServer('app.js'),
       // Ignore assets.json to avoid infinite recompile bug
       isDevEnv && ignoreAssets(),
-      isDevEnv &&
-        webpackBar({
-          color: '#c065f4',
-          name: 'server',
-        }),
     ].filter(Boolean),
     resolve: settings.resolve,
     performance: false,

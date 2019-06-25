@@ -34,7 +34,7 @@ const runScript = (nodeArgs, scriptPath, args) => {
 };
 
 const scriptIndex = args.findIndex(x =>
-  ['build', 'start', 'start-server', 'test', 'rollup'].includes(x)
+  ['build', 'start', 'test', 'rollup', 'webpackSSR'].includes(x)
 );
 
 if (scriptIndex === -1) {
@@ -54,10 +54,10 @@ if (script === 'test') {
     extraArgs
   );
 }
-if (script === 'start-server') {
+if (script === 'webpackSSR') {
   runScript(
     nodeArgs,
-    require.resolve('@manomano/webpack/scripts/server.js'),
+    require.resolve('@manomano/webpack/scripts/webpackSSR.js'),
     extraArgs
   );
 } else if (script === 'rollup') {
