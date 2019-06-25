@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.8.4](https://git.manomano.tech/core-utils/js-tools/compare/v2.8.3...v2.8.4) (2019-06-25)
+
+
+### Bug Fixes
+
+* **webpack:** set devPublicPath ([4d2f4ea](https://git.manomano.tech/core-utils/js-tools/commits/4d2f4ea))
+
+
+
+
+
 ## [2.8.3](https://git.manomano.tech/core-utils/js-tools/compare/v2.8.2...v2.8.3) (2019-06-25)
 
 
