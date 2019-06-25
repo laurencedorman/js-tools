@@ -6,6 +6,7 @@ const babel = require('@babel/core');
 const env = require('@babel/preset-env');
 const react = require('@babel/preset-react');
 const pluginClassProperties = require('@babel/plugin-proposal-class-properties');
+const pluginDynamicSyntax = require('@babel/plugin-syntax-dynamic-import');
 const pluginModuleResolver = require('babel-plugin-module-resolver');
 const { alias, paths } = require('@manomano/project-settings');
 
@@ -19,6 +20,7 @@ const extractTranslations = file => {
     plugins: [
       [pluginClassProperties, { loose: true }],
       [pluginModuleResolver, { alias }],
+      pluginDynamicSyntax,
       [
         reactIntl,
         { extractSourceLocation: true, enforceDefaultMessage: false },

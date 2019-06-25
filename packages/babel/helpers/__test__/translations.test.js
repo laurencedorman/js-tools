@@ -31,4 +31,19 @@ describe('Translations', () => {
       })
     );
   });
+
+  it('should not crash with dynamicImports', () => {
+    const filePath = path.join(
+      __dirname,
+      '../__fixtures__/translations/dynamicImport.jsx'
+    );
+
+    const translations = extractTranslations(filePath);
+
+    expect(translations).toContainEqual(
+      expect.objectContaining({
+        id: 'dynamicKey.key',
+      })
+    );
+  });
 });
