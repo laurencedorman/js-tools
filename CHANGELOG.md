@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.8.2](https://git.manomano.tech/core-utils/js-tools/compare/v2.8.1...v2.8.2) (2019-06-25)
+
+
+### Bug Fixes
+
+* **babel:** Only traverse js or jsx files when extracting translations. ([269c58b](https://git.manomano.tech/core-utils/js-tools/commits/269c58b))
+
+
+
+
+
 ## [2.8.1](https://git.manomano.tech/core-utils/js-tools/compare/v2.8.0...v2.8.1) (2019-06-25)
 
 
