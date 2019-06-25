@@ -30,8 +30,10 @@ module.exports = ({ types }) => {
             // This need to be a path to a file.
             webpackConfig: join(__dirname, './config.js'),
             filter: dependencyPath => {
-              if (/\.(scss|sass)$/.test(dependencyPath)) return false;
+              // Only parse js|jsx files.
+              if (!/\.jsx?$/.test(dependencyPath)) return false;
 
+              // Ignore packages.
               return !dependencyPath.includes('node_modules');
             },
           });
