@@ -14,7 +14,6 @@ const defaultSettings = {
   appServer: paths.appServer,
   appServerOutput: paths.appServerOutput,
   basePath: paths.appDirectory,
-  entrySSR: path.resolve(paths.appServer, 'client.js'),
   entrySPA: path.resolve(paths.appClient, 'index.js'),
   entryServer: path.resolve(paths.appServer, 'index.js'),
   protocol: process.env.PROTOCOL ? process.env.PROTOCOL : 'http://',
@@ -23,7 +22,7 @@ const defaultSettings = {
     chunkFilename: '[name].chunk',
     publicPath: '/',
     devPublicPath:
-      process.env.WEBPACK_DEV_SERVER_HOST ||
+      `${process.env.WEBPACK_DEV_SERVER_HOST}/` ||
       `localhost:${process.env.PORT ? process.env.PORT : 3000}/`,
     path: paths.appBuild,
   },
