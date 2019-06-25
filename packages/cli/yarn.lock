@@ -879,10 +879,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^2.8.4":
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.8.4.tgz#670f36f59dc42f4c1da1a69ff059d271884bf964"
-  integrity sha512-51zYTI4F/+Z+ouOISnAHtT69P3TgnYlgRs1MOUAxUnXeW0He1dzTtdn3xiYymm4WhpFKi/1u9lreo6ZKCReozg==
+"@manomano/babel@^2.8.5":
+  version "2.8.5"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.8.5.tgz#1237eadb82220452b109f2b15115ae31983bf0ca"
+  integrity sha512-ucroy7E2+fomcmvjEXDAKnptOv09L2TCT7p1ALbdJqDMNjgsyaByDtzZfib9LpmpnsW57buz4n0ZtPXCbw+XJw==
   dependencies:
     "@babel/core" "^7.4.5"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -909,10 +909,10 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/eslint-config@^2.8.4":
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-2.8.4.tgz#3f3b0d5f6245a2b4ab0b15ece876853ff2cab652"
-  integrity sha512-xV5rWq8Gw8jwXjcnzK0hF+FzNzhwHSXnGKkp/E63BAEUPjFf+XeP+D2I26ZJIv431gqelPGTnFuZah0G6uFCAQ==
+"@manomano/eslint-config@^2.8.5":
+  version "2.8.5"
+  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-2.8.5.tgz#fdd2ee928bc95b8d5f9da458aa9dfeb04997450e"
+  integrity sha512-fAnRrbfc0/P/yIEiAdvM/gFzENt0n7ZX6EK0WFTVOYeUoXgdY6axhRIikCdOIP9kwK4IfElnTdmu0V1pjL9wZA==
   dependencies:
     "@babel/core" "^7.4.5"
     "@manomano/project-settings" "^2.8.4"
@@ -929,13 +929,13 @@
     eslint-plugin-react "7.13.0"
     eslint-plugin-react-hooks "1.6.0"
 
-"@manomano/jest-config@^2.8.4":
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-2.8.4.tgz#7192714ccb6c5492321e38e3964f845f95f54f8c"
-  integrity sha512-TfF0V1/2+53ANTgV3BpWVIw/g5M6vIezoZVuCFxZEPhZ0p4dLla6YIDZGHR0MqOVpuv3XOzLEyLfsYeHM6syIQ==
+"@manomano/jest-config@^2.8.5":
+  version "2.8.5"
+  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-2.8.5.tgz#bf7ab30fa77c34c03fee4476eeb7fceb2b34a72b"
+  integrity sha512-ofH/gmirQ+XhKXBVkbPl0uNyV0Kjutj3+cdd2phGD5HdubZfEFazaJpBpJ7BNXuo7bRtdjBLCZwGzUHlrG7Qrw==
   dependencies:
     "@babel/core" "^7.4.5"
-    "@manomano/babel" "^2.8.4"
+    "@manomano/babel" "^2.8.5"
     babel-jest "24.8.0"
     identity-obj-proxy "3.0.0"
     jest "24.8.0"
@@ -988,14 +988,14 @@
   dependencies:
     node-fetch "2.6.0"
 
-"@manomano/webpack@^2.8.4":
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-2.8.4.tgz#54471a920430f13228a50ba38cccf7ffe9504b93"
-  integrity sha512-FdKK+DjiApQs+TH/+2+Pq5jclyuzpJpdL+YSBOKJ0Eo6o1bKEGpIdAxBVCPZxHKoYr0EOhRxo8jxNzIntkg/kA==
+"@manomano/webpack@^2.8.5":
+  version "2.8.5"
+  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-2.8.5.tgz#5acf16d0299944b2c2671495b9d396ea0b1edac2"
+  integrity sha512-TnZD7gxPbQymD/+19IKn88w0izN7rqtBYhbjPHkfENOkKrEXkyOPx6cUi8W5HdIAya9fw1y+RXiix6jExVOPEw==
   dependencies:
     "@babel/code-frame" "7.0.0"
-    "@manomano/babel" "^2.8.4"
-    "@manomano/eslint-config" "^2.8.4"
+    "@manomano/babel" "^2.8.5"
+    "@manomano/eslint-config" "^2.8.5"
     "@manomano/postcss" "^2.8.2"
     "@manomano/project-settings" "^2.8.4"
     "@manomano/utils" "^2.8.2"

@@ -874,10 +874,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^2.8.4":
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.8.4.tgz#670f36f59dc42f4c1da1a69ff059d271884bf964"
-  integrity sha512-51zYTI4F/+Z+ouOISnAHtT69P3TgnYlgRs1MOUAxUnXeW0He1dzTtdn3xiYymm4WhpFKi/1u9lreo6ZKCReozg==
+"@manomano/babel@^2.8.5":
+  version "2.8.5"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.8.5.tgz#1237eadb82220452b109f2b15115ae31983bf0ca"
+  integrity sha512-ucroy7E2+fomcmvjEXDAKnptOv09L2TCT7p1ALbdJqDMNjgsyaByDtzZfib9LpmpnsW57buz4n0ZtPXCbw+XJw==
   dependencies:
     "@babel/core" "^7.4.5"
     "@babel/plugin-proposal-class-properties" "7.4.4"
