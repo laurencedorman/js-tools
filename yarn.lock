@@ -900,9 +900,9 @@
   integrity sha512-lUNOfJC/kVgES4H/WJ3x4XORDeTSz1lUDQohjGmPJfNB+XxfCAhehjkMenLU+X4s39BrV04LeMwxsTgzTe4rlA==
 
 "@manomano/project-settings@^2.6.1":
-  version "2.8.3"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.8.3.tgz#da41c0d8a79fc82d9f1c852e46e6288b2c73421b"
-  integrity sha512-LeNziBxUwUktjZ5KW7mSGHziglOkoTlOYsVnXrJ7esbkLwKziVh4uuiUwbAEJzbGjXvq8A0oFCXVe8UDUL/cEg==
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.8.4.tgz#ca9f16bd2582cbbbfc7c4f6105999e61d25cef5e"
+  integrity sha512-E7J7uF17LfFuLRqAlkV89rUUeEWOQi1IrcDcjpkZeSsEhy5YrtaWti46tFgKT2N5TZ74itIFPuvcWN0tEkXqmQ==
   dependencies:
     "@manomano/utils" "^2.8.2"
 
@@ -2521,9 +2521,9 @@ flat-cache@^2.0.1:
     write "1.0.3"
 
 flatted@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.0.tgz#55122b6536ea496b4b44893ee2608141d10d9916"
-  integrity sha512-R+H8IZclI8AAkSBRQJLVOsxwAoHd6WC40b4QTNWIjzAa6BXOBfQcM587MXDTVPeYaopFNWHUFLx7eNmHDSxMWg==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.1.tgz#69e57caa8f0eacbc281d2e2cb458d46fdb449e08"
+  integrity sha512-a1hQMktqW9Nmqr5aktAux3JMNqaucxGcjtjWnZLHX7yyPCmlSV3M54nGYbqT8K+0GhF3NBgmJCc3ma+WOgX8Jg==
 
 flush-write-stream@^1.0.0:
   version "1.1.1"
