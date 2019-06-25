@@ -879,10 +879,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@manomano/babel@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.8.0.tgz#fcae83b10b010d70abb35e89202d6ec5991823ec"
-  integrity sha512-PGOAWYikNfTHfsUEmLvkwTChHWqGwCBwR5+9fljfG7PrC+CFNxMiomee/jM8NjDqYp0Zu42oqqgnw/bEDsdzYQ==
+"@manomano/babel@^2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@manomano/babel/-/babel-2.8.1.tgz#d8e8d440a88eade01ae9077108b9a02f5dea69ab"
+  integrity sha512-aTmOHUTHdYU5qgXoDasjst6gQ1MbWmZUp4Jo7OVSfLO/gtFs/XKEOo7fNVTkUi8IBeDzDIL7v0o9Zlmx9N1O9w==
   dependencies:
     "@babel/core" "^7.4.5"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -893,7 +893,7 @@
     "@babel/preset-react" "7.0.0"
     "@babel/runtime" "^7.4.5"
     "@manomano/browserslist-config" "^2.0.0"
-    "@manomano/project-settings" "^2.8.0"
+    "@manomano/project-settings" "^2.8.1"
     babel-loader "8.0.6"
     babel-plugin-dynamic-import-node "2.2.0"
     babel-plugin-module-resolver "3.2.0"
@@ -909,13 +909,13 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/eslint-config@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-2.8.0.tgz#c4673fdc4c4609253802ffcf1a6a45e8fc37a931"
-  integrity sha512-Ljz86BxmJyy1xb5lDrl1WvQiOUtJVD1/ULO+ejrepVa/na0K0BPIhi0cgKO58X1Oyz1aAOQTCj4gMqYP0Bb4DQ==
+"@manomano/eslint-config@^2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@manomano/eslint-config/-/eslint-config-2.8.1.tgz#16092ff99ff108d2b259851d5d4a3f9fcb105313"
+  integrity sha512-QDWFOCWfNmfUC+ZAIEUu+o028lCJsBKy6IG/+/qlA2T8JeF2pKhHJypvFmZYgnx8inXTPtD3m+Vel972c+CD7Q==
   dependencies:
     "@babel/core" "^7.4.5"
-    "@manomano/project-settings" "^2.8.0"
+    "@manomano/project-settings" "^2.8.1"
     babel-eslint "10.0.1"
     babel-plugin-module-resolver "^3.2.0"
     eslint "5.16.0"
@@ -929,13 +929,13 @@
     eslint-plugin-react "7.13.0"
     eslint-plugin-react-hooks "1.6.0"
 
-"@manomano/jest-config@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-2.8.0.tgz#b9c2563d40d06747a36a8e0c88f4b7e52c81976a"
-  integrity sha512-MurVNiqvAdCwn95s4E67kN4/ickj4Q8gaTtRBsmrXAwnvWLNlrscjZpJDSsZynQtJv8NzFcWH4vwZneee46u7A==
+"@manomano/jest-config@^2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@manomano/jest-config/-/jest-config-2.8.1.tgz#63e01e2885668461de6b053478ea0ca2e1bc60c3"
+  integrity sha512-IzTpTxEX7CQWdW8Xp7ER300iNZmRnALh9QWb4oD/frwjBWkcS/auVA+qj9ImOX9wsuos21zeWeIaFEpJzPqwKw==
   dependencies:
     "@babel/core" "^7.4.5"
-    "@manomano/babel" "^2.8.0"
+    "@manomano/babel" "^2.8.1"
     babel-jest "24.8.0"
     identity-obj-proxy "3.0.0"
     jest "24.8.0"
@@ -944,10 +944,10 @@
     jest-pnp-resolver "1.2.1"
     jest-resolve "24.8.0"
 
-"@manomano/postcss@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-2.8.0.tgz#c72c64714367b73af60d51d72ad464dd81c7adef"
-  integrity sha512-AgN2/FPSNB/RR1yJyeMYTsB/3LXpWJC7swW97T6aqYWAXMdhX8n4cnMY/0Fus4TQ4TZ4mb/pR32T1MzTfVvwsw==
+"@manomano/postcss@^2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@manomano/postcss/-/postcss-2.8.1.tgz#fd1df9322e824f38d370094c4355507b29d45047"
+  integrity sha512-bsExBmsab3AuS58rmSW81F7jb8zHQmjjsTFPEwtUlQMDQJPSaHZ1Ja6eUgDWv+6bOUWLt2dsN93C7JN6gLdokA==
   dependencies:
     "@manomano/browserslist-config" "^2.0.0"
     postcss-flexbugs-fixes "4.1.0"
@@ -955,17 +955,17 @@
     postcss-preset-env "6.6.0"
     postcss-safe-parser "4.0.1"
 
-"@manomano/project-settings@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.8.0.tgz#237b8a69aa4b2797add37cd2d80ad753d387c7a5"
-  integrity sha512-wHGGpk9NaggFO4IeOcPGO1WYDppdUlUQisflwILB0+SaY3EsMu81FNZGiCzoBUrzJvl3Z+Z/zcbWHy//L8/Y1w==
+"@manomano/project-settings@^2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.8.1.tgz#3b307111fbf00b5375c1a68aee5fbb299cefc866"
+  integrity sha512-cn0FvfCun5K1CUM6Uu1eQXYXo88PwpFxrQNJymJvbez4VZ9+cZeG04B53XniITVUFeK1tHS12Kco4fr5JunJ5A==
   dependencies:
-    "@manomano/utils" "^2.8.0"
+    "@manomano/utils" "^2.8.1"
 
-"@manomano/rollup-config@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@manomano/rollup-config/-/rollup-config-2.8.0.tgz#65a25d7bb5402651d84f6a809a2478b507b0828e"
-  integrity sha512-2JyaL033HSnFYTt1xfqBbUhLLJwT9I+CHQtOlokQ+RVTrRGVVwBn7+It1168N8hDDW755tUXj1DjQzNVdU64nQ==
+"@manomano/rollup-config@^2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@manomano/rollup-config/-/rollup-config-2.8.1.tgz#de1d25dbe962a02f7d1cdc7d81ae1c10b418aa75"
+  integrity sha512-zej/8FmQ1NrnHiUF8Cq33S31IjkRTQuQdOzNNEOUcDh8nUJiftW4LNYtImJclg5dM8aFBAO5pEOdpXjM20e3Zg==
   dependencies:
     "@babel/core" "^7.4.5"
     autoprefixer "9.5.1"
@@ -981,24 +981,24 @@
     rollup-plugin-postcss "2.0.3"
     rollup-plugin-visualizer "1.1.1"
 
-"@manomano/utils@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.8.0.tgz#e4c101ae6b7e46c4d777dcb28c3388b5663e3359"
-  integrity sha512-sO9o//BmeB/x6KMcXQYqaJ1/RDAL87AXZWofg2An3vml6vdgRxC6l0C9ThcpNzEtwkXydxaYjrGirYm0kzySfg==
+"@manomano/utils@^2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.8.1.tgz#87bf7f90b7f56ead761f3a7c13dc48ee95461fb4"
+  integrity sha512-Nyzgve73rV0oZ6h1NFFx0e7x/4FEyLDhqLlf5TESjJ+9Go9nXjuzoA1sEuhVCyAmOjlnZe7Q69m7KOjdLygjzQ==
   dependencies:
     node-fetch "2.6.0"
 
-"@manomano/webpack@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-2.8.0.tgz#f63953d7b16f5188831b566e8f72000b346a4785"
-  integrity sha512-ZIRpjjYhuMcwTNYBJiPlqY8idal4bZJgbBxEup0CB5v0HssLTS80Nsy4aPI6NKNAIwl8UvniF82KlQ0lyqu1tQ==
+"@manomano/webpack@^2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@manomano/webpack/-/webpack-2.8.1.tgz#9914c9f5cbfe9421feb795f3d597bb12482fcc6c"
+  integrity sha512-11kNHZ7VBWWq9bUQk54jhYaAka2uDd/inWSD/PpdLFZeT48ACbirHnZ7zP9+pqwfPtkzYZzndz64XPTiFtIIwA==
   dependencies:
     "@babel/code-frame" "7.0.0"
-    "@manomano/babel" "^2.8.0"
-    "@manomano/eslint-config" "^2.8.0"
-    "@manomano/postcss" "^2.8.0"
-    "@manomano/project-settings" "^2.8.0"
-    "@manomano/utils" "^2.8.0"
+    "@manomano/babel" "^2.8.1"
+    "@manomano/eslint-config" "^2.8.1"
+    "@manomano/postcss" "^2.8.1"
+    "@manomano/project-settings" "^2.8.1"
+    "@manomano/utils" "^2.8.1"
     assets-webpack-plugin "3.9.10"
     chalk "2.4.2"
     css-loader "3.0.0"
@@ -2465,9 +2465,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000939, caniuse-lite@^1.0.30000955, caniuse-lite@^1.0.30000957, caniuse-lite@^1.0.30000971, caniuse-lite@^1.0.30000975:
-  version "1.0.30000976"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000976.tgz#d30fe12662cb2a21e130d307db9907513ca830a2"
-  integrity sha512-tleNB1IwPRqZiod6nUNum63xQCMN96BUO2JTeiwuRM7p9d616EHsMBjBWJMudX39qCaPuWY8KEWzMZq7A9XQMQ==
+  version "1.0.30000977"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000977.tgz#7da2ca14cae2fddb368c05c57ab4a529afd658ff"
+  integrity sha512-RTXL32vdfAc2g9aoDL6vnBzbOO/3sM+T+YX4m7W9iFZnl3qIz7WYoZZpcZpALud8xq4+N56rnruX/NQy9HQu6A==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -3818,9 +3818,9 @@ ejs@^2.6.1:
   integrity sha512-PcW2a0tyTuPHz3tWyYqtK6r1fZ3gp+3Sop8Ph+ZYN81Ob5rwmbHEzaqs10N3BEsaGTkh/ooniXK+WwszGlc2+Q==
 
 electron-to-chromium@^1.3.122, electron-to-chromium@^1.3.164:
-  version "1.3.172"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.172.tgz#1eafb3afdc47bcb9c2a2249b2736be352016da4b"
-  integrity sha512-bHgFvYeHBiQNNuY/WvoX37zLosPgMbR8nKU1r4mylHptLvuMMny/KG/L28DTIlcoOCJjMAhEimy3DHDgDayPbg==
+  version "1.3.173"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.173.tgz#275b9ba235447b95fc3204d32ca2c5a8bf2ca599"
+  integrity sha512-weH16m8as+4Fy4XJxrn/nFXsIqB7zkxERhvj/5YX2HE4HB8MCu98Wsef4E3mu0krIT27ic0bGsr+TvqYrUn6Qg==
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -5360,7 +5360,7 @@ http-deceiver@^1.2.7:
   resolved "https://registry.yarnpkg.com/http-deceiver/-/http-deceiver-1.2.7.tgz#fa7168944ab9a519d337cb0bec7284dc3e723d87"
   integrity sha1-+nFolEq5pRnTN8sL7HKE3D5yPYc=
 
-http-errors@1.7.2, http-errors@~1.7.2:
+http-errors@1.7.2:
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/http-errors/-/http-errors-1.7.2.tgz#4f5029cf13239f31036e5b2e55292bcfbcc85c8f"
   integrity sha512-uUQBt3H/cSIVfch6i1EuPNy/YsRSOUBXTVfZ+yR7Zjez3qjBz6i9+i4zjNaoqcoFVI4lQJ5plg63TvGfRSDCRg==
@@ -5380,6 +5380,17 @@ http-errors@~1.6.2:
     inherits "2.0.3"
     setprototypeof "1.1.0"
     statuses ">= 1.4.0 < 2"
+
+http-errors@~1.7.2:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/http-errors/-/http-errors-1.7.3.tgz#6c619e4f9c60308c38519498c14fbb10aacebb06"
+  integrity sha512-ZTTX0MWrsQ2ZAhA1cejAwDLycFsd7I7nVtnkT3Ol0aqodaKW+0CTZDQ1uBv5whptCnc8e8HeRRJxRs0kmm/Qfw==
+  dependencies:
+    depd "~1.1.2"
+    inherits "2.0.4"
+    setprototypeof "1.1.1"
+    statuses ">= 1.5.0 < 2"
+    toidentifier "1.0.0"
 
 "http-parser-js@>=0.4.0 <0.4.11":
   version "0.4.10"
@@ -5661,7 +5672,7 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.0, inherits@~2.0.1, inherits@~2.0.3:
+inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.0, inherits@~2.0.1, inherits@~2.0.3:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
@@ -6024,7 +6035,7 @@ is-plain-obj@^1.0.0, is-plain-obj@^1.1.0:
   resolved "https://registry.yarnpkg.com/is-plain-obj/-/is-plain-obj-1.1.0.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
   integrity sha1-caUMhCnfync8kqOQpKA7OfzVHT4=
 
-is-plain-object@^2.0.1, is-plain-object@^2.0.3, is-plain-object@^2.0.4:
+is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
   integrity sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==
@@ -7319,9 +7330,9 @@ mississippi@^3.0.0:
     through2 "^2.0.0"
 
 mixin-deep@^1.2.0:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/mixin-deep/-/mixin-deep-1.3.1.tgz#a49e7268dce1a0d9698e45326c5626df3543d0fe"
-  integrity sha512-8ZItLHeEgaqEvd5lYBXfm4EZSFCX29Jb9K+lAHhDKzReKBQKj3R+7NOF6tjqYi9t4oI8VUfaWITJQm86wnXGNQ==
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/mixin-deep/-/mixin-deep-1.3.2.tgz#1120b43dc359a785dce65b55b82e257ccf479566"
+  integrity sha512-WRoDn//mXBiJ1H40rqa3vH0toePwSsGb45iInWlTySa+Uu4k3tYUSxa2v1KqAiLtvlrSzaExqS1gtk96A9zvEA==
   dependencies:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
@@ -10193,20 +10204,10 @@ set-blocking@^2.0.0, set-blocking@~2.0.0:
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
-set-value@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/set-value/-/set-value-0.4.3.tgz#7db08f9d3d22dc7f78e53af3c3bf4666ecdfccf1"
-  integrity sha1-fbCPnT0i3H945Trzw79GZuzfzPE=
-  dependencies:
-    extend-shallow "^2.0.1"
-    is-extendable "^0.1.1"
-    is-plain-object "^2.0.1"
-    to-object-path "^0.3.0"
-
-set-value@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/set-value/-/set-value-2.0.0.tgz#71ae4a88f0feefbbf52d1ea604f3fb315ebb6274"
-  integrity sha512-hw0yxk9GT/Hr5yJEYnHNKYXkIA8mVJgd9ditYZCe16ZczcaELYYcfvaXesNACk2O8O0nTiPQcQhGUQj8JLzeeg==
+set-value@^2.0.0, set-value@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/set-value/-/set-value-2.0.1.tgz#a18d40530e6f07de4228c7defe4227af8cad005b"
+  integrity sha512-JxHc1weCN68wRY0fhCoXpyK55m/XPHafOmK4UWD7m2CI14GMcFypt4w/0+NV5f/ZMby2F6S2wwA7fgynh9gWSw==
   dependencies:
     extend-shallow "^2.0.1"
     is-extendable "^0.1.1"
@@ -11246,14 +11247,14 @@ unicode-property-aliases-ecmascript@^1.0.4:
   integrity sha512-L5RAqCfXqAwR3RriF8pM0lU0w4Ryf/GgzONwi6KnL1taJQa7x1TCxdJnILX59WIGOwR57IVxn7Nej0fz1Ny6fw==
 
 union-value@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/union-value/-/union-value-1.0.0.tgz#5c71c34cb5bad5dcebe3ea0cd08207ba5aa1aea4"
-  integrity sha1-XHHDTLW61dzr4+oM0IIHulqhrqQ=
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/union-value/-/union-value-1.0.1.tgz#0b6fe7b835aecda61c6ea4d4f02c14221e109847"
+  integrity sha512-tJfXmxMeWYnczCVs7XAEvIV7ieppALdyepWMkHkwciRpZraG/xwT+s2JN8+pr1+8jCRf80FFzvr+MpQeeoF4Xg==
   dependencies:
     arr-union "^3.1.0"
     get-value "^2.0.6"
     is-extendable "^0.1.1"
-    set-value "^0.4.3"
+    set-value "^2.0.1"
 
 uniq@^1.0.1:
   version "1.0.1"
