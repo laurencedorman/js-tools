@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.8.3](https://github.com/manomanotech/js-tools/compare/v2.8.2...v2.8.3) (2019-06-25)
+
+
+### Bug Fixes
+
+* **webpack:** webpack dev server public path url ([f2759ae](https://github.com/manomanotech/js-tools/commit/f2759ae))
+
+
+
+
+
 ## [2.8.2](https://github.com/manomanotech/js-tools/compare/v2.8.1...v2.8.2) (2019-06-25)
 
 **Note:** Version bump only for package @manomano/project-settings
