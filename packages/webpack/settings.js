@@ -21,9 +21,9 @@ const defaultSettings = {
     filename: 'main',
     chunkFilename: '[name].chunk',
     publicPath: '/',
-    devPublicPath:
-      `${process.env.WEBPACK_DEV_SERVER_HOST}/` ||
-      `localhost:${process.env.PORT ? process.env.PORT : 3000}/`,
+    devPublicPath: process.env.WEBPACK_DEV_SERVER_HOST
+      ? `${process.env.WEBPACK_DEV_SERVER_HOST}/`
+      : `localhost:${process.env.PORT ? process.env.PORT : 3000}/`,
     path: paths.appBuild,
   },
   resolve: {
