@@ -9,15 +9,14 @@ module.exports = {
   clientLogLevel: 'none',
   watchContentBase: true,
   hot: true,
-  headers: {
-    'Access-Control-Allow-Origin': '*',
-  },
+  inline: true,
   watchOptions: {
     ignored: /node_modules/,
     aggregateTimeout: 300,
     poll: 500,
   },
   publicPath: '/',
+  public: settings.devServer.public,
   quiet: true,
   https: false,
   port: settings.devServer.port,

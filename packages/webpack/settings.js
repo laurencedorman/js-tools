@@ -24,7 +24,7 @@ const defaultSettings = {
     publicPath: '/',
     devPublicPath:
       process.env.WEBPACK_DEV_SERVER_HOST ||
-      `localhost:${process.env.PORT ? process.env.PORT : 3000}`,
+      `localhost:${process.env.PORT ? process.env.PORT : 3000}/`,
     path: paths.appBuild,
   },
   resolve: {
@@ -40,6 +40,7 @@ const defaultSettings = {
     port: parseInt(process.env.PORT, 10) || 3000,
     sockHost: process.env.WEBPACK_DEV_SERVER_HOST || 'localhost',
     disableHostCheck: true,
+    public: process.env.WEBPACK_DEV_SERVER_PUBLIC || 'localhost',
   },
   transpileExternalLibraries: [/@manomano\/toolkit/],
 };
