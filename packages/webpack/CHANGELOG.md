@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.8.1](https://github.com/manomanotech/js-tools/compare/v2.8.0...v2.8.1) (2019-06-25)
+
+
+### Bug Fixes
+
+* **webpack:** fix webapck dev server options to work with manomano-sf ([db06d6e](https://github.com/manomanotech/js-tools/commit/db06d6e))
+
+
+
+
+
 # [2.8.0](https://github.com/manomanotech/js-tools/compare/v2.7.1...v2.8.0) (2019-06-24)
 
 
