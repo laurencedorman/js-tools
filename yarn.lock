@@ -900,16 +900,16 @@
   integrity sha512-lUNOfJC/kVgES4H/WJ3x4XORDeTSz1lUDQohjGmPJfNB+XxfCAhehjkMenLU+X4s39BrV04LeMwxsTgzTe4rlA==
 
 "@manomano/project-settings@^2.6.1":
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.8.1.tgz#3b307111fbf00b5375c1a68aee5fbb299cefc866"
-  integrity sha512-cn0FvfCun5K1CUM6Uu1eQXYXo88PwpFxrQNJymJvbez4VZ9+cZeG04B53XniITVUFeK1tHS12Kco4fr5JunJ5A==
+  version "2.8.3"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.8.3.tgz#da41c0d8a79fc82d9f1c852e46e6288b2c73421b"
+  integrity sha512-LeNziBxUwUktjZ5KW7mSGHziglOkoTlOYsVnXrJ7esbkLwKziVh4uuiUwbAEJzbGjXvq8A0oFCXVe8UDUL/cEg==
   dependencies:
-    "@manomano/utils" "^2.8.1"
+    "@manomano/utils" "^2.8.2"
 
-"@manomano/utils@^2.8.1":
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.8.1.tgz#87bf7f90b7f56ead761f3a7c13dc48ee95461fb4"
-  integrity sha512-Nyzgve73rV0oZ6h1NFFx0e7x/4FEyLDhqLlf5TESjJ+9Go9nXjuzoA1sEuhVCyAmOjlnZe7Q69m7KOjdLygjzQ==
+"@manomano/utils@^2.8.2":
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.8.2.tgz#6b2e2615d9b23aa8d19d6f2d3474a439aeea6772"
+  integrity sha512-LgsyYn+lMqb/hzV4dRS7pd1/HX3u/NeoT10g0sc+WS9VRolzhZDgDcglevtc2uregOyXxVrZ6O8mmGnfBD6o1A==
   dependencies:
     node-fetch "2.6.0"
 
