@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.8.6](https://git.manomano.tech/core-utils/js-tools/compare/v2.8.5...v2.8.6) (2019-06-26)
+
+
+### Bug Fixes
+
+* **babel:** Only traverse languages specified on manoConfig ([afdb4c3](https://git.manomano.tech/core-utils/js-tools/commits/afdb4c3))
+
+
+
+
+
 ## [2.8.5](https://git.manomano.tech/core-utils/js-tools/compare/v2.8.4...v2.8.5) (2019-06-25)
 
 
