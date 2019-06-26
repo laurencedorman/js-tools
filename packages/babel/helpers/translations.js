@@ -8,7 +8,7 @@ const react = require('@babel/preset-react');
 const pluginClassProperties = require('@babel/plugin-proposal-class-properties');
 const pluginDynamicSyntax = require('@babel/plugin-syntax-dynamic-import');
 const pluginModuleResolver = require('babel-plugin-module-resolver');
-const { alias, paths } = require('@manomano/project-settings');
+const { alias, paths, platforms } = require('@manomano/project-settings');
 
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -31,11 +31,16 @@ const extractTranslations = file => {
   return result.metadata['react-intl'].messages;
 };
 
+const filterTranslations = languagePath => {
+  const language = path.basename(languagePath, '.json');
+  return platforms.find(platform => platform.language === language);
+};
+
 const getTranslations = filePath => {
   const keysExtracted = extractTranslations(filePath);
   if (keysExtracted.length === 0) return;
 
-  return PHRASE_APP_TRANSLATION.map(languagePath => {
+  return PHRASE_APP_TRANSLATION.filter(filterTranslations).map(languagePath => {
     const language = path.basename(languagePath, '.json');
     const langTranslations = require(languagePath); // eslint-disable-line
 
