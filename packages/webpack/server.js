@@ -1,3 +1,4 @@
+const fs = require('fs');
 const errorOverlayMiddleware = require('react-dev-utils/errorOverlayMiddleware');
 const evalSourceMapMiddleware = require('react-dev-utils/evalSourceMapMiddleware');
 const noopServiceWorkerMiddleware = require('react-dev-utils/noopServiceWorkerMiddleware');
@@ -25,6 +26,10 @@ module.exports = {
   historyApiFallback: true,
   proxy: settings.proxy,
   before(app, server) {
+    if (fs.existsSync(settings.setupProxy)) {
+      // This registers user provided middleware for proxy reasons.
+      require(settings.setupProxy)(app);
+    }
     app.use(evalSourceMapMiddleware(server));
     app.use(errorOverlayMiddleware());
     app.use(noopServiceWorkerMiddleware());
