@@ -34,6 +34,7 @@ const defaultSettings = {
   },
   platforms,
   globals: pkg.globals || {},
+  setupProxy: paths.setupProxy,
   devServer: {
     host: process.env.HOST || '0.0.0.0',
     port: parseInt(process.env.PORT, 10) || 3000,
