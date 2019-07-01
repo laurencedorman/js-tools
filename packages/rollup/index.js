@@ -5,11 +5,11 @@ const commonjs = require('rollup-plugin-commonjs');
 const postcssPlugin = require('rollup-plugin-postcss');
 const filesize = require('rollup-plugin-filesize');
 const autoprefixer = require('autoprefixer');
-const sassLoader = require('./sass-loader');
 const visualizer = require('rollup-plugin-visualizer');
-
 const { extensions } = require('@manomano/project-settings');
 const { pkg } = require('@manomano/utils');
+const sassLoader = require('./sass-loader');
+
 module.exports = {
   input: 'src/index.js',
   output: [
