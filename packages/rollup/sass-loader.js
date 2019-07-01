@@ -1,7 +1,7 @@
 const path = require('path');
 const pify = require('pify');
 const resolve = require('resolve');
-const PQueue = require('p-queue');
+const PQueue = require('p-queue').default;
 const { alias } = require('@manomano/project-settings');
 
 // This queue makes sure node-sass leaves one thread available for executing fs tasks
@@ -34,7 +34,7 @@ module.exports = {
             (url, importer, done) => {
               if (/^[a-z0-9]/i.test(url)) {
                 let newUrl = url;
-                let aliases = Object.entries(alias);
+                const aliases = Object.entries(alias);
                 for (const [key, value] of aliases) {
                   if (newUrl.startsWith(key)) {
                     newUrl = newUrl.replace(key, value);
