@@ -879,17 +879,17 @@
   resolved "https://registry.yarnpkg.com/@manomano/browserslist-config/-/browserslist-config-2.0.0.tgz#d7d1ac6586bccdeb3aba637a992d0d8b02a4db8a"
   integrity sha512-djLAnD+4TQoi7rrInKf4Warq+TJTKw+G1Ry5wtU2AoMR5QvfundQk51FHg1Hq290nyn4rfkw6mWXyWOZoJVjcQ==
 
-"@manomano/project-settings@^2.8.8":
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.8.8.tgz#df3d7bd7261df138d0ce2b8bfdf667357320bde9"
-  integrity sha512-DSbOpR1X3Fob5m22U2L4KFpn+7IZrUXDZ6bx2oZVi0A1fKsvJJw8VCrIZBxYqlAYnJoWdtq5TCpnP7FrqaD7ww==
+"@manomano/project-settings@^2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@manomano/project-settings/-/project-settings-2.9.0.tgz#64ae56703c2f487e2936f9e472dab72519795247"
+  integrity sha512-3txmJIIiJ9csCiLkjN/gHifl8N4leP+WiAV44ks8zpTHDr14UQtQ8x44ousz7ng0RKz3Yvhhc3idRiMm/p8sew==
   dependencies:
-    "@manomano/utils" "^2.8.8"
+    "@manomano/utils" "^2.9.0"
 
-"@manomano/utils@^2.8.8":
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.8.8.tgz#f39bcfc930967a927184ff4576548e86efa32399"
-  integrity sha512-ibTWY8Uw3o2pDOu9Yv4axMuxa/5SGeC89x8VvRwiGiNmVrrzUDWG/4CJoPnSdVQMYKNUTGKaJZZHY4dQzyMiSA==
+"@manomano/utils@^2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@manomano/utils/-/utils-2.9.0.tgz#493921fb12920d4f97403f3a061d7c505a63abd1"
+  integrity sha512-jm6jtf+93COWGe5xHAwob0uTPJ+f2Ay4WIO8vPOb4ITuHZUn4ythH921OYhymzXNLZN9u3gwbeA4iNKedj76uQ==
   dependencies:
     node-fetch "^2.6.0"
 
@@ -1393,15 +1393,15 @@ babel-plugin-named-asset-import@^0.3.2:
   integrity sha512-CxwvxrZ9OirpXQ201Ec57OmGhmI8/ui/GwTDy0hSp6CmRvgRC0pSair6Z04Ck+JStA0sMPZzSJ3uE4n17EXpPQ==
 
 babel-plugin-react-intl@^3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-intl/-/babel-plugin-react-intl-3.3.3.tgz#108c2c67b0acece72834f08c850d09616b7cc649"
-  integrity sha512-T63b52KjxsJC1BrW4qWIdWZEMfaVGmnVYL/sOKiwWv11XVPNqiQ51IRqAPHbJ6fpbZmrlJ9IwAdgzZnathLiKA==
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-intl/-/babel-plugin-react-intl-3.4.1.tgz#b107b0756599c2fccb09f601454a7b805e8df659"
+  integrity sha512-1Dp+b5E71ot3YjxPkX1u4l5pJkiLDmU4V6m6gatgrFRxGL8NQlQ67WrPA7GTNJhOhs75PYGmR3+l1PT7It4eyQ==
   dependencies:
     "@babel/core" "^7.4.5"
     "@babel/helper-plugin-utils" "^7.0.0"
     "@types/babel__core" "^7.1.2"
     fs-extra "^8.0.1"
-    intl-messageformat-parser "^1.6.8"
+    intl-messageformat-parser "^1.7.1"
 
 babel-plugin-transform-react-remove-prop-types@0.4.24:
   version "0.4.24"
@@ -2903,10 +2903,10 @@ ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
-intl-messageformat-parser@^1.6.8:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-1.7.0.tgz#d1573467cf09a7c2cdafd28ebf12d0254834a5b3"
-  integrity sha512-k0+kSwoYX7NJ43D1CqrMR9CDuQ8ioTdnmF5w5tyx060SR63aPZO4PaoEegnWNLORvukQhGdykyUIG0ozxGy5Vg==
+intl-messageformat-parser@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-1.7.1.tgz#4d5e917630774069807a2ff64fbb3382c36e7c19"
+  integrity sha512-48Jo1cFdyb4gmb2Ln9VUYTRiPvQj/fl4omakWbiYM3UtUYmlp1b4Prgm4/nhJ4X6SworXDD27RH8oFlbvU3mtg==
 
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
