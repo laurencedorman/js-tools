@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.9.0](https://github.com/manomanotech/js-tools/compare/v2.8.8...v2.9.0) (2019-07-01)
+
+
+### Features
+
+* **webpack:** Add hook to add middlewares to express ([591fc08](https://github.com/manomanotech/js-tools/commit/591fc08))
+
+
+
+
+
 ## [2.8.8](https://github.com/manomanotech/js-tools/compare/v2.8.7...v2.8.8) (2019-07-01)
 
 **Note:** Version bump only for package @manomano/project-settings
